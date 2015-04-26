@@ -26,9 +26,9 @@ kramdown:
 
 # Site owner
 owner:
-  name: Your Name
+  name: Eugene Belilovsky
   avatar: myphoto.jpg
-  bio: "Describe your self."
+  bio: "PhD Student in Machine Learning"
   email: eugene.belilovsky@inria.fr
   disqus-shortname: 
   twitter: #username
