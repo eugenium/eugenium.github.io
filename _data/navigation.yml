@@ -3,11 +3,14 @@
 - title: About
   url: /about/
 
-- title: Sample Posts
-  url: /posts/
-
-- title: Theme Setup
+- title: Publications
+  url: /Publications/
+  
+- title: Bio
+  url: /Publications/
+  
+- title: Software
   url: /theme-setup/
 
-- title: Made Mistakes
-  url: http://mademistakes.com
+- title: Structured Learning and Inference in fMRI
+  url: /about/
