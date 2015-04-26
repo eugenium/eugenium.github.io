@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About the Theme
+title: Welcome to My Website
 tags: [about, Jekyll, theme, responsive]
 modified: 2014-08-08T20:53:07.573882-04:00
 comments: true
@@ -15,4 +15,4 @@ I am second year PhD student at Ecole Centrale Paris and INRIA Galen team. I am 
 
 My research interests are in Machine Learning, Graphical Models, High Dimensional Statistics and Neural Networks. On the application side I work/have worked on Neuro-imaging, Computer Vision, Biometrics, and Speech Recognition.  
 
-<a markdown="0" href="{{ site.url }}/theme-setup" class="btn">Install Minimal Mistakes Theme</a>
+
