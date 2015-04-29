@@ -1,12 +1,13 @@
 ---
 layout: page
-title: "Eugene Belilovsky"
-tags: [Jekyll, theme, responsive, blog, template]
+title: Welcome to My Website
+tags: [about, Jekyll, theme, responsive]
+modified: 2014-08-08T20:53:07.573882-04:00
 share: false
 image:
-  features: neuron.jpg
-  credit:
-  creditlink:
+  feature: neuron2.jpg
+  credit: WeGraphics
+  creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
 ---
 I am second year PhD student at Ecole Centrale Paris and INRIA Galen team. I am supervised by Matthew Blaschko.
 
