@@ -4,7 +4,9 @@ excerpt: "Eugene Belilovsky"
 tags: [Jekyll, theme, responsive, blog, template]
 share: false
 image:
-  features: sampl2.jpg
+  features: neuron.jpg
+  credit:
+  creditlinks:
 ---
 I am second year PhD student at Ecole Centrale Paris and INRIA Galen team. I am supervised by Matthew Blaschko.
 
