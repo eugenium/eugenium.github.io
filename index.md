@@ -2,8 +2,9 @@
 layout: page
 excerpt: "Eugene Belilovsky"
 tags: [Jekyll, theme, responsive, blog, template]
+share: false
 image:
-  feature: brain.jpg
+  feature: sample-images-2.jpg
   credit: 
   creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
 ---
