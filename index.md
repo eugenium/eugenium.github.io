@@ -4,9 +4,7 @@ excerpt: "Eugene Belilovsky"
 tags: [Jekyll, theme, responsive, blog, template]
 share: false
 image:
-  features: sample-image-2.jpg
-  credit: WeGraphics
-  creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
+  features: sampl2.jpg
 ---
 I am second year PhD student at Ecole Centrale Paris and INRIA Galen team. I am supervised by Matthew Blaschko.
 
