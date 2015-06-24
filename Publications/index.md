@@ -20,7 +20,7 @@ For an overview of citations of my paper, please view my [Google Scholar profile
 
 ## List of Publications
 
-* Belilovsky, E., A. Argyriou, G. Varoquaux, and M. B. Blaschko: **Convex Relaxations of Penalties for Sparse Correlated Variables With Bounded Total Variation** . Machine Learning, 2015. To be Presented at ECML/KPDD 2015. <i class="fa fa-file-pdf-o"></i> [PDF](papers/IEEESPM_2015.pdf) <small>[[Code](../canvas/index.html)]</small>
+* Belilovsky, E., A. Argyriou, G. Varoquaux, and M. B. Blaschko: **Convex Relaxations of Penalties for Sparse Correlated Variables With Bounded Total Variation** . Machine Learning, 2015. To be Presented at ECML/KPDD 2015. <i class="fa fa-file-pdf-o"></i> [PDF](papers/IEEESPM_2015.pdf) <small>[[Code](https://github.com/eugenium/StructuredSparsityRegularization)]</small>
 
 * Eugene Belilovsky, Katerina Gkirtzou, Michail Misyrlis, Anna Konova, Jean Honorio, Nelly Alia-Klein, Rita Goldstein, Dimitris Samaras, Matthew Blaschko **Predictive sparse modeling of fMRI data for improved classification, regression, and visualization using the k-support norm** . Computerized Medical Imaging and Graphics, Elsevier, 2015, pp.1.
 
