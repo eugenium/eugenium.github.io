@@ -26,4 +26,6 @@ For an overview of citations of my paper, please view my [Google Scholar profile
 
 * Eugene Belilovsky, Andreas Argyriou, Matthew Blaschko **Approximating Combined Discrete Total Variation and Correlated Sparsity With Convex Relaxations**. NIPS Workshop on Discrete and Combinatorial Problems in Machine Learning, Dec 2014, Montreal, Canada. pp.1.<i class="fa fa-file-pdf-o"></i> [PDF](discml.cc)
 
-* Eugene Belilovsky **Convolutional Neural Networks for Speaker-Independent Speech Recognition** Master's Thesis
+* Eugene Belilovsky **Convolutional Neural Networks for Speaker-Independent Speech Recognition** Master's Thesis<i class="fa fa-file-pdf-o"></i> [PDF](Papers/ConvSpeechMasters.pdf)
+
+* Müller, F., Belilovsky, E., and Mertins, A.: Generalized Cyclic Transformations in Speaker-Independent Speech Recognition.	Proc. 2009 IEEE Automatic Speech Recognition and Understanding Workshop, Merano, Italy, Dec. 13-17 2009<i class="fa fa-file-pdf-o"></i> [PDF](https://www.isip.uni-luebeck.de/fileadmin/uploads/tx_wapublications/AS090112.pdf)
