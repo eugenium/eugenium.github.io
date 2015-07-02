@@ -16,7 +16,7 @@ share: false
 </section><!-- /#table-of-contents -->
 
 
-For an overview of citations of my paper, please view my [Google Scholar profile]
+For an overview of citations of my paper, please view my [Google Scholar profile](https://scholar.google.com/citations?user=CffJDoEAAAAJ&hl=en)
 
 ## List of Publications
 
