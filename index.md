@@ -9,7 +9,7 @@ image:
   credit: WeGraphics
   creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
 ---
-I am second year PhD student at Ecole Centrale Paris and INRIA Galen team. I am supervised by Matthew Blaschko.
 
+I am second year PhD student at the [Center for Visual Computing](http://cvn.ecp.fr/) at  Ecole Centrale Paris and also a member of the INRIA Galen team. I am supervised by [Matthew Blaschko](http://pages.saclay.inria.fr/matthew.blaschko/).
 
-My research interests are in Machine Learning, Graphical Models, High Dimensional Statistics and Neural Networks. On the application side I work/have worked on Neuro-imaging, Computer Vision, Biometrics, and Speech Recognition.  
+My primary research interests are in Machine Learning, Graphical Models, Statistics in High Dimensions and Neural Networks. On the application side I work/have worked on Neuro-imaging, Computer Vision, Biometrics, and Speech Recognition.  
