@@ -6,11 +6,8 @@
 - title: Publications
   url: /Publications/
   
-- title: Bio
-  url: /Publications/
-  
 - title: Software
-  url: /about/
+  url: https://github.com/eugenium
 
 - title: Projects
-  url: /about/
+  url: /Projects/
