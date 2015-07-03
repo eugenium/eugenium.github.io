@@ -1,7 +1,6 @@
 ---
 layout: page
-title: Publications
-excerpt: "Publications"
+title: Projects
 share: false
 ---
 
