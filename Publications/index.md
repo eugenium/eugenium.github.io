@@ -19,7 +19,7 @@ share: false
 Also take a look at my [Google Scholar profile](https://scholar.google.com/citations?user=CffJDoEAAAAJ&hl=en)
 
 ## List of Publications
-* W Bounliphone, E Belilovsky, M Blaschko, I Antonoglou, A Gretton : **A Test of Relative Similarity For Model Selection in Generative Models** . In Submission. <i class="fa fa-file-pdf-o"></i> [PDF](http://arxiv.org/pdf/1511.04581.pdf) <small>[[Code](https://github.com/eugenium/MMD)]</small>
+* W Bounliphone "*", E Belilovsky "*", M Blaschko, I Antonoglou, A Gretton : **A Test of Relative Similarity For Model Selection in Generative Models** . In Submission. <i class="fa fa-file-pdf-o"></i> [PDF](http://arxiv.org/pdf/1511.04581.pdf) <small>[[Code](https://github.com/eugenium/MMD)]</small>
 
 * Belilovsky, E., A. Argyriou, G. Varoquaux, and M. B. Blaschko: **Convex Relaxations of Penalties for Sparse Correlated Variables With Bounded Total Variation** . Machine Learning, 2015. To be Presented at ECML/KPDD 2015. <i class="fa fa-file-pdf-o"></i> [PDF](Papers/ConvexECML2015.pdf) <small>[[Code](https://github.com/eugenium/StructuredSparsityRegularization)]</small>
 
