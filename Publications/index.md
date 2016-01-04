@@ -19,7 +19,7 @@ share: false
 Also take a look at my [Google Scholar profile](https://scholar.google.com/citations?user=CffJDoEAAAAJ&hl=en)
 
 ## List of Publications
-* **E Belilovsky** \*, G. Varoquaux, M B. Blaschko, : **Hypothesis Testing for Differences in Gaussian Graphical Models: Applications to Brain Connectivity** . In Submission. <i class="fa fa-file-pdf-o"></i> [PDF](http://arxiv.org/pdf/1512.08643.pdf)
+* **E Belilovsky**, G. Varoquaux, M B. Blaschko, : **Hypothesis Testing for Differences in Gaussian Graphical Models: Applications to Brain Connectivity** . In Submission. <i class="fa fa-file-pdf-o"></i> [PDF](http://arxiv.org/pdf/1512.08643.pdf)
 
 * W Bounliphone \*, **E Belilovsky** \*, M Blaschko, I Antonoglou, A Gretton : **A Test of Relative Similarity For Model Selection in Generative Models** . In Submission. <i class="fa fa-file-pdf-o"></i> [PDF](http://arxiv.org/pdf/1511.04581.pdf) <small>[[Code](https://github.com/eugenium/MMD)]</small>
 
