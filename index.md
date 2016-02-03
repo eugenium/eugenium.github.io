@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Welcome to My Website
+title: Eugene Belilovsky
 tags: [about, Jekyll, theme, responsive]
 modified: 2014-08-08T20:53:07.573882-04:00
 share: false
@@ -15,6 +15,5 @@ I am second year PhD student at the [Center for Visual Computing](http://cvn.ecp
 My primary research interests are in Machine Learning, Graphical Models, Statistics in High Dimensions and Neural Networks. On the application side I work/have worked on Neuro-imaging, Computer Vision, Biometrics, and Speech Recognition.  
 
 
-News:
-
-Feb 4- Our paper on model selection in deep generative models was accepted at ICLR 2016. [link](http://arxiv.org/abs/1511.04581) 
+#News:
+* Feb 4- Our paper on model selection in deep generative models was accepted at ICLR 2016. [link](http://arxiv.org/abs/1511.04581) 
