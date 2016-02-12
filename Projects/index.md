@@ -14,9 +14,14 @@ share: false
 </div>
 </section><!-- /#table-of-contents -->
 
+**Uncertainty in Connectivity Difference**
+------------------------------------------
+A question of interest in understanding the cause of various psychiatric diseases is what are the differences in the brain connectivity patterns of diseased patients versus a control group. This is a challenging problem as there is often few brain recordings and most existing methods of discovering the brain connectivity network induce a sparsity assumption. This often makes it difficult to give an uncertainty on the result, which can be critical in making conclusions. We develop an estimator, whose uncertainty can be characterized, which gives an uncertainty under specific sparsity assumptions on the network differences. The method is generic and can be applied to other domains. 
+
+
 **Prediction and Recovery With Smooth, Sparse, and Correlated Signals**
 ------------------------------------------
-In this project we develop a method for recovering and predicting from signals that have certain structured sparsity  constraints. Such an approach can be advantageous in Neuro-imaging where the data has few samples, many parameters, yet we can make underlying assumptions. We use a discrete formulation of the constraints and study the properties of a relaxation. We proposed a tractable approximation with guarantees and apply it to several interesting problems including images and prediction in fMRI data.  
+In this project we developed a method for recovering and predicting from signals that have certain structured sparsity  constraints. More specifically one can impose a similarity graph amongst the parameters of interest. Such an approach can be advantageous in Neuro-imaging where the data has few samples, many parameters, yet we can make underlying assumptions. We use a discrete formulation of the constraints and study the properties of a relaxation. We proposed a tractable approximation with guarantees and apply it to several interesting problems including images and prediction in fMRI data.  
 
 
 **Synthetic Biometrics**
