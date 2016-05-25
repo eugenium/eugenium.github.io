@@ -16,6 +16,6 @@ My primary research interests are in Machine Learning, Graphical Models, Statist
 
 
 ## News:
-* Two new working papers on graphical model structure discovery [link](https://hal.inria.fr/hal-01306491v3) [link](https://hal.inria.fr/hal-01248844/file/main.pdf)
+* Two new working papers on graphical model structure discovery [here](https://hal.inria.fr/hal-01306491v3) and [here](https://hal.inria.fr/hal-01248844/file/main.pdf)
 * Our paper on model selection in deep generative models was accepted at ICLR 2016. [link](http://arxiv.org/abs/1511.04581)
  
