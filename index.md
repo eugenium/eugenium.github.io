@@ -12,7 +12,7 @@ image:
 
 I am a third year PhD student at the [Center for Visual Computing](http://cvn.ecp.fr/) at  Ecole Centrale Paris and also a member of the INRIA Galen team. I am doing a joint PhD at KU Leuven  [VISICS](https://www.esat.kuleuven.be/psi/visics) lab. I am supervised by [Matthew Blaschko](http://homes.esat.kuleuven.be/~mblaschk/). 
 
-Some of my other great co-authors are [Gael Varoquaux](http://gael-varoquaux.info/), [Andreas Argyriou](http://cvn.ecp.fr/personnel/andreas/), [Arthur Gretton] (http://www.gatsby.ucl.ac.uk/~gretton/), [Wacha Bounliphone] (https://sites.google.com/site/wachabounliphone/), and [Kyle Kastner](https://kastnerkyle.github.io/) 
+Some of my other great co-authors are [Gael Varoquaux](http://gael-varoquaux.info/), [Andreas Argyriou](http://cvn.ecp.fr/personnel/andreas/), [Arthur Gretton](http://www.gatsby.ucl.ac.uk/~gretton/), [Wacha Bounliphone](https://sites.google.com/site/wachabounliphone/), and [Kyle Kastner](https://kastnerkyle.github.io/) 
 
 My primary research interests are in Machine Learning, Graphical Models, Statistics in High Dimensions and Neural Networks. On the application side I work/have worked on Neuro-imaging, Computer Vision, Biometrics, and Speech Recognition.  
 
