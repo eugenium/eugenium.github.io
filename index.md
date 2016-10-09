@@ -18,6 +18,9 @@ My primary research interests are in Machine Learning, Graphical Models, Statist
 
 
 ## News:
+* I have received a NIPS travel award 
+* One paper accepted for presentation at NIPS 2016
+* I have received the University Paris Saclay Best Contribution Award (2nd place)
 * I have received a MITACS-INRIA Globalink award
 * Two new working papers on graphical model structure discovery [here](https://hal.inria.fr/hal-01306491v3/document) and [here](https://hal.inria.fr/hal-01248844/file/main.pdf)
 * Received an ICLR student award
