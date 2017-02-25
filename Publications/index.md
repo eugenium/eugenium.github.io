@@ -19,13 +19,17 @@ share: false
 Also take a look at my [Google Scholar profile](https://scholar.google.com/citations?user=CffJDoEAAAAJ&hl=en)
 
 ## List of Publications
-* **E Belilovsky**, K. Kastner, G. Varoquaux, M B. Blaschko, : **Learning to Discover Graphical Model Structures**. In Submission. <i class="fa fa-file-pdf-o"></i> [PDF](https://openreview.net/pdf?id=HJOZBvcel)
+* **Eugene Belilovsky**, Matthew B. Blaschko, Jamie R. Kiros, Raquel Urtasun, Richard Zemel  : ** Joint Embeddings of Scene Graphs and Images**. In Submission. <i class="fa fa-file-pdf-o"></i> [PDF]()
 
-* **E Belilovsky**, G. Varoquaux, M B. Blaschko, : **Testing for Differences in Gaussian Graphical Models: Applications to Brain Connectivity**. NIPS 2016. <i class="fa fa-file-pdf-o"></i> [PDF](https://arxiv.org/pdf/1512.08643.pdf)
+* **Eugene Belilovsky**, Kyle Kastner, Gael Varoquaux, Matthew B. Blaschko, : **Learning to Discover Graphical Model Structures**. In Submission. <i class="fa fa-file-pdf-o"></i> [PDF](https://openreview.net/pdf?id=HJOZBvcel)
 
-* W Bounliphone \*, **E Belilovsky** \*, M Blaschko, I Antonoglou, A Gretton : **A Test of Relative Similarity For Model Selection in Generative Models** . ICLR 2016. <i class="fa fa-file-pdf-o"></i> [PDF](http://arxiv.org/pdf/1511.04581.pdf) <small>[[Code](https://github.com/eugenium/MMD)]</small>
+* Wacha Bounliphone, **Eugene Belilovsky**, Arthur Tenenhaus, Ioannis Antonoglou, Arthur Gretton, and Matthew B. Blaschko: Fast Non-Parametric Tests of Relative Dependency and Similarity. arXiv:1611.05740, 2016. [PDF](https://arxiv.org/pdf/1611.05740.pdf)
 
-* **Belilovsky, E.**, A. Argyriou, G. Varoquaux, and M. B. Blaschko: **Convex Relaxations of Penalties for Sparse Correlated Variables With Bounded Total Variation** . Machine Learning, Springer, 2015. ECML/KPDD 2015 Journal Track. <i class="fa fa-file-pdf-o"></i> [PDF](Papers/ConvexECML2015.pdf) <small>[[Code](https://github.com/eugenium/StructuredSparsityRegularization)]</small>
+* **Eugene Belilovsky**, Gael Varoquaux, Matthew B. Blaschko, : **Testing for Differences in Gaussian Graphical Models: Applications to Brain Connectivity**. NIPS 2016. <i class="fa fa-file-pdf-o"></i> [PDF](https://arxiv.org/pdf/1512.08643.pdf)
+
+* **Eugene Belilovsky** ,* Wacha Bounliphone, Matthew Blaschko, Ioannis Antonoglou, Arthur Gretton : **A Test of Relative Similarity For Model Selection in Generative Models** . ICLR 2016. <i class="fa fa-file-pdf-o"></i> [PDF](http://arxiv.org/pdf/1511.04581.pdf) <small>[[Code](https://github.com/eugenium/MMD)]</small>
+
+* **Eugene Belilovsky**, Andreas Argyriou, Gael Varoquaux, and Matthew B. Blaschko: **Convex Relaxations of Penalties for Sparse Correlated Variables With Bounded Total Variation** . Machine Learning, Springer, 2015. ECML/KPDD 2015 Journal Track. <i class="fa fa-file-pdf-o"></i> [PDF](Papers/ConvexECML2015.pdf) <small>[[Code](https://github.com/eugenium/StructuredSparsityRegularization)]</small>
 
 * **Eugene Belilovsky**, Katerina Gkirtzou, Michail Misyrlis, Anna Konova, Jean Honorio, Nelly Alia-Klein, Rita Goldstein, Dimitris Samaras, Matthew Blaschko **Predictive sparse modeling of fMRI data for improved classification, regression, and visualization using the k-support norm** . Computerized Medical Imaging and Graphics, Elsevier, 2015, pp.1.<i class="fa fa-file-pdf-o"></i> [PDF](http://people.csail.mit.edu/jhonorio/ksupport_cmig15.pdf)
 
