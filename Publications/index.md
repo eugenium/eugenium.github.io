@@ -19,11 +19,11 @@ share: false
 Also take a look at my [Google Scholar profile](https://scholar.google.com/citations?user=CffJDoEAAAAJ&hl=en)
 
 ## List of Publications
-* **Eugene Belilovsky**, Matthew B. Blaschko, Jamie R. Kiros, Raquel Urtasun, Richard Zemel  : ** Joint Embeddings of Scene Graphs and Images**. In Submission. <i class="fa fa-file-pdf-o"></i> [PDF]()
+* **Eugene Belilovsky**, Matthew B. Blaschko, Jamie R. Kiros, Raquel Urtasun, Richard Zemel: **Joint Embeddings of Scene Graphs and Images**. In Submission. <i class="fa fa-file-pdf-o"></i> [PDF]()
 
-* **Eugene Belilovsky**, Kyle Kastner, Gael Varoquaux, Matthew B. Blaschko, : **Learning to Discover Graphical Model Structures**. In Submission. <i class="fa fa-file-pdf-o"></i> [PDF](https://openreview.net/pdf?id=HJOZBvcel)
+* **Eugene Belilovsky**, Kyle Kastner, Gael Varoquaux, Matthew B. Blaschko: **Learning to Discover Graphical Model Structures**. In Submission. <i class="fa fa-file-pdf-o"></i> [PDF](https://openreview.net/pdf?id=HJOZBvcel)
 
-* Wacha Bounliphone, **Eugene Belilovsky**, Arthur Tenenhaus, Ioannis Antonoglou, Arthur Gretton, and Matthew B. Blaschko: Fast Non-Parametric Tests of Relative Dependency and Similarity. arXiv:1611.05740, 2016. [PDF](https://arxiv.org/pdf/1611.05740.pdf)
+* Wacha Bounliphone, **Eugene Belilovsky**, Arthur Tenenhaus, Ioannis Antonoglou, Arthur Gretton, and Matthew B. Blaschko: **Fast Non-Parametric Tests of Relative Dependency and Similarity**. arXiv:1611.05740, 2016. [PDF](https://arxiv.org/pdf/1611.05740.pdf)
 
 * **Eugene Belilovsky**, Gael Varoquaux, Matthew B. Blaschko, : **Testing for Differences in Gaussian Graphical Models: Applications to Brain Connectivity**. NIPS 2016. <i class="fa fa-file-pdf-o"></i> [PDF](https://arxiv.org/pdf/1512.08643.pdf)
 
