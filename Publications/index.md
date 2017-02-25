@@ -19,7 +19,7 @@ share: false
 Also take a look at my [Google Scholar profile](https://scholar.google.com/citations?user=CffJDoEAAAAJ&hl=en)
 
 ## List of Publications
-* **Eugene Belilovsky**, Matthew B. Blaschko, Jamie R. Kiros, Raquel Urtasun, Richard Zemel: **Joint Embeddings of Scene Graphs and Images**. In Submission. <i class="fa fa-file-pdf-o"></i> [PDF]()
+* **Eugene Belilovsky**, Matthew B. Blaschko, Jamie R. Kiros, Raquel Urtasun, Richard Zemel: **Joint Embeddings of Scene Graphs and Images**. In Submission. <i class="fa fa-file-pdf-o"></i> [PDF](https://openreview.net/pdf?id=BkyScySKl)
 
 * **Eugene Belilovsky**, Kyle Kastner, Gael Varoquaux, Matthew B. Blaschko: **Learning to Discover Graphical Model Structures**. In Submission. <i class="fa fa-file-pdf-o"></i> [PDF](https://openreview.net/pdf?id=HJOZBvcel)
 
