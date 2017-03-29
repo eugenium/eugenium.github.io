@@ -18,7 +18,7 @@ My primary research interests are in Machine Learning, Graphical Models, Statist
 
 
 ## News:
-* New working paper https://arxiv.org/pdf/1703.08961.pdf
+* New working [paper](https://arxiv.org/pdf/1703.08961.pdf) and [python package](https://github.com/edouardoyallon/pyscatwave) 
 * Two papers accepted at ICLR 2017 workshop
 * I have received a NIPS travel award 
 * One paper accepted for presentation at NIPS 2016
