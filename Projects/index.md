@@ -14,6 +14,23 @@ share: false
 </div>
 </section><!-- /#table-of-contents -->
 
+****
+
+**Embedding Scene Graphs Jointly with Images**
+------------------------------------------
+In this project we considered embedding detailed descriptions of images into a low dimensional space where it can be compared with images.
+
+
+**Comparing Generative Distributions via the MMD **
+------------------------------------------
+We proposed to compare generative models using only their samples and a reference dataset via the MMD criterion. 
+
+
+**Learning to Discover Graphical Model Structures**
+----------------------------------------------------
+In this project we proposed a radically different framework for the recovery of graphical structure from small-sample data. We framed the problem as a supervised learning task that finds a predictor of the graph structure for new (unseen) data that arises from similar families of distributions
+
+
 **Uncertainty in Connectivity Difference**
 ------------------------------------------
 A question of interest in understanding the cause of various psychiatric diseases is what are the differences in the brain connectivity patterns of diseased patients versus a control group. This is a challenging problem as there is often few brain recordings and most existing methods of discovering the brain connectivity network induce a sparsity assumption. This often makes it difficult to give an uncertainty on the result, which can be critical in making conclusions. We develop an estimator, whose uncertainty can be characterized, which gives an uncertainty under specific sparsity assumptions on the network differences. The method is generic and can be applied to other domains. 
