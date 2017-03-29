@@ -14,14 +14,17 @@ share: false
 </div>
 </section><!-- /#table-of-contents -->
 
-****
+**Combining Scattering Transforms with CNNs**
+----------------------------------------------
+We investigated the use of the scattering transform as an initial set of not learned layers in a CNN. We showed that it works well on small datasets and can scale to large ones like imagenet. 
+In this project we also showed definitively that the scattering transform preserves discriminative information about the image.
 
 **Embedding Scene Graphs Jointly with Images**
 ------------------------------------------
-In this project we considered embedding detailed descriptions of images into a low dimensional space where it can be compared with images.
+In this project we considered embedding detailed descriptions of images into a low dimensional space where it can be compared with images. 
 
 
-**Comparing Generative Distributions via the MMD **
+**Comparing Generative Distributions via the MMD**
 ------------------------------------------
 We proposed to compare generative models using only their samples and a reference dataset via the MMD criterion. 
 
