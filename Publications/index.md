@@ -20,11 +20,11 @@ Also take a look at my [Google Scholar profile](https://scholar.google.com/citat
 
 ## List of Publications
 
-* Edouard Oyallon, **Eugene Belilovsky**,Sergey Zagoruyko: **Scaling the Scattering Transform: Deep Hybrid Networks**. In Submission. <i class="fa fa-file-pdf-o"></i> [PDF](https://arxiv.org/pdf/1703.08961.pdf)<small>[[Code](https://github.com/edouardoyallon/scalingscattering)]</small>
+* Edouard Oyallon, **Eugene Belilovsky**,Sergey Zagoruyko: **Scaling the Scattering Transform: Deep Hybrid Networks**. In Submission. <i class="fa fa-file-pdf-o"></i> [PDF](https://arxiv.org/pdf/1703.08961.pdf)<small> [[Code](https://github.com/edouardoyallon/scalingscattering)]</small>
 
 * **Eugene Belilovsky**, Matthew B. Blaschko, Jamie R. Kiros, Raquel Urtasun, Richard Zemel: **Joint Embeddings of Scene Graphs and Images**. ICLR 2017 (Workshop). <i class="fa fa-file-pdf-o"></i> [PDF](https://openreview.net/pdf?id=BkyScySKl)
 
-* **Eugene Belilovsky**, Kyle Kastner, Gael Varoquaux, Matthew B. Blaschko: **Learning to Discover Graphical Model Structures**. In Submission. <i class="fa fa-file-pdf-o"></i> [PDF](https://openreview.net/pdf?id=HJOZBvcel)<small>[[Code](https://github.com/eugenium/LearnGraphDiscovery)]</small>
+* **Eugene Belilovsky**, Kyle Kastner, Gael Varoquaux, Matthew B. Blaschko: **Learning to Discover Graphical Model Structures**. In Submission. <i class="fa fa-file-pdf-o"></i> [PDF](https://openreview.net/pdf?id=HJOZBvcel)<small> [[Code](https://github.com/eugenium/LearnGraphDiscovery)]</small>
 
 * Wacha Bounliphone, **Eugene Belilovsky**, Arthur Tenenhaus, Ioannis Antonoglou, Arthur Gretton, and Matthew B. Blaschko: **Fast Non-Parametric Tests of Relative Dependency and Similarity**. arXiv:1611.05740, 2016. [PDF](https://arxiv.org/pdf/1611.05740.pdf)
 
