@@ -24,14 +24,14 @@ In this project we also showed definitively that the scattering transform preser
 In this project we considered embedding detailed descriptions of images into a low dimensional space where it can be compared with images. 
 
 
-**Comparing Generative Distributions via the MMD**
+**Comparing Generative Models via the MMD**
 ------------------------------------------
-We proposed to compare generative models using only their samples and a reference dataset via the MMD criterion. 
+We propose a hypothesis test that can be used to compare generative models using only their samples and a reference dataset via the MMD criterion. 
 
 
-**Learning to Discover Graphical Model Structures**
+**Learning to Discover Sparse Graphical Model Structures**
 ----------------------------------------------------
-In this project we proposed a radically different framework for the recovery of graphical structure from small-sample data. We framed the problem as a supervised learning task that finds a predictor of the graph structure for new (unseen) data that arises from similar families of distributions
+In this project we proposed a new different framework for the recovery of graphical structure from small-sample data. We framed the problem as a supervised learning task that finds a predictor of the graph structure for new (unseen) data that arises from similar families of distributions
 
 
 **Uncertainty in Connectivity Difference**
