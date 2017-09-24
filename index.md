@@ -18,6 +18,7 @@ My primary research interests are in Machine Learning, Deep Learning, Computer V
 
 
 ## News:
+* I am co-organizing the NIPS Workshop: Learning with Limited Labeled Data: Weak Supervision and Beyond.
 * One paper accepted at ICCV 2017 
 * One paper accepted at ICML 2017
 * New working [paper](https://arxiv.org/pdf/1703.08961.pdf) and [python package](https://github.com/edouardoyallon/pyscatwave) 
