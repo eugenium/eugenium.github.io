@@ -22,7 +22,7 @@ Also take a look at my [Google Scholar profile](https://scholar.google.com/citat
 
 * Edouard Oyallon, **Eugene Belilovsky**,Sergey Zagoruyko: **Scaling the Scattering Transform: Deep Hybrid Networks**. ICCV 2017. <i class="fa fa-file-pdf-o"></i> [PDF](https://arxiv.org/pdf/1703.08961.pdf)<small> [[Code](https://github.com/edouardoyallon/scalingscattering)]</small>
 
-* **Eugene Belilovsky**, Kyle Kastner, Gael Varoquaux, Matthew B. Blaschko: **Learning to Discover Sparse Graphical Model Structures**. ICML 2017. <i class="fa fa-file-pdf-o"></i> [PDF](https://openreview.net/pdf?id=HJOZBvcel)<small> [[Code](https://github.com/eugenium/LearnGraphDiscovery)]</small>
+* **Eugene Belilovsky**, Kyle Kastner, Gael Varoquaux, Matthew B. Blaschko: **Learning to Discover Sparse Graphical Model Structures**. ICML 2017. <i class="fa fa-file-pdf-o"></i> [PDF](https://arxiv.org/pdf/1605.06359.pdf)<small> [[Code](https://github.com/eugenium/LearnGraphDiscovery)]</small>
 
 * **Eugene Belilovsky**, Matthew B. Blaschko, Jamie R. Kiros, Raquel Urtasun, Richard Zemel: **Joint Embeddings of Scene Graphs and Images**. ICLR 2017 (Workshop). <i class="fa fa-file-pdf-o"></i> [PDF](https://openreview.net/pdf?id=BkyScySKl)
 
