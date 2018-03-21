@@ -26,9 +26,9 @@ Also take a look at my [Google Scholar profile](https://scholar.google.com/citat
 
 * **Eugene Belilovsky**, Matthew B. Blaschko, Jamie R. Kiros, Raquel Urtasun, Richard Zemel: **Joint Embeddings of Scene Graphs and Images**. ICLR 2017 (Workshop). <i class="fa fa-file-pdf-o"></i> [PDF](https://openreview.net/pdf?id=BkyScySKl)
 
-* Wacha Bounliphone, **Eugene Belilovsky**, Arthur Tenenhaus, Ioannis Antonoglou, Arthur Gretton, and Matthew B. Blaschko: **Fast Non-Parametric Tests of Relative Dependency and Similarity**. arXiv:1611.05740, 2016. [PDF](https://arxiv.org/pdf/1611.05740.pdf)
+* Wacha Bounliphone, **Eugene Belilovsky**, Arthur Tenenhaus, Ioannis Antonoglou, Arthur Gretton, and Matthew B. Blaschko: **Fast Non-Parametric Tests of Relative Dependency and Similarity**. arXiv:1611.05740, 2016. [PDF](https://arxiv.org/pdf/1611.05740.pdf)<small>[[Code](https://github.com/eugenium/MMD)]</small>
 
-* **Eugene Belilovsky**, Gael Varoquaux, Matthew B. Blaschko, : **Testing for Differences in Gaussian Graphical Models: Applications to Brain Connectivity**. NIPS 2016. <i class="fa fa-file-pdf-o"></i> [PDF](https://arxiv.org/pdf/1512.08643.pdf)
+* **Eugene Belilovsky**, Gael Varoquaux, Matthew B. Blaschko, : **Testing for Differences in Gaussian Graphical Models: Applications to Brain Connectivity**. NIPS 2016. <i class="fa fa-file-pdf-o"></i> [PDF](https://arxiv.org/pdf/1512.08643.pdf)<small> [[Code](https://github.com/eugenium/EdgeDifferenceTest)]</small>
 
 * **Eugene Belilovsky** ,* Wacha Bounliphone, Matthew Blaschko, Ioannis Antonoglou, Arthur Gretton : **A Test of Relative Similarity For Model Selection in Generative Models** . ICLR 2016. <i class="fa fa-file-pdf-o"></i> [PDF](http://arxiv.org/pdf/1511.04581.pdf) <small>[[Code](https://github.com/eugenium/MMD)]</small>
 
