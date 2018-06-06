@@ -10,7 +10,7 @@ image:
   creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
 ---
 
-I am a third year PhD student at the [Center for Visual Computing](http://cvn.ecp.fr/) at  CentraleSupelec(formerly Ecole Centrale Paris) and also a member of the INRIA Galen team. I am also doing a joint PhD at KU Leuven  [VISICS](https://www.esat.kuleuven.be/psi/visics) lab. I am supervised by [Matthew Blaschko](http://homes.esat.kuleuven.be/~mblaschk/). 
+From July I will be a Postdoctoral Felllow at Montreal Institute of Learning Algorithms at the University of Montreal. I completed my PhD jointly at CentraleSupelec and KU Leuven supervised by [Matthew Blaschko](http://homes.esat.kuleuven.be/~mblaschk/). During my PhD I primarily worked at the [Center for Visual Computing](http://cvn.ecp.fr/) and was also part of the [VISICS](https://www.esat.kuleuven.be/psi/visics) lab.
 
 During my PhD I have had the great pleasure to work with a lot of awesome co-authors and collaborators including [Edouard Oyallon](http://www.di.ens.fr/~oyallon/), [Gael Varoquaux](http://gael-varoquaux.info/), [Andreas Argyriou](http://cvn.ecp.fr/personnel/andreas/), [Arthur Gretton](http://www.gatsby.ucl.ac.uk/~gretton/), [Wacha Bounliphone](https://sites.google.com/site/wachabounliphone/),[Kyle Kastner](https://kastnerkyle.github.io/) , [Jamie Kiros](http://www.cs.toronto.edu/~rkiros/), [Richard Zemel](http://www.cs.toronto.edu/~zemel), and [Raquel Urtasun](http://www.cs.toronto.edu/~urtasun/)
 
