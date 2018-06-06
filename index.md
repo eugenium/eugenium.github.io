@@ -10,13 +10,10 @@ image:
   creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
 ---
 
-From July I will be a Postdoctoral Fellow at the Montreal Institute of Learning Algorithms (MILA) at the University of Montreal. I recently completed my PhD jointly at CentraleSupelec and KU Leuven supervised by [Matthew Blaschko](http://homes.esat.kuleuven.be/~mblaschk/). During my PhD I primarily worked at the [Center for Visual Computing](http://cvn.ecp.fr/) and was also part of the [VISICS](https://www.esat.kuleuven.be/psi/visics) lab. My PhD thesis developed several machine learning methods with applications in limited sample setting such as those found in the analysis of neuro-imaging. During my PhD I have also had the great pleasure to work extensively on a broad scope of problems in Machine Learning, from deep generative modeling, more efficient large scale image recognition, multi-modal learning, bayesian optimization, as well as work towards better understanding of deep learning. 
+From July I will be a Postdoctoral Fellow at the Montreal Institute of Learning Algorithms (MILA) at the University of Montreal. I recently completed my PhD jointly at CentraleSupelec and KU Leuven supervised by [Matthew Blaschko](http://homes.esat.kuleuven.be/~mblaschk/). During my PhD I primarily worked at the [Center for Visual Computing](http://cvn.ecp.fr/) and was also part of the [VISICS](https://www.esat.kuleuven.be/psi/visics) lab. I also visited the University of Toronto Machine Learning Group working with [Richard Zemel](http://www.cs.toronto.edu/~zemel), and [Raquel Urtasun](http://www.cs.toronto.edu/~urtasun/) and interned in the core machine learning groups at Apple and Amazon. 
 
+My primary research interests are in Machine Learning, Deep Learning, Computer Vision, and Graphical Models. My PhD thesis developed several machine learning methods with applications in limited sample setting such as those found in the analysis of neuro-imaging. During my PhD I have also had the great pleasure to work extensively on a broad scope of problems in Machine Learning, from deep generative modeling, more efficient large scale image recognition, multi-modal learning, bayesian optimization, as well as work towards better understanding of deep learning. 
 
-
-[//]: # During my PhD I have had the great pleasure to work with a lot of awesome co-authors and collaborators including [Edouard Oyallon](http://www.di.ens.fr/~oyallon/), [Gael Varoquaux](http://gael-varoquaux.info/), [Andreas Argyriou](http://cvn.ecp.fr/personnel/andreas/), [Arthur Gretton](http://www.gatsby.ucl.ac.uk/~gretton/), [Wacha Bounliphone](https://sites.google.com/site/wachabounliphone/),[Kyle Kastner](https://kastnerkyle.github.io/) , [Jamie Kiros](http://www.cs.toronto.edu/~rkiros/), [Richard Zemel](http://www.cs.toronto.edu/~zemel), and [Raquel Urtasun](http://www.cs.toronto.edu/~urtasun/)
-
-My primary research interests are in Machine Learning, Deep Learning, Computer Vision, and Graphical Models. 
 
 
 ## News:
