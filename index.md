@@ -12,13 +12,13 @@ image:
 
 From July I will be a Postdoctoral Fellow at the Montreal Institute of Learning Algorithms (MILA) at the University of Montreal. I recently completed my PhD jointly at CentraleSupelec and KU Leuven supervised by [Matthew Blaschko](http://homes.esat.kuleuven.be/~mblaschk/). During my PhD I primarily worked at the [Center for Visual Computing](http://cvn.ecp.fr/) and was also part of the [VISICS](https://www.esat.kuleuven.be/psi/visics) lab. I also visited the University of Toronto Machine Learning Group working with [Richard Zemel](http://www.cs.toronto.edu/~zemel), and [Raquel Urtasun](http://www.cs.toronto.edu/~urtasun/) and interned in the core machine learning groups at Apple and Amazon. 
 
-My primary research interests are in Machine Learning, Deep Learning, Computer Vision, and Graphical Models. My PhD thesis developed several machine learning methods with applications in limited sample setting such as those found in the analysis of neuro-imaging. During my PhD I have also had the great pleasure to work extensively on a broad scope of problems in Machine Learning, from deep generative modeling, more efficient large scale image recognition, multi-modal learning, bayesian optimization, as well as work towards better understanding of deep learning. 
+My primary research interests are in Machine Learning, Deep Learning, Computer Vision, and Graphical Models. My PhD thesis developed several machine learning methods with applications in limited sample setting such as those found in the analysis of neuro-imaging. During my PhD I have also had the great pleasure to work extensively on a broad scope of problems in machine learning, from deep generative modeling, multi-modal learning, bayesian optimization, to developing more efficient large scale image recognition and detection and working towards furthering our understanding of succesful deep learning methods in the context of computer vision. 
 
 
 
 ## News:
-* I succesfully completed my PhD 
-* I am co-organizing the NIPS Workshop: Learning with Limited Labeled Data: Weak Supervision and Beyond.
+* I succesfully completed my PhD and will be starting at University of Montreal in July!
+* I am co-organizing the NIPS 2017 Workshop: Learning with Limited Labeled Data: Weak Supervision and Beyond.
 * One paper accepted at ICCV 2017 
 * One paper accepted at ICML 2017
 * New working [paper](https://arxiv.org/pdf/1703.08961.pdf) and [python package](https://github.com/edouardoyallon/pyscatwave) 
