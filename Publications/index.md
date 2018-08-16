@@ -20,6 +20,8 @@ Also take a look at my [Google Scholar profile](https://scholar.google.com/citat
 
 ## List of Publications
 
+* Eugene Belilovsky: **Structured Sparse Learning on Graphs in High-Dimensional Data with Applications to Neuroimaging**. PhD Thesis. [PDF](Papers/Thesis_Manuscript__Leuven_.pdf)
+
 * Edouard Oyallon, **Eugene Belilovsky**,Sergey Zagoruyko: **Scaling the Scattering Transform: Deep Hybrid Networks**. ICCV 2017. <i class="fa fa-file-pdf-o"></i> [PDF](https://arxiv.org/pdf/1703.08961.pdf)<small> [[Code](https://github.com/edouardoyallon/scalingscattering)]</small>
 
 * **Eugene Belilovsky**, Kyle Kastner, Gael Varoquaux, Matthew B. Blaschko: **Learning to Discover Sparse Graphical Model Structures**. ICML 2017. <i class="fa fa-file-pdf-o"></i> [PDF](https://arxiv.org/pdf/1605.06359.pdf)<small> [[Code](https://github.com/eugenium/LearnGraphDiscovery)]</small>
