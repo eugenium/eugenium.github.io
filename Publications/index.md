@@ -19,7 +19,7 @@ share: false
 Also take a look at my [Google Scholar profile](https://scholar.google.com/citations?user=CffJDoEAAAAJ&hl=en)
 
 ## List of Publications
-* **Scattering Networks for Hybrid Representation Learning**, Edouard Oyallon, Sergey Zagoruyko, Gabriel Huang, Nikos Komodakis, Simon Lacoste-Julien, Matthew Blaschko, **Eugene Belilovsky**: **Scattering Networks for Hybrid Representation Learning**. IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), July 2018.
+* Edouard Oyallon, Sergey Zagoruyko, Gabriel Huang, Nikos Komodakis, Simon Lacoste-Julien, Matthew Blaschko, **Eugene Belilovsky**: **Scattering Networks for Hybrid Representation Learning**. IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), July 2018.
 
 * Eugene Belilovsky: **Structured Sparse Learning on Graphs in High-Dimensional Data with Applications to Neuroimaging**. PhD Thesis. [PDF](Papers/Thesis_Manuscript__Leuven_.pdf)
 
