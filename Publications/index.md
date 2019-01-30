@@ -19,7 +19,15 @@ share: false
 Also take a look at my [Google Scholar profile](https://scholar.google.com/citations?user=CffJDoEAAAAJ&hl=en)
 
 ## List of Publications
-* Edouard Oyallon, Sergey Zagoruyko, Gabriel Huang, Nikos Komodakis, Simon Lacoste-Julien, Matthew Blaschko, **Eugene Belilovsky**: **Scattering Networks for Hybrid Representation Learning**. IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), July 2018.
+
+
+* Mathieu Andreux, Tomás Angles, Georgios Exarchakis, Roberto Leonarduzzi, Gaspar Rochette, Louis Thiry, John Zarka, Stéphane Mallat, Joakim Andén, **Eugene Belilovsky**, Joan Bruna, Vincent Lostanlen, Matthew J. Hirn, Edouard Oyallon, Sixhin Zhang, Carmine Cella, Michael Eickenberg: **Kymatio: Scattering Transforms in Python**.  arxiv preprint arXiv:1812.11214, December 2018.[PDF](https://arxiv.org/pdf/1812.11214.pdf) [[Code](https://www.kymat.io/)]</small> 
+
+* **Eugene Belilovsky**, Michael Eickenberg, Edouard Oyallon: **Greedy Layerwise Learning Can Scale to ImageNet**.  arxiv preprint arXiv:1812.11214, December 2018. [PDF](https://arxiv.org/pdf/1812.11446.pdf) [[Code](https://github.com/eugenium/layerCNN)]</small> 
+
+* Ankesh Anand, **Eugene Belilovsky**, Kyle Kastner, Hugo Larochelle, Aaron Courville: **Blindfold Baselines for Embodied QA**. NIPS VIGIL Workshop, December 2018. [PDF](https://arxiv.org/pdf/1811.05013.pdf) [[Code](https://github.com/ankeshanand/blindfold-baselines-eqa)]</small>
+
+* Edouard Oyallon, Sergey Zagoruyko, Gabriel Huang, Nikos Komodakis, Simon Lacoste-Julien, Matthew Blaschko, **Eugene Belilovsky**: **Scattering Networks for Hybrid Representation Learning**. IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), July 2018.[PDF](https://hal.inria.fr/hal-01837587/document)<small> [[Code](https://github.com/edouardoyallon/scalingscattering)]</small>
 
 * Eugene Belilovsky: **Structured Sparse Learning on Graphs in High-Dimensional Data with Applications to Neuroimaging**. PhD Thesis. [PDF](Papers/Thesis_Manuscript__Leuven_.pdf)
 
