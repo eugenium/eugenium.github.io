@@ -16,6 +16,7 @@ My research has spanned many areas in Machine Learning, Deep Learning, Computer 
 
 
 ## News:
+* I received a postdoctoral scholarship from IVADO 
 * I am co-organizing the ICLR 2019 Workshop: Learning with Limited Labeled Data: Weak Supervision and Beyond.
 * We released the kymatio software package: pip install kymatio !
 * One paper accepted at NIPS VIGIL 2018 
