@@ -19,9 +19,9 @@ share: false
 Also take a look at my [Google Scholar profile](https://scholar.google.com/citations?user=CffJDoEAAAAJ&hl=en)
 
 ## List of Publications
-* Cătălina Cangea, **Eugene Belilovsky**, Aaron Courville : VideoNavQA: Bridging the Gap between Visual and Embodied Question Answering. BMVC 2019.
+* Cătălina Cangea, **Eugene Belilovsky**, Aaron Courville: VideoNavQA: Bridging the Gap between Visual and Embodied Question Answering. BMVC 2019.
 
-* Online Continual Learning with Maximally Inferred Retrieval Rahaf Aljundi, Lucas Caccia, **Eugene Belilovsky**, Massimo Caccia*, Min Lin, Laurent Charlin, Tinne Tuytelaars. ICML 2019 Workshop on Multi Task and LifeLong Reinforcement Learning.
+* Rahaf Aljundi, Lucas Caccia, **Eugene Belilovsky**, Massimo Caccia*, Min Lin, Laurent Charlin, Tinne Tuytelaars: Online Continual Learning with Maximally Inferred Retrieval. ICML 2019 Workshop on Multi Task and LifeLong Reinforcement Learning.
 
 * **Eugene Belilovsky**, Michael Eickenberg, Edouard Oyallon: **Decoupled Greedy Learning of CNNs**.  arxiv preprint arXiv:1812.11214, February 2019. [PDF](https://arxiv.org/abs/1901.08164) [[Code](https://github.com/eugenium/DGL)]
 
