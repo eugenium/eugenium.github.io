@@ -21,7 +21,7 @@ Also take a look at my [Google Scholar profile](https://scholar.google.com/citat
 ## List of Publications
 * Cătălina Cangea, **Eugene Belilovsky**, Aaron Courville: VideoNavQA: Bridging the Gap between Visual and Embodied Question Answering. BMVC 2019.
 
-* Rahaf Aljundi, Lucas Caccia, **Eugene Belilovsky**, Massimo Caccia*, Min Lin, Laurent Charlin, Tinne Tuytelaars: Online Continual Learning with Maximally Inferred Retrieval. ICML 2019 Workshop on Multi Task and LifeLong Reinforcement Learning.
+* Rahaf Aljundi*, Lucas Caccia*, **Eugene Belilovsky***, Massimo Caccia*, Min Lin, Laurent Charlin, Tinne Tuytelaars: Online Continual Learning with Maximally Inferred Retrieval. ICML 2019 Workshop on Multi Task and LifeLong Reinforcement Learning.
 
 * **Eugene Belilovsky**, Michael Eickenberg, Edouard Oyallon: **Decoupled Greedy Learning of CNNs**.  arxiv preprint arXiv:1812.11214, February 2019. [PDF](https://arxiv.org/abs/1901.08164) [[Code](https://github.com/eugenium/DGL)]
 
@@ -45,7 +45,7 @@ Also take a look at my [Google Scholar profile](https://scholar.google.com/citat
 
 * **Eugene Belilovsky**, Gael Varoquaux, Matthew B. Blaschko, : **Testing for Differences in Gaussian Graphical Models: Applications to Brain Connectivity**. NIPS 2016. <i class="fa fa-file-pdf-o"></i> [PDF](https://arxiv.org/pdf/1512.08643.pdf)<small> [[Code](https://github.com/eugenium/EdgeDifferenceTest)]</small>
 
-* **Eugene Belilovsky** ,* Wacha Bounliphone, Matthew Blaschko, Ioannis Antonoglou, Arthur Gretton : **A Test of Relative Similarity For Model Selection in Generative Models** . ICLR 2016. <i class="fa fa-file-pdf-o"></i> [PDF](http://arxiv.org/pdf/1511.04581.pdf) <small>[[Code](https://github.com/eugenium/MMD)]</small>
+* **Eugene Belilovsky***, Wacha Bounliphone*, Matthew Blaschko, Ioannis Antonoglou, Arthur Gretton : **A Test of Relative Similarity For Model Selection in Generative Models** . ICLR 2016. <i class="fa fa-file-pdf-o"></i> [PDF](http://arxiv.org/pdf/1511.04581.pdf) <small>[[Code](https://github.com/eugenium/MMD)]</small>
 
 * **Eugene Belilovsky**, Andreas Argyriou, Gael Varoquaux, and Matthew B. Blaschko: **Convex Relaxations of Penalties for Sparse Correlated Variables With Bounded Total Variation** . Machine Learning, Springer, 2015. ECML/KPDD 2015 Journal Track. <i class="fa fa-file-pdf-o"></i> [PDF](Papers/ConvexECML2015.pdf) <small>[[Code](https://github.com/eugenium/StructuredSparsityRegularization)]</small>
 
