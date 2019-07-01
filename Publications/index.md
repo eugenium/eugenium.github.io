@@ -19,11 +19,15 @@ share: false
 Also take a look at my [Google Scholar profile](https://scholar.google.com/citations?user=CffJDoEAAAAJ&hl=en)
 
 ## List of Publications
+* Cătălina Cangea, **Eugene Belilovsky**, Aaron Courville : VideoNavQA: Bridging the Gap between Visual and Embodied Question Answering. BMVC 2019.
 
+* Online Continual Learning with Maximally Inferred Retrieval Rahaf Aljundi, Lucas Caccia, **Eugene Belilovsky**, Massimo Caccia*, Min Lin, Laurent Charlin, Tinne Tuytelaars. ICML 2019 Workshop on Multi Task and LifeLong Reinforcement Learning.
+
+* **Eugene Belilovsky**, Michael Eickenberg, Edouard Oyallon: **Decoupled Greedy Learning of CNNs**.  arxiv preprint arXiv:1812.11214, February 2019. [PDF](https://arxiv.org/abs/1901.08164) [[Code](https://github.com/eugenium/DGL)]
 
 * Mathieu Andreux, Tomás Angles, Georgios Exarchakis, Roberto Leonarduzzi, Gaspar Rochette, Louis Thiry, John Zarka, Stéphane Mallat, Joakim Andén, **Eugene Belilovsky**, Joan Bruna, Vincent Lostanlen, Matthew J. Hirn, Edouard Oyallon, Sixhin Zhang, Carmine Cella, Michael Eickenberg: **Kymatio: Scattering Transforms in Python**.  arxiv preprint arXiv:1812.11214, December 2018.[PDF](https://arxiv.org/pdf/1812.11214.pdf) [[Code](https://www.kymat.io/)]
 
-* **Eugene Belilovsky**, Michael Eickenberg, Edouard Oyallon: **Greedy Layerwise Learning Can Scale to ImageNet**.  arxiv preprint arXiv:1812.11214, December 2018. [PDF](https://arxiv.org/pdf/1812.11446.pdf) [[Code](https://github.com/eugenium/layerCNN)]
+* **Eugene Belilovsky**, Michael Eickenberg, Edouard Oyallon: **Greedy Layerwise Learning Can Scale to ImageNet**.  ICML 2019. [PDF](https://arxiv.org/pdf/1812.11446.pdf) [[Code](https://github.com/eugenium/layerCNN)]
 
 * Ankesh Anand, **Eugene Belilovsky**, Kyle Kastner, Hugo Larochelle, Aaron Courville: **Blindfold Baselines for Embodied QA**. NIPS VIGIL Workshop, December 2018. [PDF](https://arxiv.org/pdf/1811.05013.pdf) [[Code](https://github.com/ankeshanand/blindfold-baselines-eqa)]
 
