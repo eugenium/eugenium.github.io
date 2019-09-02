@@ -14,7 +14,6 @@ I am a Postdoctoral Researcher at the [MILA](https://mila.quebec/) lab at the Un
 
 My research has spanned many areas in Machine Learning, Deep Learning, Computer Vision, and Graphical Models. My PhD thesis developed several machine learning methods that exploit sparse underlying graph structure in applications with limited sample setting such as those found in the analysis of neuro-imaging. During my PhD I have also worked on a broad scope of problems from deep generative modeling, multi-modal learning, bayesian optimization, and large scale image recognition and detection. 
 
-**MS or PhD student Interns** I am looking for an intern for the Fall at the Mila. Some potential topics include few shot learning, continual learning, embodied question answering, and many others! If you are are MS (research) student or PhD student (ideally with one or more publication) interested in interning at Mila send me an email. 
 
 ## News:
 * One paper accepted at BMVC 2019
