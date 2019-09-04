@@ -16,6 +16,7 @@ My research has spanned many areas in Machine Learning, Deep Learning, Computer 
 
 
 ## News:
+* One paper accepted at NeurIPS 2019
 * One paper accepted at BMVC 2019
 * One paper acepted at ICML 2019
 * I received a postdoctoral scholarship from IVADO 
@@ -28,11 +29,4 @@ My research has spanned many areas in Machine Learning, Deep Learning, Computer 
 * One paper accepted at ICML 2017
 * New working [paper](https://arxiv.org/pdf/1703.08961.pdf) and [python package](https://github.com/edouardoyallon/pyscatwave) 
 * Two papers accepted at ICLR 2017 workshop
-* I have received a NIPS travel award 
-* One paper accepted for presentation at NIPS 2016
-* I have received the University Paris Saclay Best Contribution Award (2nd place)
-* I have received a MITACS-INRIA Globalink award to visit the University of Toronto with Raquel Urtasun and Richard Zemel
-* Two new working papers on graphical model structure discovery [here](https://hal.inria.fr/hal-01306491v3/document) and [here](https://hal.inria.fr/hal-01248844/file/main.pdf)
-* Received an ICLR student award
-* Our paper on model selection in deep generative models was accepted at ICLR 2016. [link](http://arxiv.org/abs/1511.04581)
- 
+
