@@ -22,7 +22,7 @@ Also take a look at my [Google Scholar profile](https://scholar.google.com/citat
 
 * Rahaf Aljundi\*, Lucas Caccia\*, **Eugene Belilovsky**\*, Massimo Caccia\*, Min Lin, Laurent Charlin, Tinne Tuytelaars: Online Continual Learning with Maximally Inferred Retrieval.  NeurIPS 2019. [PDF](https://arxiv.org/abs/1908.04742) (Code coming soon)
 
-* Cătălina Cangea, **Eugene Belilovsky**, Pietro Liò, Aaron Courville: VideoNavQA: Bridging the Gap between Visual and Embodied Question Answering. BMVC 2019.  [PDF](https://arxiv.org/abs/1908.04950)[[Code](https://github.com/catalina17/VideoNavQA)]
+* Cătălina Cangea, **Eugene Belilovsky**, Pietro Liò, Aaron Courville: VideoNavQA: Bridging the Gap between Visual and Embodied Question Answering. BMVC 2019.  [PDF](https://arxiv.org/abs/1908.04950) [[Code](https://github.com/catalina17/VideoNavQA)]
 
 * **Eugene Belilovsky**, Michael Eickenberg, Edouard Oyallon: **Decoupled Greedy Learning of CNNs**.  arxiv preprint arXiv:1812.11214, February 2019. [PDF](https://arxiv.org/abs/1901.08164) [[Code](https://github.com/eugenium/DGL)]
 
