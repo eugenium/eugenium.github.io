@@ -16,6 +16,7 @@ My research has spanned many areas in Machine Learning, Deep Learning, Computer 
 
 
 ## News:
+* Check out the VideoNavQA dataset now available at https://github.com/catalina17/VideoNavQA
 * One paper accepted at NeurIPS 2019
 * One paper accepted at BMVC 2019
 * One paper acepted at ICML 2019
@@ -27,6 +28,4 @@ My research has spanned many areas in Machine Learning, Deep Learning, Computer 
 * I am co-organizing the NIPS 2017 Workshop: Learning with Limited Labeled Data: Weak Supervision and Beyond.
 * One paper accepted at ICCV 2017 
 * One paper accepted at ICML 2017
-* New working [paper](https://arxiv.org/pdf/1703.08961.pdf) and [python package](https://github.com/edouardoyallon/pyscatwave) 
-* Two papers accepted at ICLR 2017 workshop
 
