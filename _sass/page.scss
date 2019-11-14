@@ -228,6 +228,9 @@ $button-size: 1.5rem;
 	}
 	.post,
 	.page {
+		width: calc(90% - #{$right-sidebar-width-narrow})
+	}
+/*	.page {
 		@include container;
 		@include grid(12,10);
 		@include prefix(12,1);
@@ -240,7 +243,7 @@ $button-size: 1.5rem;
 		}
 		@media #{$x-large} {
 			@include grid(12,4.5);
-		}
+		}*/
 	}
 }
 
