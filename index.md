@@ -3,7 +3,7 @@ layout: page
 title: Eugene Belilovsky
 tags: [machine learning]
 modified: 2014-08-08T20:53:07.573882-04:00
-share: true
+share: false
 # image:
  # feature: neuron2.jpg
  # credit: WeGraphics
