@@ -12,7 +12,9 @@ image:
 
 I am a Postdoctoral Researcher at the [MILA](https://mila.quebec/) lab at the University of Montreal working with [Aaron Courville](https://mila.quebec/en/person/aaron-courville/). I recently completed a (joint) PhD at CentraleSupelec and KU Leuven supervised by [Matthew Blaschko](http://homes.esat.kuleuven.be/~mblaschk/). During my PhD I worked at the [Center for Visual Computing](http://cvn.ecp.fr/) and was also part of the [VISICS](https://www.esat.kuleuven.be/psi/visics) lab. I also visited the University of Toronto Machine Learning Group working with [Richard Zemel](http://www.cs.toronto.edu/~zemel), and [Raquel Urtasun](http://www.cs.toronto.edu/~urtasun/) and interned in the core machine learning groups at Apple and Amazon. 
 
-My research has spanned many areas in Machine Learning, Deep Learning, Computer Vision, and Graphical Models. My PhD thesis developed several machine learning methods that exploit sparse underlying graph structure in applications with limited sample setting such as those found in the analysis of neuro-imaging. During my PhD I have also worked on a broad scope of problems from deep generative modeling, multi-modal learning, bayesian optimization, and large scale image recognition and detection. 
+I am currently interested/working on Continual learning, Sample efficient deep learning, and Visual relation discovery and reasoning (for use in e.g. VQA and instruction following agents).
+
+My past research has spanned many areas in Machine Learning, Deep Learning, Computer Vision, and Graphical Models. My PhD thesis developed several machine learning methods that exploit sparse underlying graph structure in applications with limited sample setting such as those found in the analysis of neuro-imaging. During my PhD I have also worked on a broad scope of problems from deep generative modeling, multi-modal learning, bayesian optimization, and large scale image recognition and detection. 
 
 
 ## News:
