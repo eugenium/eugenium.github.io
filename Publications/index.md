@@ -20,7 +20,9 @@ Also take a look at my [Google Scholar profile](https://scholar.google.com/citat
 
 ## List of Publications
 
-* Rahaf Aljundi\*, Lucas Caccia\*, **Eugene Belilovsky**\*, Massimo Caccia\*, Min Lin, Laurent Charlin, Tinne Tuytelaars: Online Continual Learning with Maximally Inferred Retrieval.  NeurIPS 2019. [PDF](https://arxiv.org/abs/1908.04742) (Code coming soon)
+* Lucas Caccia, **Eugene Belilovsky**, Massimo Caccia, Joelle Pineau: Online Learned Continual Compression with Stacked Quantization Modules. In Submission 2019.
+
+* Rahaf Aljundi\*, Lucas Caccia\*, **Eugene Belilovsky**\*, Massimo Caccia\*, Min Lin, Laurent Charlin, Tinne Tuytelaars: Online Continual Learning with Maximally Inferred Retrieval.  NeurIPS 2019. \*Equal Contribution [PDF](https://arxiv.org/abs/1908.04742) [[Code](https://github.com/optimass/Maximally_Interfered_Retrieval)]
 
 * Cătălina Cangea, **Eugene Belilovsky**, Pietro Liò, Aaron Courville: VideoNavQA: Bridging the Gap between Visual and Embodied Question Answering. BMVC 2019.  [PDF](https://arxiv.org/abs/1908.04950) [[Code](https://github.com/catalina17/VideoNavQA)]
 
