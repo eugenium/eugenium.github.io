@@ -18,6 +18,8 @@ My past research has spanned many areas in Machine Learning, Deep Learning, Comp
 
 
 ## News:
+* 2 Papers accepted at ICML 2020
+* New preprint [here](https://arxiv.org/abs/2004.06302)
 * Check out the VideoNavQA dataset now available [here](https://github.com/catalina17/VideoNavQA)
 * One paper accepted at NeurIPS 2019
 * One paper accepted at BMVC 2019
