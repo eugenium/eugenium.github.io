@@ -20,15 +20,20 @@ Also take a look at my [Google Scholar profile](https://scholar.google.com/citat
 
 ## List of Publications
 
-* Lucas Caccia, **Eugene Belilovsky**, Massimo Caccia, Joelle Pineau: Online Learned Continual Compression with Stacked Quantization Modules. arXiv preprint arXiv:1911.08019 2019.[PDF](https://arxiv.org/pdf/1911.08019.pdf) [[Code](https://github.com/pclucas14/stacked-quantized-modules)]
+* Mateusz Michalkiewicz, Sarah Parisot, Stavros Tsogkas, Mahsa Baktashmotlagh, Anders P. Eriksson, **Eugene Belilovsky**:
+Few-Shot Single-View 3-D Object Reconstruction with Compositional Priors. [PDF](https://arxiv.org/pdf/2004.06302.pdf) 
+
+* Boris Knyazev, Harm de Vries, Cătălina Cangea, Graham W. Taylor, Aaron Courville, **Eugene Belilovsky**: Graph Density-Aware Losses for Novel Compositions in Scene Graph Generation. [PDF](https://arxiv.org/abs/2005.08230)
+
+* Lucas Caccia, **Eugene Belilovsky**, Massimo Caccia, Joelle Pineau: Online Learned Continual Compression with Stacked Quantization Modules. ICML 2020.[PDF](https://arxiv.org/pdf/1911.08019.pdf) [[Code](https://github.com/pclucas14/stacked-quantized-modules)]
 
 * Rahaf Aljundi\*, Lucas Caccia\*, **Eugene Belilovsky**\*, Massimo Caccia\*, Min Lin, Laurent Charlin, Tinne Tuytelaars: Online Continual Learning with Maximally Inferred Retrieval.  NeurIPS 2019. \*Equal Contribution [PDF](https://arxiv.org/abs/1908.04742) [[Code](https://github.com/optimass/Maximally_Interfered_Retrieval)]
 
+* **Eugene Belilovsky**, Michael Eickenberg, Edouard Oyallon: **Decoupled Greedy Learning of CNNs**. ICML 2020. [PDF](https://arxiv.org/abs/1901.08164) [[Code](https://github.com/eugenium/DGL)]
+
 * Cătălina Cangea, **Eugene Belilovsky**, Pietro Liò, Aaron Courville: VideoNavQA: Bridging the Gap between Visual and Embodied Question Answering. BMVC 2019.  [PDF](https://arxiv.org/abs/1908.04950) [[Code](https://github.com/catalina17/VideoNavQA)]
 
-* **Eugene Belilovsky**, Michael Eickenberg, Edouard Oyallon: **Decoupled Greedy Learning of CNNs**.  arxiv preprint arXiv:1812.11214, February 2019. [PDF](https://arxiv.org/abs/1901.08164) [[Code](https://github.com/eugenium/DGL)]
-
-* Mathieu Andreux, Tomás Angles, Georgios Exarchakis, Roberto Leonarduzzi, Gaspar Rochette, Louis Thiry, John Zarka, Stéphane Mallat, Joakim Andén, **Eugene Belilovsky**, Joan Bruna, Vincent Lostanlen, Matthew J. Hirn, Edouard Oyallon, Sixhin Zhang, Carmine Cella, Michael Eickenberg: **Kymatio: Scattering Transforms in Python**.  arxiv preprint arXiv:1812.11214, December 2018.[PDF](https://arxiv.org/pdf/1812.11214.pdf) [[Code](https://www.kymat.io/)]
+* Mathieu Andreux, Tomás Angles, Georgios Exarchakis, Roberto Leonarduzzi, Gaspar Rochette, Louis Thiry, John Zarka, Stéphane Mallat, Joakim Andén, **Eugene Belilovsky**, Joan Bruna, Vincent Lostanlen, Matthew J. Hirn, Edouard Oyallon, Sixhin Zhang, Carmine Cella, Michael Eickenberg: **Kymatio: Scattering Transforms in Python**.  Journal of Machine Learning (Software Track) 2020.[PDF](https://arxiv.org/pdf/1812.11214.pdf) [[Code](https://www.kymat.io/)]
 
 * **Eugene Belilovsky**, Michael Eickenberg, Edouard Oyallon: **Greedy Layerwise Learning Can Scale to ImageNet**.  ICML 2019. [PDF](https://arxiv.org/pdf/1812.11446.pdf) [[Code](https://github.com/eugenium/layerCNN)]
 
