@@ -29,7 +29,7 @@ Few-Shot Single-View 3-D Object Reconstruction with Compositional Priors. Prepri
 
 * Rahaf Aljundi\*, Lucas Caccia\*, **Eugene Belilovsky**\*, Massimo Caccia\*, Min Lin, Laurent Charlin, Tinne Tuytelaars: Online Continual Learning with Maximally Inferred Retrieval.  NeurIPS 2019. \*Equal Contribution [PDF](https://arxiv.org/abs/1908.04742) [[Code](https://github.com/optimass/Maximally_Interfered_Retrieval)]
 
-* **Eugene Belilovsky**, Michael Eickenberg, Edouard Oyallon: **Decoupled Greedy Learning of CNNs**. ICML 2020. [PDF](https://arxiv.org/abs/1901.08164) [[Code](https://github.com/eugenium/DGL)]
+* **Eugene Belilovsky**, Michael Eickenberg, Edouard Oyallon: Decoupled Greedy Learning of CNNs. ICML 2020. [PDF](https://arxiv.org/abs/1901.08164) [[Code](https://github.com/eugenium/DGL)]
 
 * Cătălina Cangea, **Eugene Belilovsky**, Pietro Liò, Aaron Courville: VideoNavQA: Bridging the Gap between Visual and Embodied Question Answering. BMVC 2019.  [PDF](https://arxiv.org/abs/1908.04950) [[Code](https://github.com/catalina17/VideoNavQA)]
 
