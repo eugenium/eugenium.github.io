@@ -1,7 +1,8 @@
 ---
-layout: page
+layout: single
 title: Publications
 excerpt: "Publications"
+classes: wide
 share: false
 ---
 
