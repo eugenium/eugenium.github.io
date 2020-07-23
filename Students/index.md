@@ -23,5 +23,7 @@ I am interested in computer vision problems at the intersection of natural langu
 I am interested in developing novel and scalable methods for training deep networks that have improved speed, convergence, simpler parallelization or hardware implementation, online learning, and/or forgetting. Some related publications to give a flavor. 
 
 Belilovsky, Eugene, Michael Eickenberg, and Edouard Oyallon. "Decoupled greedy learning of cnns." ICML 2020.
+
 Xu, An, Zhouyuan Huo, and Heng Huang. "On the Acceleration of Deep Learning Model Parallelism With Staleness." Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2020.
+
 Choromanska, Anna, et al. "Beyond backprop: Online alternating minimization with auxiliary variables." International Conference on Machine Learning. 2019.
