@@ -5,7 +5,7 @@ title: Students
 share: false
 ---
 
-I am currently recruiting PhD and Msc students. Please send me an informal inquriy if you are interested with your CV and optionally a short (1 page max) description of motivations and research interests. In your email subject please put \[Recruiting\]
+I am currently recruiting PhD and Msc students. Please send me an informal inquriy if you are interested with your CV and optionally a short (1 page max) description of motivations and research interests. In your email subject please put \[Recruiting\]. Note I am not be able to respond to all emails.
 
 
 Below I provide an idea and some references for general areas I am currently looking for students in, however I am also open to supervising student proposals in other projects in Computer Vision and Machine Learning. 
