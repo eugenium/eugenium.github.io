@@ -12,14 +12,21 @@ Below I provide an idea and some references for general areas I am currently loo
 
 
 *Continual learning, online deep learning, and few shot learning*
-An exciting open question in deep learning is how to effectively learn in online and non-stationary settings. Continual learning aims to learn new tasks (with potentially few samples) while retaining knowledge of old tasks. 
 
+An exciting open question in deep learning is how to effectively learn in online and non-stationary settings. Continual learning aims to learn new tasks (with potentially few samples) while retaining knowledge of old tasks. A few related publications:
+
+Aljundi, Caccia, Belilovsky, Caccia et al Online Continual Learning with Maximally Interferred Retrieval 
+Caccia, Belilovsky et al Online Learned Continual Compression with Adaptive Quantization Modules
+Hexiang Hu et al Drinking from a Firehose: Continual Learning with Web-scale Natural Language
+Lin et al Conditional Computation for Continual Learning
 
 *Vision and Language*
+
 I am interested in computer vision problems at the intersection of natural language processing (for example VQA, Embodied QA)
 
 
-*Alternative Training of Deep Networks* 
+*Alternative Training of Deep Networks*
+
 I am interested in developing novel and scalable methods for training deep networks that have improved speed, convergence, simpler parallelization or hardware implementation, online learning, and/or forgetting. Some related publications to give a flavor. 
 
 Belilovsky, Eugene, Michael Eickenberg, and Edouard Oyallon. "Decoupled greedy learning of cnns." ICML 2020.
