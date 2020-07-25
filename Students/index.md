@@ -15,7 +15,7 @@ I am currently recruiting motivated PhD and Msc students. Please send me an info
 
 An exciting open question in deep learning is how to effectively learn in online and non-stationary settings. Continual learning aims to learn new tasks (with potentially few samples) while retaining knowledge of old tasks. A few related publications:
 
--Aljundi, Caccia, Belilovsky, Caccia et al Online Continual Learning with Maximally Interferred Retrieval 
+-Aljundi, Caccia, Belilovsky, Caccia et al Online Continual Learning with Maximally Interferred Retrieval \n
 
 -Caccia, Belilovsky et al Online Learned Continual Compression with Adaptive Quantization Modules
 
