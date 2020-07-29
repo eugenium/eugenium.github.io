@@ -14,7 +14,9 @@ Also take a look at my [Google Scholar profile](https://scholar.google.com/citat
 
 
 
-* Boris Knyazev, Harm de Vries, Cătălina Cangea, Graham W. Taylor, Aaron Courville, **Eugene Belilovsky**: Graph Density-Aware Losses for Novel Compositions in Scene Graph Generation. Preprint. [PDF](https://arxiv.org/abs/2005.08230)
+* Boris Knyazev, Harm de Vries, Cătălina Cangea, Graham W. Taylor, Aaron Courville, **Eugene Belilovsky**: Graph Density-Aware Losses for Novel Compositions in Scene Graph Generation. British Machine Vision Conference (BMVC) 2020. [PDF](https://arxiv.org/abs/2005.08230)
+
+*  Mateusz Michalkiewicz, **Eugene Belilovsky**, Mahsa Baktashmotlagh, Anders P. Eriksson: A Simple and Scalable Shape Representation for 3D Reconstruction. British Machine Vision Conference (BMVC) 2020. [PDF](https://arxiv.org/abs/2005.04623)
 
 * Mateusz Michalkiewicz, Sarah Parisot, Stavros Tsogkas, Mahsa Baktashmotlagh, Anders P. Eriksson, **Eugene Belilovsky**:
 Few-Shot Single-View 3-D Object Reconstruction with Compositional Priors. ECCV 2020. [PDF](https://arxiv.org/pdf/2004.06302.pdf) 
