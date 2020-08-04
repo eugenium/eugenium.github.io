@@ -17,7 +17,7 @@ Some of my current research interestes include continual and online deep learnin
 
 
 
-**Msc and PhD student Recruitement** I am currently looking for motivated Msc and PhD students with strong programming and math skills. Please send me your CV if interested. 
+**Msc and PhD student Recruitement** I am currently recruiting motivated Msc and PhD students with strong programming and math skills. Please send me your CV if interested. 
 
 ## News:
 * 2 Papers accepted at BMVC 2020
