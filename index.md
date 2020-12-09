@@ -15,7 +15,6 @@ I am an Assistant Professor at [Concordia University](https://www.concordia.ca/g
 
 Some of my current research interests include continual and online deep learning, sample efficient deep learning, and (scalable) alternative training methods for deep networks. I am also intrested in problems at the intersection of computer vision and language, particularly visual relation discovery and reasoning (with applications in e.g. VQA), and instruction following agents in 3D environments.
 
-#**PhD student Recruitement** I am currently recruiting motivated PhD students. Please send me your CV if interested. 
 
 ## News:
 * 2 Papers accepted at BMVC 2020
