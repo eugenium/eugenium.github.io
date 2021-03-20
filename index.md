@@ -17,20 +17,14 @@ Some of my current research interests include continual and online deep learning
 
 
 ## News:
+* 1 Paper accepted at ICLR 2021
 * 2 Papers accepted at BMVC 2020
 * 1 Paper accepted at ECCV 2020
 * 2 Papers accepted at ICML 2020
 * New preprint [here](https://arxiv.org/abs/2004.06302)
 * Check out the VideoNavQA dataset now available [here](https://github.com/catalina17/VideoNavQA)
 * One paper accepted at NeurIPS 2019
-* One paper accepted at BMVC 2019
-* One paper acepted at ICML 2019
-* I received a postdoctoral scholarship from IVADO 
-* I am co-organizing the ICLR 2019 Workshop: Learning with Limited Labeled Data: Weak Supervision and Beyond.
-* We released the kymatio software package: pip install kymatio !
-* One paper accepted at NIPS VIGIL 2018 
-* I succesfully completed my PhD
-* I am co-organizing the NIPS 2017 Workshop: Learning with Limited Labeled Data: Weak Supervision and Beyond.
-* One paper accepted at ICCV 2017 
-* One paper accepted at ICML 2017
+
+
+I am currently looking for a PhD student interested in practical alternatives to back propagation and/or decentralized training of deep learning models.  Besides strong machine learning and programming skills, prior experience or interest in distributed optimization  or distributed systems is a plus. Reach out if interested with your CV.
 
