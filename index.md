@@ -26,5 +26,5 @@ Some of my current research interests include continual and online deep learning
 * One paper accepted at NeurIPS 2019
 
 
-I am currently looking for a PhD student interested in practical alternatives to back propagation and/or decentralized training of deep learning models.  Besides strong machine learning and programming skills, prior experience or interest in distributed optimization  or distributed systems is a plus. Reach out if interested with your CV.
+I am currently looking for a PhD student or grad intern interested in practical alternatives to back propagation and/or decentralized training of deep learning models. Reach out if interested with your CV.
 
