@@ -20,7 +20,7 @@ Also take a look at my [Google Scholar profile](https://scholar.google.com/citat
 *  Mateusz Michalkiewicz, **Eugene Belilovsky**, Mahsa Baktashmotlagh, Anders P. Eriksson: A Simple and Scalable Shape Representation for 3D Reconstruction. British Machine Vision Conference (BMVC) 2020. [PDF](https://arxiv.org/abs/2005.04623)
 
 * Mateusz Michalkiewicz, Sarah Parisot, Stavros Tsogkas, Mahsa Baktashmotlagh, Anders P. Eriksson, **Eugene Belilovsky**:
-Few-Shot Single-View 3-D Object Reconstruction with Compositional Priors. ECCV 2020. [PDF](https://arxiv.org/pdf/2004.06302.pdf) 
+Few-Shot Single-View 3-D Object Reconstruction with Compositional Priors. ECCV 2020. [PDF](https://arxiv.org/pdf/2004.06302.pdf) [[Code](https://github.com/JeremyFisher/few_shot_3dr)]
 
 * Lucas Caccia, **Eugene Belilovsky**, Massimo Caccia, Joelle Pineau: Online Learned Continual Compression with Stacked Quantization Modules. ICML 2020.[PDF](https://arxiv.org/pdf/1911.08019.pdf) [[Code](https://github.com/pclucas14/stacked-quantized-modules)]
 
