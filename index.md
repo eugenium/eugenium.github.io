@@ -26,5 +26,4 @@ Some of my current research interests include continual and online deep learning
 * One paper accepted at NeurIPS 2019
 
 
-I am currently looking for a PhD student or grad intern interested in practical alternatives to back propagation and/or decentralized training of deep learning models. Reach out if interested with your CV.
 
