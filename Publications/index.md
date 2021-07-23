@@ -12,7 +12,9 @@ Also take a look at my [Google Scholar profile](https://scholar.google.com/citat
 
 ## List of Publications
 
-* Louis Thiry, Michael Arbel, **Eugene Belilovsky**, Edouard oyallon: The Unreasonable Effectiveness of Patches in Deep Convolutional Kernels Methods. International Conference on Representation Learning 2021. [PDF](https://arxiv.org/abs/2101.07528)
+* Boris Knyazev, Harm de Vries, Cătălina Cangea, Graham W Taylor, Aaron Courville, **Eugene Belilovsky**: Generative Compositional Augmentations for Scene Graph Prediction. International Conference on Computer Vision (ICCV) 2021. [PDF](https://arxiv.org/abs/2007.05756)
+
+* Louis Thiry, Michael Arbel, **Eugene Belilovsky**, Edouard oyallon: The Unreasonable Effectiveness of Patches in Deep Convolutional Kernels Methods. International Conference on Representation Learning (ICLR) 2021. [PDF](https://arxiv.org/abs/2101.07528)
 
 
 * Boris Knyazev, Harm de Vries, Cătălina Cangea, Graham W. Taylor, Aaron Courville, **Eugene Belilovsky**: Graph Density-Aware Losses for Novel Compositions in Scene Graph Generation. British Machine Vision Conference (BMVC) 2020. [PDF](https://arxiv.org/abs/2005.08230)
