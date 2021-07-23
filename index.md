@@ -17,6 +17,7 @@ Some of my current research interests include continual and online deep learning
 
 
 ## News:
+* 1 Paper accepted at ICCV 2021
 * 1 Paper accepted at ICLR 2021
 * 2 Papers accepted at BMVC 2020
 * 1 Paper accepted at ECCV 2020
