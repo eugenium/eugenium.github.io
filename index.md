@@ -13,7 +13,7 @@ share: false
 
 I am an Assistant Professor at [Concordia University](https://www.concordia.ca/ginacody/computer-science-software-eng.html) and [Mila](https://mila.quebec/). Previously, I was a Postdoctoral Researcher at the [Mila](https://mila.quebec/) and  at the University of Montreal working with [Aaron Courville](https://mila.quebec/en/person/aaron-courville/). I completed a (joint) PhD at CentraleSupelec, University of Paris-Saclay  and KU Leuven ([VISICS](https://www.esat.kuleuven.be/psi/visics)) supervised by [Matthew Blaschko](http://homes.esat.kuleuven.be/~mblaschk/). During my PhD I also visited the University of Toronto Machine Learning Group working with [Richard Zemel](http://www.cs.toronto.edu/~zemel), and [Raquel Urtasun](http://www.cs.toronto.edu/~urtasun/) and interned in the core machine learning groups at Apple (with Tomas Pfister) and at Amazon (with Matthias Seeger). 
 
-Some of my current research interests include continual and online deep learning, sample efficient deep learning, and (scalable) alternative training methods for deep networks. I am also intrested in problems at the intersection of computer vision and language, particularly visual relation discovery and reasoning (with applications in e.g. VQA), and instruction following agents in 3D environments.
+Some of my current research interests include continual, federated, sample-efficient, and online  deep learning. I am also intrested in a variety of applications of machine learning particularly in computer vision including healthcare, scene understanding and reasoning, and instruction following agents in 3D environments.
 
 
 ## News:
