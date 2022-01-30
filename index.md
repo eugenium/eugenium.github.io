@@ -13,10 +13,11 @@ share: false
 
 I am an Assistant Professor at [Concordia University](https://www.concordia.ca/ginacody/computer-science-software-eng.html) and [Mila](https://mila.quebec/). Previously, I was a Postdoctoral Researcher at the [Mila](https://mila.quebec/) and  at the University of Montreal working with [Aaron Courville](https://mila.quebec/en/person/aaron-courville/). I completed a (joint) PhD at CentraleSupelec, University of Paris-Saclay  and KU Leuven ([VISICS](https://www.esat.kuleuven.be/psi/visics)) supervised by [Matthew Blaschko](http://homes.esat.kuleuven.be/~mblaschk/). During my PhD I also visited the University of Toronto Machine Learning Group working with [Richard Zemel](http://www.cs.toronto.edu/~zemel), and [Raquel Urtasun](http://www.cs.toronto.edu/~urtasun/) and interned in the core machine learning groups at Apple (with Tomas Pfister) and at Amazon (with Matthias Seeger). 
 
-Some of my current research interests include continual, federated, sample-efficient, and online  deep learning. I am also intrested in a variety of applications of machine learning particularly in computer vision including healthcare, scene understanding and reasoning, and instruction following agents in 3D environments.
+Broadly my research interests are in Machine Learning and Computer Vision. My current research focuses on emerging paradigms for the future of large scale deep learning including continual, federated, and decentralized learning. I am also intrested in a variety of applications of machine learning particularly involving computer vision,  healthcare, scene understanding and 3D reasoning.
 
 
 ## News:
+* 1 paper accepted at ICLR 2022
 * 1 Paper accepted at ICCV 2021
 * 1 Paper accepted at ICLR 2021
 * 2 Papers accepted at BMVC 2020
@@ -25,6 +26,8 @@ Some of my current research interests include continual, federated, sample-effic
 * New preprint [here](https://arxiv.org/abs/2004.06302)
 * Check out the VideoNavQA dataset now available [here](https://github.com/catalina17/VideoNavQA)
 * One paper accepted at NeurIPS 2019
+
+
 
 
 
