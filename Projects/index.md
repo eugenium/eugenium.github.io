@@ -14,10 +14,11 @@ Below are some related publications to give an idea of the research projects
 
 ** Decentralized Learning **
 
--Towards Crowdsourced Training of Large Neural Networks using Decentralized Mixture-of-Experts (https://arxiv.org/pdf/2002.04013.pdf)
+- Towards Crowdsourced Training of Large Neural Networks using Decentralized Mixture-of-Experts (https://arxiv.org/pdf/2002.04013.pdf)
 
 
 ** Federated Learning ** 
--https://arxiv.org/pdf/1602.05629.pdf
--https://arxiv.org/pdf/2106.06639.pdf
--https://arxiv.org/abs/2109.04833
+
+- https://arxiv.org/pdf/1602.05629.pdf
+- https://arxiv.org/pdf/2106.06639.pdf
+- https://arxiv.org/abs/2109.04833
