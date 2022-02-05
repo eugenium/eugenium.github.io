@@ -39,19 +39,21 @@ Boris Knyazev, PhD Intern (now Research Scientist at Samsung Research)
 
 **Frequent Collaborators**
 
-Lucas Caccia
+Lucas Caccia (McGill/Mila)
 
-Rahaf Aljundi
+Rahaf Aljundi (Toyota Research)
 
-Guy Wolf
+Guy Wolf (UdeM/Mila)
 
-Irina Rish
+Irina Rish (UdeM/Mila)
 
-Edouard Oyallon
+Michael Eickenberg (Flatiron Institute)
+ 
+Edouard Oyallon (CNRS)
 
-Tiberiu Popa
+Tiberiu Popa (Concordia)
 
-Aaron Courville
+Aaron Courville (UdeM/Mila)
 
 
 
