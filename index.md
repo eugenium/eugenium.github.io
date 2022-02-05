@@ -29,5 +29,5 @@ Broadly my research interests are in Machine Learning and Computer Vision. My cu
 
 
 
-[Recruiting](http://eugenium.github.io/Projects)
+[Recruiting](http://eugenium.github.io/Projects/index.html)
 
