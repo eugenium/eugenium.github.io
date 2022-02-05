@@ -33,4 +33,4 @@ Boris Knyazev (now Research Scientist at Samsung Research)
 
 
 **Recruiting**
-I am recruiting motivated PhD students as well as graduate student interns/visitors (PhD or senior/graduating MS students).  Note I am not be able to respond to all emails. Students should demonstrate strong programming and math skills. Previous research experience, particularly in machine learning is a plus. 
+I am often recruiting motivated PhD students as well as graduate student interns/visitors (PhD or senior/graduating MS students).  Note I am not be able to respond to all emails. Students should demonstrate strong programming and math skills. Previous research experience, particularly in machine learning is a plus. 
