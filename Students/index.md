@@ -33,6 +33,7 @@ Boris Knyazev, PhD Intern (now Research Scientist at Samsung Research)
 
 
 **Frequent Collaborators**
+
 Lucas Caccia
 
 Rahaf Aljundi
