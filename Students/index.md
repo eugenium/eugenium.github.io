@@ -13,6 +13,8 @@ share: false
 [Abhinav Moudgil](https://amoudgl.github.io/)
 
 
+
+
 **Msc Students**
 
 
@@ -25,11 +27,14 @@ share: false
 [Adeetya Patel](https://ca.linkedin.com/in/adeetyap)
 
 
+
+
 **Alumni**
 
 Benjamin Therien, Undergrad Researcher (now Msc at University of Waterloo)
 
 Boris Knyazev, PhD Intern (now Research Scientist at Samsung Research)
+
 
 
 **Frequent Collaborators**
