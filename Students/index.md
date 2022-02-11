@@ -8,8 +8,7 @@ share: false
 
 **PhD Students**
 
-[Reza Davari](https://davari.io/publication.html)
-
+[Reza Davari](https://davari.io)<br>
 [Abhinav Moudgil](https://amoudgl.github.io/)
 
 
@@ -18,12 +17,9 @@ share: false
 **Msc Students**
 
 
-[Muawiz Chaudhary](https://scholar.google.ca/citations?hl=en&user=4Z8ePskAAAAJ)
-
-[Irene Tenison](https://scholar.google.com/citations?user=piW3r38AAAAJ&hl=en) (co-supervised with Irina Rish)
-
-[Nader Asadi](https://naderasadi.github.io/) (co-supervised with Sudhir Mudur)
-
+[Muawiz Chaudhary](https://scholar.google.ca/citations?hl=en&user=4Z8ePskAAAAJ)<br>
+[Irene Tenison](https://scholar.google.com/citations?user=piW3r38AAAAJ&hl=en) (co-supervised with Irina Rish)<br>
+[Nader Asadi](https://naderasadi.github.io/) (co-supervised with Sudhir Mudur)<br>
 [Adeetya Patel](https://ca.linkedin.com/in/adeetyap)
 
 
@@ -31,28 +27,20 @@ share: false
 
 **Alumni**
 
-Benjamin Therien, Undergrad Researcher (now Msc at University of Waterloo)
-
+Benjamin Therien, Undergrad Researcher (now Msc at University of Waterloo)<br>
 Boris Knyazev, PhD Intern (now Research Scientist at Samsung Research)
 
 
 
 **Frequent Collaborators**
 
-Lucas Caccia (McGill/Mila)
-
-Rahaf Aljundi (Toyota Research)
-
-Guy Wolf (UdeM/Mila)
-
-Irina Rish (UdeM/Mila)
-
-Michael Eickenberg (Flatiron Institute)
- 
-Edouard Oyallon (CNRS)
-
-Tiberiu Popa (Concordia)
-
+Lucas Caccia <br>
+Rahaf Aljundi (Toyota Research)<br>
+Guy Wolf (UdeM/Mila)<br>
+Irina Rish (UdeM/Mila)<br>
+Michael Eickenberg (Flatiron Institute)<br>
+Edouard Oyallon (CNRS)<br>
+Tiberiu Popa (Concordia)<br>
 Aaron Courville (UdeM/Mila)
 
 
