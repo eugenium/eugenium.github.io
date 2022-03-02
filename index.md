@@ -17,6 +17,7 @@ Broadly my research interests are in Machine Learning and Computer Vision. My cu
 
 
 ## News:
+* 3 papers accepted at CVPR 2022
 * 1 paper accepted at ICLR 2022
 * 1 Paper accepted at ICCV 2021
 * 1 Paper accepted at ICLR 2021
