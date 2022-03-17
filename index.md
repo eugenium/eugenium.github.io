@@ -29,6 +29,3 @@ Broadly my research interests are in Machine Learning and Computer Vision. My cu
 * One paper accepted at NeurIPS 2019
 
 
-
-[Recruiting](http://eugenium.github.io/Projects/index.html)
-
