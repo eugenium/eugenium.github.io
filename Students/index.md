@@ -17,9 +17,9 @@ share: false
 [Muawiz Chaudhary](https://scholar.google.ca/citations?hl=en&user=4Z8ePskAAAAJ)<br>
 [Irene Tenison](https://scholar.google.com/citations?user=piW3r38AAAAJ&hl=en) (co-supervised with Irina Rish)<br>
 [Nader Asadi](https://naderasadi.github.io/) (co-supervised with Sudhir Mudur)<br>
-[Adeetya Patel](https://ca.linkedin.com/in/adeetyap)
-[Nasir Khalid](nasir.lol) (with Tiberiu Popa)
-Gwendolyne Legate
+[Adeetya Patel](https://ca.linkedin.com/in/adeetyap)<br>
+[Nasir Khalid](nasir.lol) (with Tiberiu Popa)<br>
+Gwendolyne Legate<br>
 Medric Sonjwa
 
 
