@@ -8,7 +8,7 @@ share: false
 
 **PhD Students**<br>
 [Reza Davari](https://davari.io)<br>
-[Abhinav Moudgil](https://amoudgl.github.io/)
+[Abhinav Moudgil](https://amoudgl.github.io/)<br>
 [Adel Nabli](https://scholar.google.com/citations?user=bvNfLmMAAAAJ&hl=en)(with Edouard Oyallon)
 
 
