@@ -20,7 +20,7 @@ share: false
 [Adeetya Patel](https://ca.linkedin.com/in/adeetyap)<br>
 [Nasir Khalid](nasir.lol) (with Tiberiu Popa)<br>
 Gwendolyne Legate<br>
-Medric Sonjwa
+Medric Sonwa
 
 
 
