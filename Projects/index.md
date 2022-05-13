@@ -17,3 +17,8 @@ https://arxiv.org/pdf/2110.13100.pdf
 - https://arxiv.org/pdf/2106.06639.pdf<br>
 - https://arxiv.org/abs/2109.04833<br>
 - https://arxiv.org/pdf/2201.11986.pdf <br>
+
+
+<b> Backprop alternative (various levels)</b>
+https://arxiv.org/abs/2006.03824
+
