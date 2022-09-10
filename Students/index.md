@@ -9,7 +9,8 @@ share: false
 **PhD Students**<br>
 [Reza Davari](https://davari.io)<br>
 [Abhinav Moudgil](https://amoudgl.github.io/)<br>
-[Adel Nabli](https://scholar.google.com/citations?user=bvNfLmMAAAAJ&hl=en)(with Edouard Oyallon)
+[Albert Orozoco Camacho](https://amoudgl.github.io/)<br> (co-supervised with Guy Wolf)
+[Adel Nabli](https://scholar.google.com/citations?user=bvNfLmMAAAAJ&hl=en)(co-supervised with Edouard Oyallon)
 
 
 
@@ -18,7 +19,7 @@ share: false
 [Irene Tenison](https://scholar.google.com/citations?user=piW3r38AAAAJ&hl=en) (co-supervised with Irina Rish)<br>
 [Nader Asadi](https://naderasadi.github.io/) (co-supervised with Sudhir Mudur)<br>
 [Adeetya Patel](https://ca.linkedin.com/in/adeetyap)<br>
-[Nasir Khalid](nasir.lol) (with Tiberiu Popa)<br>
+[Nasir Khalid](nasir.lol) (co-supervised with Tiberiu Popa)<br>
 Gwendolyne Legate<br>
 Medric Sonwa
 
