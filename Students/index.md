@@ -9,7 +9,7 @@ share: false
 **PhD Students**<br>
 [Reza Davari](https://davari.io)<br>
 [Abhinav Moudgil](https://amoudgl.github.io/)<br>
-[Albert Orozoco Camacho](https://amoudgl.github.io/) (co-supervised with Guy Wolf)<br>
+[Albert Orozco Camacho](https://amoudgl.github.io/) (co-supervised with Guy Wolf)<br>
 [Adel Nabli](https://scholar.google.com/citations?user=bvNfLmMAAAAJ&hl=en)(co-supervised with Edouard Oyallon)
 
 
