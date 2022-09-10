@@ -9,14 +9,13 @@ share: false
 **PhD Students**<br>
 [Reza Davari](https://davari.io)<br>
 [Abhinav Moudgil](https://amoudgl.github.io/)<br>
-[Albert Orozoco Camacho](https://amoudgl.github.io/)<br> (co-supervised with Guy Wolf)
+[Albert Orozoco Camacho](https://amoudgl.github.io/) (co-supervised with Guy Wolf)<br>
 [Adel Nabli](https://scholar.google.com/citations?user=bvNfLmMAAAAJ&hl=en)(co-supervised with Edouard Oyallon)
 
 
 
 **Msc Students**<br>
 [Muawiz Chaudhary](https://scholar.google.ca/citations?hl=en&user=4Z8ePskAAAAJ)<br>
-[Irene Tenison](https://scholar.google.com/citations?user=piW3r38AAAAJ&hl=en) (co-supervised with Irina Rish)<br>
 [Nader Asadi](https://naderasadi.github.io/) (co-supervised with Sudhir Mudur)<br>
 [Adeetya Patel](https://ca.linkedin.com/in/adeetyap)<br>
 [Nasir Khalid](nasir.lol) (co-supervised with Tiberiu Popa)<br>
@@ -26,6 +25,7 @@ Medric Sonwa
 
 
 **Alumni**<br>
+[Irene Tenison](https://scholar.google.com/citations?user=piW3r38AAAAJ&hl=en), Msc 2022 (now PhD student at MIT)<br>
 Benjamin Therien, Undergrad Researcher (now Msc at University of Waterloo)<br>
 Boris Knyazev, PhD Intern (now Research Scientist at Samsung Research)
 
