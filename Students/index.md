@@ -26,7 +26,8 @@ Medric Sonwa
 
 **Alumni**<br>
 [Irene Tenison](https://scholar.google.com/citations?user=piW3r38AAAAJ&hl=en), Msc 2022 (now PhD student at MIT)<br>
-Benjamin Therien, Undergrad Researcher (now Msc at University of Waterloo)<br>
+Benjamin Therien, NSERC Undergrad Researcher 2021 (now Msc at University of Waterloo)<br>
+Yu Xiang Zhang, NSERC Undergrad Researcher 2022 (now Software Engineer at Amazon)<br>
 Boris Knyazev, PhD Intern (now Research Scientist at Samsung Research)
 
 
