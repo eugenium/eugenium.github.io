@@ -17,10 +17,12 @@ share: false
 **Msc Students**<br>
 [Muawiz Chaudhary](https://scholar.google.ca/citations?hl=en&user=4Z8ePskAAAAJ)<br>
 [Nader Asadi](https://naderasadi.github.io/) (co-supervised with Sudhir Mudur)<br>
-[Adeetya Patel](https://ca.linkedin.com/in/adeetyap)<br>
+[Adeetya Patel](https://ca.linkedin.com/in/adeetyap)<br> 
 [Nasir Khalid](nasir.lol) (co-supervised with Tiberiu Popa)<br>
 Gwendolyne Legate<br>
-Medric Sonwa
+Medric Sonwa <br>
+Alexander Fulleringer<br>
+[Amir Sarfi](https://scholar.google.com/citations?user=KcYl7zsAAAAJ&hl=en) (co-supervised with Sudhir Mudur)
 
 
 
