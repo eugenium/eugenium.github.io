@@ -29,6 +29,5 @@ Broadly my research interests are in Machine Learning and Computer Vision. My cu
 * Check out the VideoNavQA dataset now available [here](https://github.com/catalina17/VideoNavQA)
 * One paper accepted at NeurIPS 2019
 
-[Postdoc Opportunity](http://eugenium.github.io/Projects/postdoc.html)
 
 [Recruiting](http://eugenium.github.io/Projects/index.html)
