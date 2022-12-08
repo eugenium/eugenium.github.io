@@ -9,7 +9,7 @@ share: false
 **PhD Students**<br>
 [Reza Davari](https://davari.io)<br>
 [Abhinav Moudgil](https://amoudgl.github.io/)<br>
-[Albert Orozco Camacho](https://amoudgl.github.io/) (co-supervised with Guy Wolf)<br>
+[Albert Orozco Camacho](https://scholar.google.com/citations?user=zYXzEisAAAAJ&hl=es) (co-supervised with Guy Wolf)<br>
 [Adel Nabli](https://scholar.google.com/citations?user=bvNfLmMAAAAJ&hl=en)(co-supervised with Edouard Oyallon)
 
 
@@ -18,9 +18,9 @@ share: false
 [Muawiz Chaudhary](https://scholar.google.ca/citations?hl=en&user=4Z8ePskAAAAJ)<br>
 [Nader Asadi](https://naderasadi.github.io/) (co-supervised with Sudhir Mudur)<br>
 [Adeetya Patel](https://ca.linkedin.com/in/adeetyap)<br> 
-[Nasir Khalid](nasir.lol) (co-supervised with Tiberiu Popa)<br>
-Gwendolyne Legate<br>
-Medric Sonwa <br>
+[Nasir Khalid](https://www.nasir.lol) (co-supervised with Tiberiu Popa)<br>
+[Gwen Legate](https://scholar.google.com/citations?hl=en&user=hwERHFYAAAAJ)<br>
+[Medric Sonwa](https://github.com/medric49) <br>
 Alexander Fulleringer<br>
 [Amir Sarfi](https://scholar.google.com/citations?user=KcYl7zsAAAAJ&hl=en) (co-supervised with Sudhir Mudur)
 
