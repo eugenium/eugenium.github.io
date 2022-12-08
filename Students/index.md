@@ -22,6 +22,7 @@ share: false
 [Gwen Legate](https://scholar.google.com/citations?hl=en&user=hwERHFYAAAAJ)<br>
 [Medric Sonwa](https://github.com/medric49) <br>
 Alexander Fulleringer<br>
+Nicolas Bernier<br>
 [Amir Sarfi](https://scholar.google.com/citations?user=KcYl7zsAAAAJ&hl=en) (co-supervised with Sudhir Mudur)
 
 
