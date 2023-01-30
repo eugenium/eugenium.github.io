@@ -25,13 +25,13 @@ Few-Shot Single-View 3-D Object Reconstruction with Compositional Priors. ECCV 2
 
 * **Eugene Belilovsky**, Michael Eickenberg, Edouard Oyallon: Decoupled Greedy Learning of CNNs. ICML 2020. [PDF](https://arxiv.org/abs/1901.08164) [[Code](https://github.com/eugenium/DGL)]
 
-* **Eugene Belilovsky**, Michael Eickenberg, Edouard Oyallon: **Greedy Layerwise Learning Can Scale to ImageNet**.  ICML 2019. [PDF](https://arxiv.org/pdf/1812.11446.pdf) [[Code](https://github.com/eugenium/layerCNN)]
+* **Eugene Belilovsky**, Michael Eickenberg, Edouard Oyallon: Greedy Layerwise Learning Can Scale to ImageNet.  ICML 2019. [PDF](https://arxiv.org/pdf/1812.11446.pdf) [[Code](https://github.com/eugenium/layerCNN)]
 
-* Edouard Oyallon, **Eugene Belilovsky**,Sergey Zagoruyko: **Scaling the Scattering Transform: Deep Hybrid Networks**. ICCV 2017. <i class="fa fa-file-pdf-o"></i> [PDF](https://arxiv.org/pdf/1703.08961.pdf)<small> [[Code](https://github.com/edouardoyallon/scalingscattering)]</small>
+* Edouard Oyallon, **Eugene Belilovsky**,Sergey Zagoruyko: Scaling the Scattering Transform: Deep Hybrid Networks. ICCV 2017. <i class="fa fa-file-pdf-o"></i> [PDF](https://arxiv.org/pdf/1703.08961.pdf)<small> [[Code](https://github.com/edouardoyallon/scalingscattering)]</small>
 
-* **Eugene Belilovsky**, Kyle Kastner, Gael Varoquaux, Matthew B. Blaschko: **Learning to Discover Sparse Graphical Model Structures**. ICML 2017. <i class="fa fa-file-pdf-o"></i> [PDF](https://arxiv.org/pdf/1605.06359.pdf)<small> [[Code](https://github.com/eugenium/LearnGraphDiscovery)]</small>
+* **Eugene Belilovsky**, Kyle Kastner, Gael Varoquaux, Matthew B. Blaschko: Learning to Discover Sparse Graphical Model Structures. ICML 2017. <i class="fa fa-file-pdf-o"></i> [PDF](https://arxiv.org/pdf/1605.06359.pdf)<small> [[Code](https://github.com/eugenium/LearnGraphDiscovery)]</small>
 
 
-* **Eugene Belilovsky**, Gael Varoquaux, Matthew B. Blaschko, : **Testing for Differences in Gaussian Graphical Models: Applications to Brain Connectivity**. NIPS 2016. <i class="fa fa-file-pdf-o"></i> [PDF](https://arxiv.org/pdf/1512.08643.pdf)<small> [[Code](https://github.com/eugenium/EdgeDifferenceTest)]</small>
+* **Eugene Belilovsky**, Gael Varoquaux, Matthew B. Blaschko, : Testing for Differences in Gaussian Graphical Models: Applications to Brain Connectivity. NIPS 2016. <i class="fa fa-file-pdf-o"></i> [PDF](https://arxiv.org/pdf/1512.08643.pdf)<small> [[Code](https://github.com/eugenium/EdgeDifferenceTest)]</small>
 
-* **Eugene Belilovsky**\*, Wacha Bounliphone\*, Matthew Blaschko, Ioannis Antonoglou, Arthur Gretton : **A Test of Relative Similarity For Model Selection in Generative Models** . ICLR 2016. <i class="fa fa-file-pdf-o"></i> [PDF](http://arxiv.org/pdf/1511.04581.pdf) <small>[[Code](https://github.com/eugenium/MMD)]</small>
+* **Eugene Belilovsky**\*, Wacha Bounliphone\*, Matthew Blaschko, Ioannis Antonoglou, Arthur Gretton : A Test of Relative Similarity For Model Selection in Generative Models . ICLR 2016. <i class="fa fa-file-pdf-o"></i> [PDF](http://arxiv.org/pdf/1511.04581.pdf) <small>[[Code](https://github.com/eugenium/MMD)]</small>
