@@ -10,7 +10,7 @@ share: false
 [Reza Davari](https://davari.io)<br>
 [Abhinav Moudgil](https://amoudgl.github.io/)<br>
 [Albert Orozco Camacho](https://scholar.google.com/citations?user=zYXzEisAAAAJ&hl=es) (co-supervised with Guy Wolf)<br>
-[Adel Nabli](https://scholar.google.com/citations?user=bvNfLmMAAAAJ&hl=en)(co-supervised with Edouard Oyallon)
+[Adel Nabli](https://scholar.google.com/citations?user=bvNfLmMAAAAJ&hl=en)(co-supervised with Edouard Oyallon) <br>
 [Gwen Legate](https://scholar.google.com/citations?hl=en&user=hwERHFYAAAAJ)<br>
 
 
