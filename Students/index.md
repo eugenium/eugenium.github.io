@@ -21,6 +21,7 @@ share: false
 [Nasir Khalid](https://www.nasir.lol) (co-supervised with Tiberiu Popa)<br>
 Alexander Fulleringer<br>
 Nicolas Bernier<br>
+Charles-Etienne Joseph<br>
 [Amir Sarfi](https://scholar.google.com/citations?user=KcYl7zsAAAAJ&hl=en) (co-supervised with Sudhir Mudur)
 
 **PostDoc**<br>
@@ -39,11 +40,14 @@ Boris Knyazev, PhD Intern (now Research Scientist at Samsung Research)
 **Frequent Collaborators**<br>
 Lucas Caccia (McGill) <br>
 Rahaf Aljundi (Toyota Research)<br>
+Boris Knyazev (Samsung Research)<br>
 Guy Wolf (UdeM/Mila)<br>
 Irina Rish (UdeM/Mila)<br>
+Guillaume Lajoie<br>
 Michael Eickenberg (Flatiron Institute)<br>
 Edouard Oyallon (CNRS)<br>
 Tiberiu Popa (Concordia)<br>
+Sudhir Mudur (Concordia) <br>
 Aaron Courville (UdeM/Mila)
 
 
