@@ -43,7 +43,7 @@ Rahaf Aljundi (Toyota Research)<br>
 Boris Knyazev (Samsung Research)<br>
 Guy Wolf (UdeM/Mila)<br>
 Irina Rish (UdeM/Mila)<br>
-Guillaume Lajoie<br>
+Guillaume Lajoie (UdeM/Mila)<br>
 Michael Eickenberg (Flatiron Institute)<br>
 Edouard Oyallon (CNRS)<br>
 Tiberiu Popa (Concordia)<br>
