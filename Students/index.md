@@ -23,19 +23,20 @@ Our group members:
 **Msc Students**<br>
 [Muawiz Chaudhary](https://scholar.google.ca/citations?hl=en&user=4Z8ePskAAAAJ)<br>
 [Nader Asadi](https://naderasadi.github.io/) (co-supervised with Sudhir Mudur)<br>
-[Adeetya Patel](https://ca.linkedin.com/in/adeetyap)<br> 
 [Nasir Khalid](https://www.nasir.lol) (co-supervised with Tiberiu Popa)<br>
 Alexander Fulleringer<br>
-Nicolas Bernier<br>
+Nicolas Bernier <br>
 Charles-Etienne Joseph<br>
+Humza Wajid Hameed <br>
 [Amir Sarfi](https://scholar.google.com/citations?user=KcYl7zsAAAAJ&hl=en) (co-supervised with Sudhir Mudur)
 
 **PostDoc**<br>
 [Geraldin Nanfack](https://gerald4.github.io/) 
 
 **Alumni**<br>
-[Medric Sonwa](https://github.com/medric49) Msc 2023 <br>
-[Gwen Legate](https://scholar.google.com/citations?hl=en&user=hwERHFYAAAAJ), Msc 2023 (now PhD)<br>
+[Adeetya Patel](https://ca.linkedin.com/in/adeetyap)Msc 2023 (now RA at Mcgill University)<br> 
+[Medric Sonwa](https://github.com/medric49) Msc 2023 (now Data scientist at ONMO) <br>
+[Gwen Legate](https://scholar.google.com/citations?hl=en&user=hwERHFYAAAAJ), Msc 2023 (continued to PhD)<br>
 [Irene Tenison](https://scholar.google.com/citations?user=piW3r38AAAAJ&hl=en), Msc 2022 (now PhD student at MIT)<br>
 Benjamin Therien, NSERC Undergrad Researcher 2021 (now Msc at University of Waterloo)<br>
 Yu Xiang Zhang, NSERC Undergrad Researcher 2022 (now Software Engineer at Amazon)<br>
