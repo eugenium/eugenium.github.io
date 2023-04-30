@@ -5,6 +5,12 @@ title: Students
 share: false
 ---
 
+I am leading a research group currently focused on the following themes
+1) Large scale distributed & privacy preserving deep learning - including topic such as decentralized learning and federated learning
+2) Distribution shifts - including topics such as continual learning and domain adaptation
+3) Applications - particularly in healthcare and 3D vision 
+
+Our group members: 
 
 **PhD Students**<br>
 [Reza Davari](https://davari.io)<br>
