@@ -34,7 +34,7 @@ Humza Wajid Hameed <br>
 [Geraldin Nanfack](https://gerald4.github.io/) 
 
 **Alumni**<br>
-[Adeetya Patel](https://ca.linkedin.com/in/adeetyap)Msc 2023 (now RA at Mcgill University)<br> 
+[Adeetya Patel](https://ca.linkedin.com/in/adeetyap) Msc 2023 (now RA at Mcgill University)<br> 
 [Medric Sonwa](https://github.com/medric49) Msc 2023 (now Data scientist at ONMO) <br>
 [Gwen Legate](https://scholar.google.com/citations?hl=en&user=hwERHFYAAAAJ), Msc 2023 (continued to PhD)<br>
 [Irene Tenison](https://scholar.google.com/citations?user=piW3r38AAAAJ&hl=en), Msc 2022 (now PhD student at MIT)<br>
@@ -56,8 +56,8 @@ Edouard Oyallon (CNRS)<br>
 Tiberiu Popa (Concordia)<br>
 Aaron Courville (UdeM/Mila)
 
-**Sponsors**
-Our group is generously sponsored by 
+**Sponsors**<br>
+Our group is generously supported by 
 
 <img src="https://user-images.githubusercontent.com/3606031/236766516-80d2f641-ee46-422b-ac93-43da6817db2f.png" width="300" height="100" alt="image"><img src="https://user-images.githubusercontent.com/3606031/236766688-5eab14c9-a6b3-4bf1-8a1b-9a9b212597ca.png" width="250" height="100" alt="image">
 <img src="https://user-images.githubusercontent.com/3606031/236766742-d7d1431b-ffa1-423b-8886-39a9fefd1fb4.png" width="250" height="100" alt="image">
