@@ -54,8 +54,20 @@ Guillaume Lajoie (UdeM/Mila)<br>
 Michael Eickenberg (Flatiron Institute)<br>
 Edouard Oyallon (CNRS)<br>
 Tiberiu Popa (Concordia)<br>
-Sudhir Mudur (Concordia) <br>
 Aaron Courville (UdeM/Mila)
+
+**Sponsors**
+Our group is generously sponsored by 
+
+<img src="https://user-images.githubusercontent.com/3606031/236766516-80d2f641-ee46-422b-ac93-43da6817db2f.png" width="300" height="100" alt="image"><img src="https://user-images.githubusercontent.com/3606031/236766688-5eab14c9-a6b3-4bf1-8a1b-9a9b212597ca.png" width="250" height="100" alt="image">
+<img src="https://user-images.githubusercontent.com/3606031/236766742-d7d1431b-ffa1-423b-8886-39a9fefd1fb4.png" width="250" height="100" alt="image">
+<img src="https://user-images.githubusercontent.com/3606031/236766805-9da59062-9d00-4697-a5c8-ab21276f6b50.png" width="300" height="100" alt="image">
+<img src="https://user-images.githubusercontent.com/3606031/236766883-24b5f3d6-ca11-47f2-bafd-c7979b734eae.png" width="250" height="100" alt="image">
+<img src="https://user-images.githubusercontent.com/3606031/236767295-e33f0d43-07f7-4971-9ae5-ee9ae4cf9359.png" width="250" height="80" alt="image">
+
+<img src="https://user-images.githubusercontent.com/3606031/236769621-36e740d5-2964-4326-8b7e-dc549f603b08.png" width="250" height="80" alt="image"><img src="https://user-images.githubusercontent.com/3606031/236769326-756a76bf-821f-4beb-be3b-bbcbc4424657.png" width="250" height="80" alt="image">
+
+
 
 
 
