@@ -16,12 +16,12 @@ I am an Assistant Professor at [Concordia University](https://www.concordia.ca/g
 Broadly my research interests are in Machine Learning and Computer Vision. My current research focuses on emerging paradigms for the future of very large scale deep learning systems that will be continual (growing in tasks, modalities), decentralized in data (federated), and computation (decentralized deep learning). I am also intrested in a variety of applications of machine learning particularly involving computer vision, this ranges from specific problems in  healthcare, to scene understanding, and 3D reasoning.
 
 ## Recent News:
-* I am recepient of an FQRNT New Scholar grant and co-PI on 2 FQRNT team grants, thanks FQRNT for the support!
-* 2 of our PhD students Benjamin Therien and Abhinav Moudgil have received the FQRNT Doctoral Scholarship
+* I am recepient of an FRQNT New Scholar grant and co-PI on 2 FRQNT team grants, thanks FRQNT for the support!
+* 2 of our PhD students Benjamin Therien and Abhinav Moudgil have received the FRQNT Doctoral Scholarship
 * Our group has 3 papers accepted at ICML 2023
 * Nasir Khalid, Nader Asadi, and Amir Sarfi have succesfully defend their MS thesis with a grade of outstanding
 * I am co-organizing the workshop on "Localized Learning" at ICML 2023
-* Amir Sarfi has a paper is accepted at CVPR 2023
+* MS Amir Sarfi has a paper is accepted at CVPR 2023
 * ClipMesh is accepted at SIGGRAPH Asia 2022, see project page https://www.nasir.lol/clipmesh
 
 [Recruiting](http://eugenium.github.io/Projects/index.html)
