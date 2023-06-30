@@ -18,22 +18,22 @@ Our group members:
 [Albert Orozco Camacho](https://scholar.google.com/citations?user=zYXzEisAAAAJ&hl=es) (co-supervised with Guy Wolf)<br>
 [Adel Nabli](https://scholar.google.com/citations?user=bvNfLmMAAAAJ&hl=en)(co-supervised with Edouard Oyallon) <br>
 [Gwen Legate](https://scholar.google.com/citations?hl=en&user=hwERHFYAAAAJ)<br>
-
+[Benjamin Therien](https://scholar.google.com/citations?user=RbO_ULYAAAAJ&hl=en) (co-supervised with Irina Rish)<br>
 
 **Msc Students**<br>
 [Muawiz Chaudhary](https://scholar.google.ca/citations?hl=en&user=4Z8ePskAAAAJ)<br>
-[Nader Asadi](https://naderasadi.github.io/) (co-supervised with Sudhir Mudur)<br>
-[Nasir Khalid](https://www.nasir.lol) (co-supervised with Tiberiu Popa)<br>
 Alexander Fulleringer<br>
 Nicolas Bernier <br>
 Charles-Etienne Joseph<br>
 Humza Wajid Hameed <br>
-[Amir Sarfi](https://scholar.google.com/citations?user=KcYl7zsAAAAJ&hl=en) (co-supervised with Sudhir Mudur)
 
 **PostDoc**<br>
 [Geraldin Nanfack](https://gerald4.github.io/) 
 
 **Alumni**<br>
+[Nader Asadi](https://naderasadi.github.io/) Msc 2023 (Now ML Researcher at Huawei)<br>
+[Nasir Khalid](https://www.nasir.lol) Msc 2023 (now ML Researcher at Haven Studios)<br>
+[Amir Sarfi](https://scholar.google.com/citations?user=KcYl7zsAAAAJ&hl=en) Msc 2023 (now researcher at Slyod)
 [Adeetya Patel](https://ca.linkedin.com/in/adeetyap) Msc 2023 (now RA at Mcgill University)<br> 
 [Medric Sonwa](https://github.com/medric49) Msc 2023 (now Data scientist at ONMO) <br>
 [Gwen Legate](https://scholar.google.com/citations?hl=en&user=hwERHFYAAAAJ), Msc 2023 (continued to PhD)<br>
