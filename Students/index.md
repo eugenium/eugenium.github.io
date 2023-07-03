@@ -64,7 +64,6 @@ Our group is generously supported by
 <img src="https://user-images.githubusercontent.com/3606031/236766805-9da59062-9d00-4697-a5c8-ab21276f6b50.png" width="300" height="100" alt="image">
 <img src="https://user-images.githubusercontent.com/3606031/236766883-24b5f3d6-ca11-47f2-bafd-c7979b734eae.png" width="250" height="100" alt="image">
 <img src="https://user-images.githubusercontent.com/3606031/236767295-e33f0d43-07f7-4971-9ae5-ee9ae4cf9359.png" width="250" height="80" alt="image">
-
 <img src="https://user-images.githubusercontent.com/3606031/236769621-36e740d5-2964-4326-8b7e-dc549f603b08.png" width="250" height="80" alt="image"><img src="https://user-images.githubusercontent.com/3606031/236769326-756a76bf-821f-4beb-be3b-bbcbc4424657.png" width="250" height="80" alt="image">
 
 
