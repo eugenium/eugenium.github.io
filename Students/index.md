@@ -33,7 +33,7 @@ Humza Wajid Hameed <br>
 **Alumni**<br>
 [Nader Asadi](https://naderasadi.github.io/) Msc 2023 (Now ML Researcher at Huawei)<br>
 [Nasir Khalid](https://www.nasir.lol) Msc 2023 (now ML Researcher at Haven Studios)<br>
-[Amir Sarfi](https://scholar.google.com/citations?user=KcYl7zsAAAAJ&hl=en) Msc 2023 (now researcher at Slyod)
+[Amir Sarfi](https://scholar.google.com/citations?user=KcYl7zsAAAAJ&hl=en) Msc 2023 (now researcher at Slyod) <br>
 [Adeetya Patel](https://ca.linkedin.com/in/adeetyap) Msc 2023 (now RA at Mcgill University)<br> 
 [Medric Sonwa](https://github.com/medric49) Msc 2023 (now Data scientist at ONMO) <br>
 [Gwen Legate](https://scholar.google.com/citations?hl=en&user=hwERHFYAAAAJ), Msc 2023 (continued to PhD)<br>
