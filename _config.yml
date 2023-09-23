@@ -28,7 +28,7 @@ kramdown:
 # Site owner
 owner:
   name: Eugene Belilovsky
-  avatar: FullSizeRender.jpg
+  #avatar: FullSizeRender.jpg
   bio: "Researcher in Machine Learning"
   email: Belilovsky.Eugene@gmail.com
   disqus-shortname: 
