@@ -16,7 +16,7 @@ I am an Assistant Professor at [Concordia University](https://www.concordia.ca/g
 Broadly my research interests are in Machine Learning and Computer Vision. My current research focuses on emerging paradigms for the future of very large scale deep learning systems that will be continual (growing in tasks, modalities), decentralized in data (federated), and computation (decentralized deep learning). I am also intrested in a variety of applications of machine learning particularly involving computer vision, this ranges from specific problems in  healthcare, to scene understanding, and 3D reasoning.
 
 ## Recent News:
-* 2 Papers accepted at NeurIPS 2023 on Federated Finetuning (https://arxiv.org/abs/2306.03937) and Decentralized Learning (https://arxiv.org/abs/2306.08289). 
+* 2 Papers accepted at NeurIPS 2023 on [Federated Transfer Learning](https://arxiv.org/abs/2306.03937) and [Decentralized Learning](https://arxiv.org/abs/2306.08289). 
 * I am recepient of an FRQNT New Scholar grant and co-PI on 2 FRQNT team grants, thanks FRQNT for the support!
 * 2 of our PhD students Benjamin Therien and Abhinav Moudgil have received the FRQNT Doctoral Scholarship
 * Our group has 3 papers accepted at ICML 2023
