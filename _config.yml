@@ -6,7 +6,7 @@ url:
 
 
 # Jekyll configuration
-# minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    :  "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 permalink:   /:categories/:title/
 markdown:    kramdown
@@ -28,7 +28,7 @@ kramdown:
 # Site owner
 owner:
   name: Eugene Belilovsky
-  #avatar: FullSizeRender.jpg
+  avatar: FullSizeRender.jpg
   bio: "Researcher in Machine Learning"
   email: Belilovsky.Eugene@gmail.com
   disqus-shortname: 
