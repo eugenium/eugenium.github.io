@@ -4,7 +4,8 @@ title:            Eugene Belilovsky
 locale:           en_US
 url:              
 
-
+theme                  : "minimal-mistakes-jekyll"
+# remote_theme           : "mmistakes/minimal-mistakes"
 # Jekyll configuration
 minimal_mistakes_skin :  "air" #, "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
