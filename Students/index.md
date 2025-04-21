@@ -5,33 +5,71 @@ title: Students
 share: false
 ---
 
-I am currently recruiting motivated PhD and Msc students. Please send me an informal inquiry to (belilove@mila.quebec) if you are interested with your CV and optionally a short (1 page max) description of motivations and research interests. In your email subject please put \[Recruiting\]. Note I am not be able to respond to all emails. Students should demonstrate strong programming and math skills. Previous research experience, particularly in machine learning is a plus.  Below I provide an idea and some references for general areas I am currently looking for students in, however I am open to supervising student proposals in other projects in Machine Learning and Computer Vision. 
+I am leading a research group currently focused on the following themes<br>
+1) Large scale distributed & privacy preserving deep learning - including topic such as decentralized learning and federated learning<br>
+2) Distribution shifts - including topics such as continual learning and domain adaptation<br>
+3) Applications - particularly in healthcare and 3D vision <br>
+
+Our group members: 
+
+**PhD Students**<br>
+[Reza Davari](https://davari.io)<br>
+[Abhinav Moudgil](https://amoudgl.github.io/)<br>
+[Albert Orozco Camacho](https://scholar.google.com/citations?user=zYXzEisAAAAJ&hl=es) (co-supervised with Guy Wolf)<br>
+[Adel Nabli](https://scholar.google.com/citations?user=bvNfLmMAAAAJ&hl=en)(co-supervised with Edouard Oyallon) <br>
+[Gwen Legate](https://scholar.google.com/citations?hl=en&user=hwERHFYAAAAJ)<br>
+[Benjamin Therien](https://scholar.google.com/citations?user=RbO_ULYAAAAJ&hl=en) (co-supervised with Irina Rish)<br>
+[Vaibhav Singh](https://scholar.google.com/citations?user=xDFiPCkAAAAJ&hl=en) <br>
+
+**Msc Students**<br>
+[Paul Janson](https://scholar.google.com/citations?user=wfKn1W0AAAAJ&hl=en) <br>
+Paria Mehrbod (co-supervised with Guy Wolf)<br>
+Alexander Fulleringer<br>
+Nicolas Bernier <br>
+Charles-Etienne Joseph<br>
+Humza Wajid Hameed <br>
+
+**PostDoc**<br>
+[Geraldin Nanfack](https://gerald4.github.io/)<br>
+
+**Alumni**<br>
+[Nader Asadi](https://naderasadi.github.io/) Msc 2023 (Now ML Researcher at Huawei)<br>
+[Nasir Khalid](https://www.nasir.lol) Msc 2023 (now ML Researcher at Haven Studios)<br>
+[Amir Sarfi](https://scholar.google.com/citations?user=KcYl7zsAAAAJ&hl=en) Msc 2023 (now researcher at Slyod) <br>
+[Adeetya Patel](https://ca.linkedin.com/in/adeetyap) Msc 2023 (now RA at Mcgill University)<br> 
+[Medric Sonwa](https://github.com/medric49) Msc 2023 (now Data scientist at ONMO) <br>
+[Muawiz Chaudhary](https://scholar.google.ca/citations?hl=en&user=4Z8ePskAAAAJ)Msc 2023 <br>
+[Gwen Legate](https://scholar.google.com/citations?hl=en&user=hwERHFYAAAAJ), Msc 2023 (continued to PhD)<br>
+[Irene Tenison](https://scholar.google.com/citations?user=piW3r38AAAAJ&hl=en), Msc 2022 (now PhD student at MIT)<br>
+Benjamin Therien, NSERC Undergrad Researcher 2021 (now Msc at University of Waterloo)<br>
+Yu Xiang Zhang, NSERC Undergrad Researcher 2022 (now Software Engineer at Amazon)<br>
+Boris Knyazev, PhD Intern (now Research Scientist at Samsung Research)
 
 
 
-**Research Projects**
+**Frequent Collaborators**<br>
+Lucas Caccia (McGill) <br>
+Rahaf Aljundi (Toyota Research)<br>
+Boris Knyazev (Samsung Research)<br>
+Guy Wolf (UdeM/Mila)<br>
+Irina Rish (UdeM/Mila)<br>
+Guillaume Lajoie (UdeM/Mila)<br>
+Michael Eickenberg (Flatiron Institute)<br>
+Edouard Oyallon (CNRS)<br>
+Tiberiu Popa (Concordia)<br>
+Aaron Courville (UdeM/Mila)
 
-*Continual learning, online deep learning, and few shot learning*
+**Sponsors**<br>
+Our group is generously supported by 
 
-An exciting open question in deep learning is how to effectively learn in online and non-stationary settings. Continual learning aims to learn new tasks (with potentially few samples) while retaining knowledge of old tasks. A few related publications:
-
--Aljundi, Caccia, Belilovsky, Caccia et al Online Continual Learning with Maximally Interferred Retrieval  <br>
--Caccia, Belilovsky et al Online Learned Continual Compression with Adaptive Quantization Modules<br>
--Hu et al Drinking from a Firehose: Continual Learning with Web-scale Natural Language<br>
--Lin et al Conditional Computation for Continual Learning
-
-
-
-*Vision and Language*
-
-I am interested in computer vision problems at the intersection of natural language processing (for example VQA, Embodied QA)
+<img src="https://user-images.githubusercontent.com/3606031/236766516-80d2f641-ee46-422b-ac93-43da6817db2f.png" width="300" height="100" alt="image"><img src="https://user-images.githubusercontent.com/3606031/236766688-5eab14c9-a6b3-4bf1-8a1b-9a9b212597ca.png" width="250" height="100" alt="image">
+<img src="https://user-images.githubusercontent.com/3606031/236766742-d7d1431b-ffa1-423b-8886-39a9fefd1fb4.png" width="250" height="100" alt="image">
+<img src="https://user-images.githubusercontent.com/3606031/236766805-9da59062-9d00-4697-a5c8-ab21276f6b50.png" width="300" height="100" alt="image">
+<img src="https://user-images.githubusercontent.com/3606031/236766883-24b5f3d6-ca11-47f2-bafd-c7979b734eae.png" width="250" height="100" alt="image">
+<img src="https://user-images.githubusercontent.com/3606031/236767295-e33f0d43-07f7-4971-9ae5-ee9ae4cf9359.png" width="250" height="80" alt="image">
+<img src="https://user-images.githubusercontent.com/3606031/236769621-36e740d5-2964-4326-8b7e-dc549f603b08.png" width="250" height="80" alt="image"><img src="https://user-images.githubusercontent.com/3606031/236769326-756a76bf-821f-4beb-be3b-bbcbc4424657.png" width="250" height="80" alt="image">
 
 
 
-*Alternative Training of Deep Networks*
 
-I am interested in developing novel and scalable methods for training deep networks that have improved speed, convergence, simpler parallelization or hardware implementation, online learning, and/or forgetting. Some related publications to give a flavor. 
 
--Belilovsky, Eugene, Michael Eickenberg, and Edouard Oyallon. "Decoupled greedy learning of cnns." ICML 2020.<br>
--Xu, An, Zhouyuan Huo, and Heng Huang. "On the Acceleration of Deep Learning Model Parallelism With Staleness." Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2020.<br>
--Choromanska, Anna, et al. "Beyond backprop: Online alternating minimization with auxiliary variables." International Conference on Machine Learning. 2019.<br>
