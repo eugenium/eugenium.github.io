@@ -4,8 +4,10 @@ title:            Eugene Belilovsky
 locale:           en_US
 url:              
 
-
+theme                  : "minimal-mistakes-jekyll"
+# remote_theme           : "mmistakes/minimal-mistakes"
 # Jekyll configuration
+minimal_mistakes_skin :  "air" #, "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 permalink:   /:categories/:title/
 markdown:    kramdown
@@ -27,8 +29,8 @@ kramdown:
 # Site owner
 owner:
   name: Eugene Belilovsky
-  avatar: FullSizeRender.jpg
-  bio: "Postdoctoral Researcher in Machine Learning"
+#  avatar: FullSizeRender.jpg
+  bio: "Researcher in Machine Learning"
   email: Belilovsky.Eugene@gmail.com
   disqus-shortname: 
   twitter: ebelilov
