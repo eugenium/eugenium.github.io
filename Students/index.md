@@ -6,9 +6,9 @@ share: false
 ---
 
 I am leading a research group currently focused on the following themes<br>
-1) Large scale distributed & privacy preserving deep learning - including topic such as decentralized learning and federated learning<br>
+1) Large scale communication-efficient pre-training - including model parallelism, data parallelism, and privacy and heterogeneity in federated learning<br>
 2) Distribution shifts - including topics such as continual learning and domain adaptation<br>
-3) Applications - particularly in healthcare and 3D vision <br>
+3) Learning more efficient optimizers (learned optimizers)
 
 Our group members: 
 
@@ -20,19 +20,23 @@ Our group members:
 [Gwen Legate](https://scholar.google.com/citations?hl=en&user=hwERHFYAAAAJ)<br>
 [Benjamin Therien](https://scholar.google.com/citations?user=RbO_ULYAAAAJ&hl=en) (co-supervised with Irina Rish)<br>
 [Vaibhav Singh](https://scholar.google.com/citations?user=xDFiPCkAAAAJ&hl=en) <br>
+[Paul Janson](https://scholar.google.com/citations?user=wfKn1W0AAAAJ&hl=en) <br>
+[Amirhossein Zamani](https://scholar.google.ca/citations?user=gBTbYKgAAAAJ&hl=en)<br> (co-supervised with Amir Aghdam)
 
 **Msc Students**<br>
-[Paul Janson](https://scholar.google.com/citations?user=wfKn1W0AAAAJ&hl=en) <br>
 Paria Mehrbod (co-supervised with Guy Wolf)<br>
-Alexander Fulleringer<br>
-Nicolas Bernier <br>
-Charles-Etienne Joseph<br>
-Humza Wajid Hameed <br>
+Zafir Khalid <br>
+Xialong Huang <br>
 
 **PostDoc**<br>
 [Geraldin Nanfack](https://gerald4.github.io/)<br>
 
 **Alumni**<br>
+Congshu Zou Msc 2025 <br>
+Humza Wajid Hameed Msc 2025 <br>
+Nicolas Bernier Msc 2025 (Now ML at Amazon)<br>
+Charles-Etienne Joseph Msc 2024 (Now Research engineer at capital one)<br>
+Alexander Fulleringer Msc 2024<br>
 [Nader Asadi](https://naderasadi.github.io/) Msc 2023 (Now ML Researcher at Huawei)<br>
 [Nasir Khalid](https://www.nasir.lol) Msc 2023 (now ML Researcher at Haven Studios)<br>
 [Amir Sarfi](https://scholar.google.com/citations?user=KcYl7zsAAAAJ&hl=en) Msc 2023 (now researcher at Slyod) <br>
