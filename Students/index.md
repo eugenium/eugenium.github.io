@@ -21,7 +21,7 @@ Our group members:
 [Benjamin Therien](https://scholar.google.com/citations?user=RbO_ULYAAAAJ&hl=en) (co-supervised with Irina Rish)<br>
 [Vaibhav Singh](https://scholar.google.com/citations?user=xDFiPCkAAAAJ&hl=en) <br>
 [Paul Janson](https://scholar.google.com/citations?user=wfKn1W0AAAAJ&hl=en) <br>
-[Amirhossein Zamani](https://scholar.google.ca/citations?user=gBTbYKgAAAAJ&hl=en)<br> (co-supervised with Amir Aghdam)
+[Amirhossein Zamani](https://scholar.google.ca/citations?user=gBTbYKgAAAAJ&hl=en)(co-supervised with Amir Aghdam)<br> 
 
 **Msc Students**<br>
 Paria Mehrbod (co-supervised with Guy Wolf)<br>
