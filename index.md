@@ -27,4 +27,4 @@ Broadly my research interests are in Efficient Training for Large Scale Deep Lea
 * MS Amir Sarfi has a paper accepted at CVPR 2023
 * ClipMesh is accepted at SIGGRAPH Asia 2022, see project page https://www.nasir.lol/clipmesh
 
-[Recruiting](http://eugenium.github.io/Projects/index.html)
+[Recruiting](http://eugenium.github.io/Projects/postdoc.html)
