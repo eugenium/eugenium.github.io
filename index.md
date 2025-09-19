@@ -1,12 +1,14 @@
 ---
-layout: splash
-title: "Eugene Belilovsky"
-author_profile: true
+layout: page
 
-header:
-  overlay_image: /images/FullSizeRender.jpg   # exact case matters
-  overlay_filter: 0.25                         # optional
-  image_description: "Eugene Belilovsky"
+tags: [machine learning]
+modified: 2014-08-08T20:53:07.573882-04:00
+share: false
+# image:
+ # feature: neuron2.jpg
+ # credit: WeGraphics
+ # creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
+ # My past research has spanned many areas in Machine Learning, Deep Learning, Computer Vision, and Graphical Models. My PhD thesis developed several machine learning methods that exploit sparse underlying graph structure in applications with limited sample setting such as those found in the analysis of neuro-imaging. During my PhD I have also worked on a broad scope of problems from deep generative modeling, multi-modal learning, bayesian optimization, and large scale image recognition and detection. 
 ---
 
 
