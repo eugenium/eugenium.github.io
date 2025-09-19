@@ -1,16 +1,14 @@
 ---
-layout: single           # or "splash" if you want the full hero splash style
+layout: splash
 title: "Eugene Belilovsky"
 author_profile: true
-tags: [machine learning]
-modified: 2014-08-08T20:53:07.573882-04:00
-share: false
 
 header:
-  image: /images/FullSizeRender.jpg
-  overlay_filter: 0.25        # optional, darkens image for text readability
+  overlay_image: /images/FullSizeRender.jpg   # exact case matters
+  overlay_filter: 0.25                         # optional
   image_description: "Eugene Belilovsky"
 ---
+
 
 I am an Associate Professor at [Concordia University](https://www.concordia.ca/ginacody/computer-science-software-eng.html) and [Mila](https://mila.quebec/) since 2021. Previously, I was a Postdoctoral Researcher at the [Mila](https://mila.quebec/) and  at the University of Montreal working with [Aaron Courville](https://mila.quebec/en/person/aaron-courville/). I completed a (joint) PhD at CentraleSupelec, University of Paris-Saclay  and KU Leuven ([VISICS](https://www.esat.kuleuven.be/psi/visics)) supervised by [Matthew Blaschko](http://homes.esat.kuleuven.be/~mblaschk/) in 2018. During my PhD I also visited the University of Toronto Machine Learning Group working with [Richard Zemel](http://www.cs.toronto.edu/~zemel), and [Raquel Urtasun](http://www.cs.toronto.edu/~urtasun/) and interned in the core machine learning groups at Apple (with Tomas Pfister) and at Amazon (with Matthias Seeger). 
 
