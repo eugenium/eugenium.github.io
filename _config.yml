@@ -1,31 +1,28 @@
 # Site wide configuration
+title: Eugene Belilovsky
+locale: en_US
 
-title:            Eugene Belilovsky
-locale:           en_US
-url:              
+# Important for links, feeds, and some themes:
+url: https://eugenium.github.io
+baseurl: ""   # user/organization sites should keep this empty
 
-#theme                  : "minimal-mistakes-jekyll"
-# remote_theme           : "mmistakes/minimal-mistakes"
-# Jekyll configuration
-minimal_mistakes_skin :  "air" #, "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+# Theme settings
+minimal_mistakes_skin: "air"
 
-permalink:   /:categories/:title/
-markdown:    kramdown
-highlighter: pygments
+# Jekyll config
+permalink: /:categories/:title/
+markdown: kramdown
+highlighter: rouge
+
 sass:
   sass_dir: _sass
   style: compressed
-gems:
-  - jekyll-sitemap
 
-kramdown:
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  use_coderay: false
+# Remove legacy 'gems:' block entirely
+# gems:
+#   - jekyll-sitemap
 
-# Plugins (previously gems:)
+# Plugins (formerly 'gems:')
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
@@ -34,40 +31,32 @@ plugins:
   - jemoji
   - jekyll-include-cache
 
-  
-# Site owner
+# Site owner (unchanged)
 owner:
   name: Eugene Belilovsky
-#  avatar: FullSizeRender.jpg
   bio: "Researcher in Machine Learning"
   email: Belilovsky.Eugene@gmail.com
-  disqus-shortname: 
-  twitter: ebelilov
-  facebook: #username
-  google:
-    plus: #username
-    analytics: 
-    verify: 
-    ad-client: 
-    ad-slot: 
-  bing-verify: 
-  github: eugenium
-  stackoverflow: #http://stackoverflow.com/users/123456/username
-  linkedin: #username
-  xing: #username
-  instagram: #username
-  lastfm: #username
-  tumblr: #username
-  pinterest: #username
-  foursquare: #username
-  steam: #username
-  dribbble: #username
-  youtube: #username
-  soundcloud: #username
-  weibo: #username
-  flickr: #username
 
-#include: [".htaccess"]
 include:
   - _pages
-exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
+exclude:
+  - lib
+  - config.rb
+  - Capfile
+  - config
+  - log
+  - Rakefile
+  - Rakefile.rb
+  - tmp
+  - less
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - test
+  - spec
+  - Gruntfile.js
+  - package.json
+  - node_modules
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
