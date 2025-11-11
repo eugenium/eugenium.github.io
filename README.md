@@ -1,5 +1,5 @@
 # Minimal Mistakes
-
+https://concordia-ca.zoom.us/j/7910151742?pwd=QpzQFwd2kuOkkHSHbGHzzQzE0JQLBq.1
 **[Minimal Mistakes](http://mmistakes.github.io/minimal-mistakes)** is a two column responsive Jekyll theme perfect for powering your GitHub hosted blog. 
 
 ## Minimal Mistakes is all about:
