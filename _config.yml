@@ -36,7 +36,7 @@ owner:
   name: Eugene Belilovsky
   bio: "Researcher in Machine Learning"
   email: Belilovsky.Eugene@gmail.com
-  avatar: hi.jpg
+  avatar: hi.jpeg
 
 include:
   - _pages
