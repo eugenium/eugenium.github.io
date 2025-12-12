@@ -8,6 +8,7 @@
   
 - title: Group
   url: /Students/
+  class: nav-cta
   
 - title: Software
   url: https://github.com/eugenium
