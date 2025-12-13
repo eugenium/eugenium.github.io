@@ -5,6 +5,7 @@
 
 - title: Publications
   url: /Publications/
+  class: nav-cta
   
 - title: Group
   url: /Students/
@@ -12,3 +13,4 @@
   
 - title: Software
   url: https://github.com/eugenium
+  class: nav-cta
