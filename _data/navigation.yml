@@ -14,3 +14,7 @@
 - title: Software
   url: https://github.com/eugenium
   class: nav-cta
+
+- title: CV
+  url: https://github.com/eugenium/eugenium.github.io/blob/master/images/CV_2025.pdf
+  class: nav-cta
