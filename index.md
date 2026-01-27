@@ -17,6 +17,7 @@ I am an Associate Professor at [Concordia University](https://www.concordia.ca/g
 Broadly my research interests are in Efficient Training for Large Scale Deep Learning. My current research focuses on emerging paradigms for the future of large scale pre-training that will be continual (growing in tasks, modalities), decentralized in data (federated), and communication (decentralized/distributed deep learning). I am also intrested in a variety of applications of machine learning particularly involving computer vision, this ranges from specific problems in  healthcare, to scene understanding, and 3D reasoning.
 
 ## Recent News:
+* (New) 2 Papers on Meta-generalization with Learned Optimizers accepted at ICLR 2026 and our Learned Optimization library (PyLo) is accepted at MLSys 2026! 
 * I got tenure! Many thanks to our labs students and collaborators
 * Our group has 3 Papers accepted at ICLR 2025
 * 2 Papers accepted at NeurIPS 2023 on [Federated Transfer Learning](https://arxiv.org/abs/2306.03937) and [Decentralized Learning](https://arxiv.org/abs/2306.08289). 
