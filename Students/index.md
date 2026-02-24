@@ -9,7 +9,7 @@ I lead a research group developing algorithms for more efficient foundational mo
 
 ## PhD Students
 
-- [Reza Davari](https://davari.io)
+- [Pietro Cagnasso](https://scholar.google.com/citations?hl=en&user=qh6T7ugAAAAJ)
 - [Abhinav Moudgil](https://amoudgl.github.io/)
 - [Albert Orozco Camacho](https://scholar.google.com/citations?user=zYXzEisAAAAJ&hl=es) (co-supervised with Guy Wolf)
 - [Adel Nabli](https://scholar.google.com/citations?user=bvNfLmMAAAAJ&hl=en) (co-supervised with Edouard Oyallon)
@@ -21,13 +21,8 @@ I lead a research group developing algorithms for more efficient foundational mo
 
 ## MSc Students (Dropdown)
 
-<!-- Edit names below by updating each <option> line -->
-<label for="msc-students">MSc students:</label>
-<select id="msc-students" name="msc-students">
-  <option>Paria Mehrbod (co-supervised with Guy Wolf)</option>
-  <option>Zafir Khalid</option>
-  <option>Xialong Huang</option>
-</select>
+- [Zafir Khalid](https://scholar.google.com/citations?hl=en&user=mgvQG-QAAAAJ)
+- [Xialong Huang](https://scholar.google.com/citations?user=9Yc727AAAAAJ)
 
 ## Postdocs
 
@@ -48,15 +43,16 @@ I lead a research group developing algorithms for more efficient foundational mo
 - Aaron Courville (UdeM/Mila)
 
 ## Alumni
-
+- Reza Davari - PhD 2025 (Now Research Scientist at Microsoft)
+- Paria Mehrbod - MSc 2025 
 - Congshu Zou — MSc 2025
-- Humza Wajid Hameed — MSc 2025
+- Humza Wajid Hameed — MSc 2025 
 - Nicolas Bernier — MSc 2025 (Now ML at Amazon)
 - Charles-Etienne Joseph — MSc 2024 (Now Research engineer at Capital One)
 - Alexander Fulleringer — MSc 2024
 - [Nader Asadi](https://naderasadi.github.io/) — MSc 2023 (Now ML Researcher at Huawei)
 - [Nasir Khalid](https://www.nasir.lol) — MSc 2023 (Now ML Researcher at Haven Studios)
-- [Amir Sarfi](https://scholar.google.com/citations?user=KcYl7zsAAAAJ&hl=en) — MSc 2023 (Now Researcher at Slyod)
+- [Amir Sarfi](https://scholar.google.com/citations?user=KcYl7zsAAAAJ&hl=en) — MSc 2023 (Now Researcher at Covenant AI)
 - [Adeetya Patel](https://ca.linkedin.com/in/adeetyap) — MSc 2023 (Now RA at McGill University)
 - [Medric Sonwa](https://github.com/medric49) — MSc 2023 (Now Data Scientist at ONMO)
 - [Muawiz Chaudhary](https://scholar.google.ca/citations?hl=en&user=4Z8ePskAAAAJ) — MSc 2023
