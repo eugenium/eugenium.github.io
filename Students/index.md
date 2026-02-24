@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Students
+title: Group
 share: false
 ---
 
