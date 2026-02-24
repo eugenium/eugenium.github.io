@@ -28,5 +28,3 @@ Broadly my research interests are in Efficient Training for Large Scale Deep Lea
 * I am co-organizing the workshop on "Localized Learning" at ICML 2023
 * MS Amir Sarfi has a paper accepted at CVPR 2023
 * ClipMesh is accepted at SIGGRAPH Asia 2022, see project page https://www.nasir.lol/clipmesh
-
-[Recruiting](http://eugenium.github.io/Projects/postdoc.html)
