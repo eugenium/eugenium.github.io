@@ -4,7 +4,8 @@ title: Students
 share: false
 ---
 
-Simple, easy-to-edit list of current group members.
+I lead a research group developing algorithms for more efficient foundational model training as well as trustworthiness. Recent focus of the team includes among others communication-efficient pre-training, continual learning and adaptation, learning optimization.
+
 
 ## PhD Students
 
@@ -31,7 +32,7 @@ Simple, easy-to-edit list of current group members.
 ## Postdocs
 
 - [Geraldin Nanfack](https://gerald4.github.io/)
-- Kaly Zhang
+- [Kaly Zhang](https://sites.google.com/view/yanleizhang/home)
 
 ## Frequent Collaborators
 
