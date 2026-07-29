@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Page not found | Eugene Belilovsky</title>
+  <link rel="stylesheet" href="/assets/css/main.css?v=2">
+  <script src="/assets/js/theme.js?v=2"></script>
+  <script>
+    // Redirect legacy and wrong-case URLs from the old site.
+    (function () {
+      var p = location.pathname;
+      var l = p.toLowerCase();
+      var map = {
+        "/students/": "/group/",
+        "/students": "/group/",
+        "/projects/postdoc.html": "/join/",
+        "/projects/": "/",
+        "/projects": "/"
+      };
+      var target = map[l] || (l !== p ? l : null);
+      if (target) location.replace(target + location.search + location.hash);
+    })();
+  </script>
+</head>
+<body>
+<div class="container content">
+  <h1 class="post-title">Page not found</h1>
+  <p class="desc">The page you are looking for does not exist. Head back to the <a href="/">home page</a>.</p>
+</div>
+</body>
+</html>
