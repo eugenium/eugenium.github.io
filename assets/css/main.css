@@ -1,0 +1,240 @@
+/* Eugene Belilovsky — academic site
+   Look & feel modeled on the al-folio Jekyll theme (as customized on guillaumelajoie.com) */
+
+:root {
+  --global-bg-color: #fff;
+  --global-text-color: #000;
+  --global-text-color-light: #828282;
+  --global-theme-color: #0057ac;
+  --global-hover-color: #0057ac;
+  --global-theme-dark-color: #073763;
+  --global-navbar-color: #073763;
+  --global-navbar-text-color: #fff;
+  --global-divider-color: rgba(0, 0, 0, 0.1);
+  --global-card-bg-color: #fff;
+  --global-footer-bg-color: #e8e8e8;
+  --global-footer-text-color: #1c1c1d;
+  --global-badge-text-color: #fff;
+}
+
+html[data-theme="dark"] {
+  --global-bg-color: #1c1c1d;
+  --global-text-color: #e8e8e8;
+  --global-text-color-light: #828282;
+  --global-theme-color: #4a9fe8;
+  --global-hover-color: #4a9fe8;
+  --global-theme-dark-color: #073763;
+  --global-navbar-color: #14141f;
+  --global-navbar-text-color: #fff;
+  --global-divider-color: #424246;
+  --global-card-bg-color: #212529;
+  --global-footer-bg-color: #14141f;
+  --global-footer-text-color: #e8e8e8;
+  --global-badge-text-color: #fff;
+}
+
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--global-text-color);
+  background-color: var(--global-bg-color);
+  padding-top: 57px;      /* fixed navbar */
+  padding-bottom: 70px;   /* fixed footer */
+}
+
+a { color: var(--global-theme-color); text-decoration: none; }
+a:hover { color: var(--global-hover-color); text-decoration: underline; }
+
+/* ---------- navbar ---------- */
+header nav {
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  z-index: 100;
+  background-color: var(--global-navbar-color);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+.nav-inner {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  min-height: 57px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  column-gap: 1.4rem;
+}
+.nav-inner a, .nav-inner button {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 1rem;
+  padding: 0.85rem 0;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+}
+.nav-inner a:hover, .nav-inner button:hover {
+  color: var(--global-navbar-text-color);
+  text-decoration: none;
+}
+.nav-inner a.active { color: var(--global-navbar-text-color); font-weight: 700; }
+
+/* theme toggle: show moon in light mode, sun in dark mode */
+#light-toggle svg { width: 1.1rem; height: 1.1rem; fill: currentColor; vertical-align: -0.15rem; }
+#light-toggle .icon-sun { display: none; }
+html[data-theme="dark"] #light-toggle .icon-sun { display: inline; }
+html[data-theme="dark"] #light-toggle .icon-moon { display: none; }
+
+/* ---------- layout ---------- */
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 3rem 1rem 2rem;
+}
+
+h1.post-title {
+  font-size: 2.7rem;
+  font-weight: 400;
+  line-height: 1.15;
+  margin: 0 0 0.6rem;
+}
+h1.post-title .post-title-bold { font-weight: 600; }
+
+p.desc { margin: 0 0 1.8rem; }
+
+h2 {
+  font-size: 1.75rem;
+  font-weight: 500;
+  margin: 2.2rem 0 0.8rem;
+}
+h2 a { color: inherit; }
+
+h3 { font-weight: 500; }
+
+/* profile photo, floated right like al-folio */
+.profile {
+  float: right;
+  width: 30%;
+  max-width: 270px;
+  margin-left: 1.5rem;
+  margin-bottom: 0.75rem;
+}
+.profile img {
+  width: 100%;
+  border-radius: 0.4rem;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+.clearfix::after { content: ""; display: table; clear: both; }
+
+/* social icon row */
+.social {
+  text-align: center;
+  margin: 1.6rem 0 0.5rem;
+}
+.social a {
+  color: var(--global-text-color);
+  margin: 0 0.7rem;
+  display: inline-block;
+}
+.social a:hover { color: var(--global-theme-color); }
+.social svg { width: 2rem; height: 2rem; fill: currentColor; vertical-align: middle; }
+
+/* ---------- news table ---------- */
+.news .table-scroll { max-height: 60vh; overflow-y: auto; }
+.news table { width: 100%; border-collapse: collapse; }
+.news th {
+  width: 18%;
+  min-width: 105px;
+  text-align: left;
+  vertical-align: top;
+  font-weight: 500;
+  padding: 0.3rem 0.5rem 0.3rem 0;
+}
+.news td { padding: 0.3rem 0; vertical-align: top; }
+
+/* ---------- publications ---------- */
+h2.year {
+  color: var(--global-divider-color);
+  font-size: 2rem;
+  font-weight: 600;
+  border-top: 1px solid var(--global-divider-color);
+  padding-top: 1rem;
+  margin: 2.4rem 0 1rem;
+}
+
+.pub-entry {
+  display: grid;
+  grid-template-columns: 110px 1fr;
+  gap: 1.1rem;
+  margin-bottom: 1.6rem;
+}
+.pub-badge {
+  align-self: start;
+  text-align: center;
+  background-color: var(--global-theme-color);
+  color: var(--global-badge-text-color);
+  border-radius: 0.4rem;
+  padding: 0.3rem 0.3rem;
+  font-size: 0.8rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+.pub-badge.preprint { background-color: var(--global-text-color-light); }
+.pub-title { font-weight: 500; margin: 0 0 0.15rem; font-size: 1.02rem; }
+.pub-authors { margin: 0 0 0.15rem; font-size: 0.93rem; }
+.pub-venue { margin: 0 0 0.4rem; font-size: 0.86rem; color: var(--global-text-color-light); }
+.pub-links a {
+  display: inline-block;
+  border: 1px solid var(--global-text-color-light);
+  border-radius: 0.3rem;
+  color: var(--global-text-color-light);
+  font-size: 0.72rem;
+  font-weight: 500;
+  letter-spacing: 0.05rem;
+  text-transform: uppercase;
+  padding: 0.05rem 0.55rem;
+  margin-right: 0.4rem;
+}
+.pub-links a:hover {
+  background-color: var(--global-theme-color);
+  border-color: var(--global-theme-color);
+  color: #fff;
+  text-decoration: none;
+}
+
+/* ---------- generic lists (group / join pages) ---------- */
+.content ul { padding-left: 1.4rem; }
+.content li { margin-bottom: 0.3rem; }
+
+/* ---------- footer ---------- */
+footer {
+  position: fixed;
+  bottom: 0; left: 0; right: 0;
+  background-color: var(--global-footer-bg-color);
+  color: var(--global-footer-text-color);
+  font-size: 0.78rem;
+  text-align: center;
+  padding: 0.6rem 1rem;
+  z-index: 90;
+}
+footer a { color: var(--global-footer-text-color); text-decoration: underline; }
+
+/* ---------- responsive ---------- */
+@media (max-width: 576px) {
+  h1.post-title { font-size: 2.1rem; }
+  .profile {
+    float: none;
+    width: 60%;
+    margin: 0 auto 1rem;
+    display: block;
+  }
+  .pub-entry { grid-template-columns: 84px 1fr; gap: 0.7rem; }
+  body { padding-bottom: 90px; }
+}
