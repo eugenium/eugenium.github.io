@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#f7d98b">
+  <meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noimageindex">
+  <meta name="googlebot" content="noindex, nofollow, noarchive, nosnippet, noimageindex">
+  <meta name="referrer" content="no-referrer">
+  <title>Léo and the Garden Cats</title>
+  <style>
+    :root {
+      --ink: #3f392f;
+      --cream: #fffaf0;
+      --paper: #fffdf7;
+      --terracotta: #d97855;
+      --blue: #5d91c9;
+      --sun: #f6c85f;
+      --leaf: #638b5a;
+      --lavender: #8a73b8;
+    }
+
+    * { box-sizing: border-box; }
+    html, body { height: 100%; }
+    body {
+      margin: 0;
+      overflow: hidden;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at 18% 8%, rgba(255,255,255,.85), transparent 30%),
+        linear-gradient(145deg, #f7e8bc, #efc98b);
+      font-family: ui-rounded, "SF Pro Rounded", "Arial Rounded MT Bold", system-ui, sans-serif;
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    button, a { font: inherit; }
+    button { color: inherit; }
+    .sr-only {
+      position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
+      overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0;
+    }
+
+    .app {
+      min-height: 100%;
+      display: grid;
+      grid-template-rows: auto 1fr auto;
+      gap: 12px;
+      padding: max(12px, env(safe-area-inset-top)) 14px max(12px, env(safe-area-inset-bottom));
+    }
+
+    .topbar, .controls {
+      width: min(1120px, 100%);
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+    }
+    .topbar { justify-content: space-between; min-height: 42px; }
+    .home, .sound {
+      min-width: 44px; height: 44px; border: 0; border-radius: 50%;
+      display: grid; place-items: center; background: rgba(255,255,255,.76);
+      color: #594b39; text-decoration: none; cursor: pointer;
+      box-shadow: 0 3px 12px rgba(91,65,32,.11);
+    }
+    .home:focus-visible, .sound:focus-visible, .nav-button:focus-visible,
+    .start-button:focus-visible, .dot:focus-visible {
+      outline: 4px solid rgba(54,119,184,.42); outline-offset: 3px;
+    }
+    .home-icon { width: 12px; height: 12px; border-left: 3px solid; border-bottom: 3px solid; transform: rotate(45deg); margin-left: 5px; }
+    .book-name { font-size: clamp(14px, 2.5vw, 18px); font-weight: 800; letter-spacing: .02em; }
+    .sound { font-size: 20px; }
+    .sound[data-speaking="true"] { background: #fff; color: #2574ad; }
+
+    .book {
+      position: relative;
+      width: min(1120px, 100%);
+      height: 100%;
+      min-height: 0;
+      margin: 0 auto;
+      background: var(--paper);
+      border: 1px solid rgba(116,79,33,.12);
+      border-radius: clamp(22px, 4vw, 38px);
+      box-shadow: 0 18px 60px rgba(111,75,29,.20), inset 0 0 0 5px rgba(255,255,255,.5);
+      overflow: hidden;
+    }
+
+    .page {
+      position: absolute; inset: 0;
+      display: grid;
+      grid-template-columns: minmax(0, 1.65fr) minmax(290px, .9fr);
+      opacity: 0; visibility: hidden;
+      transform: translateX(22px) scale(.99);
+      transition: opacity .32s ease, transform .38s cubic-bezier(.22,.75,.25,1), visibility 0s .38s;
+      background: var(--paper);
+    }
+    .page.active { opacity: 1; visibility: visible; transform: none; transition-delay: 0s; z-index: 2; }
+    .page.leaving-left { transform: translateX(-22px) scale(.99); }
+
+    .copy {
+      display: flex; flex-direction: column; justify-content: center;
+      padding: clamp(26px, 5vw, 70px);
+      position: relative;
+      background:
+        radial-gradient(circle at 20% 10%, rgba(246,200,95,.15), transparent 24%),
+        var(--cream);
+    }
+    .eyebrow { color: #a25a41; font-size: 13px; font-weight: 900; letter-spacing: .14em; text-transform: uppercase; margin-bottom: 14px; }
+    .copy h1 { margin: 0; color: #b85e43; font-size: clamp(37px, 5.5vw, 69px); line-height: .98; letter-spacing: -.045em; }
+    .copy h2 { margin: 0 0 15px; color: #a95c45; font-size: clamp(25px, 3vw, 42px); line-height: 1.05; }
+    .copy p { margin: 0; font-family: Georgia, "Times New Roman", serif; font-size: clamp(20px, 2.4vw, 31px); line-height: 1.42; }
+    .copy p + p { margin-top: .8em; }
+    .tiny-note { margin-top: 20px; font: 800 14px/1.4 ui-rounded, system-ui, sans-serif; color: #7a6b57; }
+    .start-button {
+      align-self: flex-start; margin-top: 28px; border: 0; border-radius: 999px;
+      padding: 15px 22px; background: #cb6d4f; color: white; font-weight: 900; cursor: pointer;
+      box-shadow: 0 7px 0 #984c37; transition: transform .14s, box-shadow .14s;
+    }
+    .start-button:active { transform: translateY(4px); box-shadow: 0 3px 0 #984c37; }
+    .end-mark { font-size: 44px; margin-top: 24px; letter-spacing: .12em; color: #d59a54; }
+
+    .illustration {
+      min-height: 0; position: relative; overflow: hidden;
+      isolation: isolate;
+      background: linear-gradient(#91cae5 0 55%, #b7cf84 55% 100%);
+    }
+    .illustration.with-art { background: #e9d9b7; }
+    .illustration.with-art > :not(.story-art) { display: none; }
+    .story-art {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
+    .illustration::after {
+      content: ""; position: absolute; inset: 0; z-index: 50; pointer-events: none;
+      background-image: radial-gradient(rgba(255,255,255,.38) .75px, transparent .9px);
+      background-size: 5px 5px; mix-blend-mode: soft-light; opacity: .45;
+    }
+    .sun { position: absolute; width: 84px; height: 84px; border-radius: 50%; background: #ffe58d; top: 7%; right: 8%; box-shadow: 0 0 0 15px rgba(255,229,141,.16); }
+    .cloud { position: absolute; width: 88px; height: 28px; border-radius: 30px; background: rgba(255,255,255,.72); top: 12%; left: 12%; }
+    .cloud::before, .cloud::after { content: ""; position: absolute; border-radius: 50%; background: inherit; }
+    .cloud::before { width: 39px; height: 39px; left: 14px; bottom: 4px; }
+    .cloud::after { width: 50px; height: 50px; right: 8px; bottom: 1px; }
+    .hill { position: absolute; border-radius: 50% 50% 0 0; background: #8fb570; }
+    .hill.one { width: 80%; height: 32%; left: -18%; bottom: 29%; transform: rotate(5deg); }
+    .hill.two { width: 85%; height: 27%; right: -24%; bottom: 35%; background: #a7c67b; transform: rotate(-5deg); }
+    .ground { position: absolute; left: 0; right: 0; bottom: 0; height: 40%; background: linear-gradient(#a7c677, #7da15d); }
+    .path { position: absolute; z-index: 2; bottom: -8%; left: 20%; width: 58%; height: 47%; background: #e7c99d; clip-path: polygon(40% 0, 62% 0, 100% 100%, 0 100%); }
+
+    .house { position: absolute; z-index: 3; left: 8%; bottom: 25%; width: 52%; height: 42%; background: #e8c890; border-radius: 3px; box-shadow: inset 0 -8px rgba(154,102,50,.08); }
+    .house::before { content: ""; position: absolute; left: -7%; top: -27%; width: 114%; height: 32%; background: #b75d43; clip-path: polygon(50% 0, 100% 100%, 0 100%); }
+    .chimney { position: absolute; width: 9%; height: 24%; left: 16%; top: -31%; background: #a8533e; }
+    .window { position: absolute; width: 17%; height: 23%; top: 20%; background: #8ebbd4; border: 5px solid #f7e4b8; box-shadow: -10px 0 0 #5f87ae, 10px 0 0 #5f87ae; }
+    .window.w1 { left: 17%; } .window.w2 { right: 17%; }
+    .door { position: absolute; width: 17%; height: 36%; left: 42%; bottom: 0; background: #7f523e; border-radius: 14px 14px 0 0; }
+
+    .tree { position: absolute; z-index: 5; width: 12%; height: 49%; bottom: 22%; }
+    .tree .trunk { position: absolute; bottom: 0; left: 42%; width: 20%; height: 56%; border-radius: 30% 30% 10% 10%; background: #825b3e; }
+    .tree .crown { position: absolute; width: 100%; aspect-ratio: 1; border-radius: 45% 55% 48% 52%; background: #588554; box-shadow: 35px 12px 0 #6f9b5d, 16px -25px 0 #6b965a; }
+    .tree.t1 { left: 9%; } .tree.t2 { left: 38%; transform: scale(.86); } .tree.t3 { right: 9%; transform: scale(1.08); }
+    .apple { position: absolute; width: 10px; height: 10px; border-radius: 50%; background: #d95e48; z-index: 2; }
+
+    .flower-bed { position: absolute; z-index: 9; left: 3%; right: 3%; bottom: 14%; display: flex; align-items: end; justify-content: space-around; }
+    .flower { position: relative; width: 7px; height: 45px; background: #4f7f4b; transform-origin: bottom; }
+    .flower::before { content: ""; position: absolute; width: 22px; height: 22px; border-radius: 50%; background: var(--bloom, #d85f65); left: -8px; top: -7px; box-shadow: 7px 5px 0 rgba(255,255,255,.2); }
+    .flower:nth-child(2n) { height: 54px; transform: rotate(5deg); }
+    .flower:nth-child(3n) { height: 37px; transform: rotate(-7deg); --bloom: #f0b34f; }
+
+    .lavender { position: absolute; z-index: 10; bottom: 7%; left: 0; right: 0; display: flex; justify-content: space-around; align-items: end; }
+    .lavender i { display: block; width: 10px; height: var(--h, 95px); border-left: 4px solid #507d4d; transform: rotate(var(--r, 0deg)); position: relative; }
+    .lavender i::before { content: ""; position: absolute; width: 14px; height: 52%; left: -9px; top: -2px; border-radius: 12px; background: repeating-linear-gradient(0deg,#7962a9 0 7px,#9b82c2 7px 11px); }
+
+    .bench { position: absolute; z-index: 7; left: 32%; bottom: 20%; width: 36%; height: 18%; }
+    .bench::before, .bench::after { content: ""; position: absolute; left: 0; width: 100%; height: 22%; border-radius: 4px; background: #9b623e; box-shadow: inset 0 -4px rgba(70,35,18,.18); }
+    .bench::before { top: 0; } .bench::after { top: 34%; }
+    .bench i { position: absolute; width: 7%; height: 54%; background: #6f4936; bottom: 0; }
+    .bench i:first-child { left: 12%; } .bench i:last-child { right: 12%; }
+
+    .garden-row { position: absolute; z-index: 4; bottom: 7%; width: 26%; height: 16%; background: #8d6747; border-radius: 50%; }
+    .garden-row.r1 { left: 4%; } .garden-row.r2 { left: 37%; } .garden-row.r3 { right: 4%; }
+    .garden-row::before { content: ""; position: absolute; width: 100%; height: 80%; bottom: 45%; background: repeating-linear-gradient(90deg,transparent 0 12%,#5a8e4d 12% 22%,transparent 22% 34%); border-radius: 50%; }
+    .watering-can { position: absolute; z-index: 9; right: 16%; bottom: 19%; width: 78px; height: 55px; border-radius: 8px 8px 20px 20px; background: #6fa1b6; }
+    .watering-can::before { content: ""; position: absolute; width: 55px; height: 35px; border: 10px solid #6fa1b6; border-bottom: 0; border-radius: 50% 50% 0 0; left: 9px; top: -29px; }
+    .watering-can::after { content: ""; position: absolute; width: 68px; height: 17px; background: #6fa1b6; right: -56px; top: 6px; transform: rotate(-20deg); border-radius: 0 20px 20px 0; }
+
+    .clothesline { position: absolute; z-index: 9; top: 20%; left: 10%; right: 8%; height: 3px; background: #6f5d48; transform: rotate(-1deg); }
+    .sheet { position: absolute; top: 4px; width: 29%; height: 175px; background: #fffdf5; border-radius: 2px 2px 14px 8px; box-shadow: inset 0 -14px rgba(138,184,205,.08); }
+    .sheet.s1 { left: 6%; transform: rotate(2deg); } .sheet.s2 { left: 39%; transform: rotate(-2deg); } .sheet.s3 { right: 0; transform: rotate(1deg); }
+    .peg { position: absolute; top: -7px; width: 7px; height: 17px; background: #c77a4a; border-radius: 3px; }
+    .basket { position: absolute; z-index: 13; right: 9%; bottom: 9%; width: 145px; height: 82px; border-radius: 14px 14px 45px 45px; background: repeating-linear-gradient(0deg,#b87c49 0 8px,#d5a060 8px 14px); border: 6px solid #8f603b; }
+    .basket::before { content: ""; position: absolute; left: 18px; right: 18px; height: 70px; top: -50px; border: 8px solid #9c6b42; border-bottom: 0; border-radius: 50% 50% 0 0; }
+
+    .blanket { position: absolute; z-index: 6; bottom: 5%; left: 17%; width: 59%; height: 29%; transform: skewX(-10deg); background: repeating-linear-gradient(90deg,#f7e1a6 0 34px,#da7f5b 34px 38px); border-radius: 7px; }
+    .snack { position: absolute; z-index: 14; width: 64px; height: 28px; border-radius: 50%; background: #f4efe0; left: 44%; bottom: 21%; box-shadow: inset 0 -5px #c7a16c; }
+
+    .person { position: absolute; z-index: 16; width: 94px; height: 190px; transform-origin: bottom center; }
+    .person .head { position: absolute; z-index: 3; width: 61px; height: 68px; left: 17px; top: 24px; background: #f1bd8c; border-radius: 45% 45% 48% 48%; box-shadow: inset 0 -4px rgba(174,103,69,.08); }
+    .person .eye { position: absolute; z-index: 5; width: 8px; height: 9px; border-radius: 50%; background: #397fbd; top: 51px; box-shadow: inset 0 0 0 2px #22649c; }
+    .person .eye.e1 { left: 31px; } .person .eye.e2 { left: 54px; }
+    .person .smile { position: absolute; z-index: 5; width: 20px; height: 10px; border-bottom: 3px solid #a75a45; border-radius: 50%; top: 67px; left: 38px; }
+    .person .hair { position: absolute; z-index: 6; left: 14px; top: 13px; width: 67px; height: 42px; }
+    .person .hair i { position: absolute; width: 25px; height: 25px; border-radius: 50%; background: #f2c54f; box-shadow: inset 0 -3px #dda93f; }
+    .person .hair i:nth-child(1){left:0;top:13px}.person .hair i:nth-child(2){left:9px;top:2px}.person .hair i:nth-child(3){left:25px;top:-3px}.person .hair i:nth-child(4){left:41px;top:2px}.person .hair i:nth-child(5){left:48px;top:15px}
+    .person .body { position: absolute; z-index: 2; left: 21px; top: 87px; width: 53px; height: 63px; background: #acd4e4; border-radius: 18px 18px 9px 9px; }
+    .person .overalls { position: absolute; inset: 12px 4px 0; border-radius: 8px 8px 4px 4px; background: #efbd49; }
+    .person .overalls::before, .person .overalls::after { content: ""; position: absolute; top: -14px; width: 8px; height: 25px; background: #efbd49; }
+    .person .overalls::before { left: 7px; transform: rotate(-8deg); } .person .overalls::after { right: 7px; transform: rotate(8deg); }
+    .person .arm { position: absolute; z-index: 1; top: 93px; width: 17px; height: 58px; background: #f1bd8c; border-radius: 12px; transform-origin: top; }
+    .person .arm.a1 { left: 10px; transform: rotate(9deg); } .person .arm.a2 { right: 9px; transform: rotate(-9deg); }
+    .person .leg { position: absolute; z-index: 1; top: 141px; width: 19px; height: 43px; background: #f1bd8c; border-radius: 0 0 9px 9px; }
+    .person .leg.l1 { left: 25px; } .person .leg.l2 { left: 53px; }
+    .person .shoe { position: absolute; z-index: 4; width: 31px; height: 14px; top: 178px; border-radius: 13px 13px 7px 7px; background: #cf594b; }
+    .person .shoe.s1 { left: 17px; } .person .shoe.s2 { left: 49px; }
+
+    .grandparent { position: absolute; z-index: 14; width: 88px; height: 205px; transform-origin: bottom; }
+    .grandparent .head { position: absolute; left: 18px; top: 12px; width: 55px; height: 63px; border-radius: 48%; background: #efbd91; }
+    .grandparent .hair { position: absolute; left: 13px; top: 1px; width: 64px; height: 35px; border-radius: 50% 50% 35% 35%; background: #f3efe5; }
+    .grandparent .body { position: absolute; left: 10px; top: 70px; width: 70px; height: 108px; border-radius: 25px 25px 10px 10px; background: var(--clothes,#829cb5); }
+    .grandparent .leg { position: absolute; top: 165px; width: 17px; height: 36px; background: #6e594b; }
+    .grandparent .leg:nth-last-child(2) { left: 23px; } .grandparent .leg:last-child { right: 23px; }
+    .grandparent .smile { position: absolute; left: 34px; top: 48px; width: 18px; height: 9px; border-bottom: 3px solid #a55f4a; border-radius: 50%; }
+
+    .cat { position: absolute; z-index: 18; width: 112px; height: 104px; color: #24252b; transform-origin: bottom center; }
+    .cat .body { position: absolute; width: 72px; height: 49px; right: 0; bottom: 7px; background: currentColor; border-radius: 50% 53% 42% 45%; }
+    .cat .head { position: absolute; width: 50px; height: 47px; left: 7px; bottom: 35px; background: currentColor; border-radius: 48% 48% 44% 44%; }
+    .cat .head::before, .cat .head::after { content: ""; position: absolute; top: -15px; width: 26px; height: 29px; background: currentColor; clip-path: polygon(50% 0,100% 100%,0 100%); }
+    .cat .head::before { left: -1px; transform: rotate(-10deg); } .cat .head::after { right: -1px; transform: rotate(10deg); }
+    .cat .eye { position: absolute; z-index: 2; top: 19px; width: 7px; height: 8px; border-radius: 50%; background: #e8c94a; }
+    .cat .eye.e1 { left: 13px; } .cat .eye.e2 { right: 13px; }
+    .cat .tail { position: absolute; width: 55px; height: 63px; right: -7px; bottom: 28px; border: 12px solid currentColor; border-left-color: transparent; border-bottom-color: transparent; border-radius: 50%; transform: rotate(18deg); }
+    .cat.white { color: #fffdf6; filter: drop-shadow(0 2px 1px rgba(78,74,65,.35)); }
+    .cat.white .eye { background: #68a274; }
+    .cat .nose { position: absolute; z-index: 3; left: 23px; top: 29px; width: 6px; height: 5px; border-radius: 50%; background: #d98791; }
+
+    .scene-cover .house, .scene-arrival .house { left: 7%; width: 57%; }
+    .scene-cover .person { right: 18%; bottom: 10%; transform: scale(1.2); }
+    .scene-cover .black-cat { left: 18%; bottom: 7%; transform: scale(.85); }
+    .scene-cover .white-cat { right: 4%; bottom: 4%; transform: scale(.82); }
+    .scene-arrival .person { right: 26%; bottom: 8%; transform: scale(.92); }
+    .scene-arrival .person .arm.a2 { transform: rotate(-135deg); }
+    .scene-arrival .grandma { right: 16%; bottom: 14%; --clothes: #c67b70; transform: scale(.86); }
+    .scene-arrival .grandpa { right: 2%; bottom: 11%; --clothes: #788f6f; transform: scale(.92); }
+    .scene-arrival .black-cat, .scene-arrival .white-cat { display: none; }
+
+    .scene-blackcat .house { width: 36%; height: 32%; left: 4%; bottom: 33%; }
+    .scene-blackcat .person { left: 48%; bottom: 9%; transform: scale(1.02); }
+    .scene-blackcat .person .arm.a1 { transform: rotate(65deg); }
+    .scene-blackcat .black-cat { left: 14%; bottom: 8%; transform: scale(1.05); }
+    .scene-blackcat .white-cat { display: none; }
+
+    .scene-lavender .house, .scene-lavender .flower-bed, .scene-lavender .black-cat { display: none; }
+    .scene-lavender .person { left: 42%; bottom: 12%; transform: scale(1.03) rotate(3deg); }
+    .scene-lavender .white-cat { right: 5%; bottom: 13%; transform: scale(.62); z-index: 8; opacity: .86; }
+
+    .scene-orchard .house, .scene-orchard .flower-bed, .scene-orchard .lavender, .scene-orchard .black-cat { display: none; }
+    .scene-orchard .person { left: 10%; bottom: 7%; transform: scale(.97) rotate(7deg); }
+    .scene-orchard .white-cat { left: 48%; bottom: 16%; transform: scale(.56); z-index: 6; opacity: .84; }
+
+    .scene-patch .house, .scene-patch .flower-bed, .scene-patch .lavender, .scene-patch .black-cat, .scene-patch .tree { display: none; }
+    .scene-patch .person { left: 39%; bottom: 10%; transform: scale(1.02); }
+    .scene-patch .white-cat { right: 10%; bottom: 15%; transform: scale(.52); z-index: 7; opacity: .76; }
+
+    .scene-found .house, .scene-found .flower-bed, .scene-found .lavender, .scene-found .black-cat, .scene-found .tree { display: none; }
+    .scene-found .person { left: 16%; bottom: 8%; transform: scale(1.08); }
+    .scene-found .person .arm.a2 { transform: rotate(-70deg); }
+    .scene-found .white-cat { right: 12%; bottom: 11%; transform: scale(.94); z-index: 15; }
+    .scene-found .spark { display: block; position: absolute; z-index: 20; right: 13%; bottom: 25%; width: 150px; height: 150px; border: 7px dotted rgba(246,200,95,.75); border-radius: 50%; animation: twinkle 2.4s ease-in-out infinite; }
+    @keyframes twinkle { 50% { transform: scale(1.08) rotate(10deg); opacity: .55; } }
+
+    .scene-ending { background: linear-gradient(#efb17f 0 45%, #b9a878 72%, #75915d 72%); }
+    .scene-ending .sun { top: 18%; right: 10%; background: #f7dc88; }
+    .scene-ending .house { width: 35%; height: 31%; left: 4%; bottom: 34%; }
+    .scene-ending .person { left: 41%; bottom: 7%; transform: scale(.8); }
+    .scene-ending .grandma { left: 22%; bottom: 13%; --clothes: #c67b70; transform: scale(.72); }
+    .scene-ending .grandpa { right: 12%; bottom: 13%; --clothes: #788f6f; transform: scale(.75); }
+    .scene-ending .black-cat { left: 18%; bottom: 5%; transform: scale(.72); }
+    .scene-ending .white-cat { right: 29%; bottom: 4%; transform: scale(.72); }
+
+    .controls { justify-content: space-between; gap: 12px; min-height: 50px; }
+    .nav-button {
+      min-width: 108px; height: 48px; border: 0; border-radius: 999px;
+      padding: 0 19px; display: inline-flex; align-items: center; justify-content: center; gap: 8px;
+      background: rgba(255,255,255,.82); box-shadow: 0 4px 14px rgba(96,63,27,.12); font-weight: 900; cursor: pointer;
+    }
+    .nav-button:disabled { opacity: .36; cursor: default; }
+    .nav-button.next { background: #c96b4d; color: white; }
+    .dots { flex: 1; display: flex; align-items: center; justify-content: center; gap: clamp(5px, 1.3vw, 10px); }
+    .dot { width: 9px; height: 9px; border: 0; padding: 0; border-radius: 50%; background: rgba(91,70,46,.24); cursor: pointer; transition: width .2s, background .2s; }
+    .dot.active { width: 26px; border-radius: 10px; background: #bd664c; }
+
+    @media (max-width: 760px) {
+      .app { gap: 8px; padding-left: 9px; padding-right: 9px; }
+      .page { grid-template-columns: 1fr; grid-template-rows: minmax(0, 56%) minmax(0, 44%); }
+      .illustration { grid-row: 1; }
+      .copy { grid-row: 2; padding: 20px 23px 22px; justify-content: center; }
+      .copy h1 { font-size: clamp(34px, 10vw, 52px); }
+      .copy h2 { font-size: clamp(24px, 6.5vw, 34px); margin-bottom: 8px; }
+      .copy p { font-size: clamp(19px, 5vw, 25px); line-height: 1.28; }
+      .eyebrow { font-size: 11px; margin-bottom: 7px; }
+      .start-button { margin-top: 15px; padding: 12px 18px; }
+      .tiny-note { display: none; }
+      .nav-button { min-width: 49px; width: 49px; padding: 0; font-size: 0; }
+      .nav-button span { font-size: 21px; }
+      .book { border-radius: 24px; }
+      .topbar { min-height: 38px; }
+      .home, .sound { width: 40px; min-width: 40px; height: 40px; }
+      .person { transform-origin: bottom center; }
+    }
+
+    @media (max-height: 670px) and (max-width: 760px) {
+      .page { grid-template-rows: 53% 47%; }
+      .copy { padding-top: 14px; padding-bottom: 14px; }
+      .copy p { font-size: clamp(17px, 4.2vw, 21px); }
+      .copy h2 { font-size: 23px; }
+      .eyebrow { display: none; }
+      .app { gap: 5px; }
+      .controls { min-height: 44px; }
+      .nav-button { height: 42px; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after { animation-duration: .01ms !important; transition-duration: .01ms !important; }
+    }
+  </style>
+</head>
+<body>
+  <div class="app">
+    <header class="topbar">
+      <a class="home" href="/" aria-label="Back to the main website"><span class="home-icon" aria-hidden="true"></span></a>
+      <div class="book-name">Léo and the Garden Cats</div>
+      <button class="sound" type="button" aria-label="Read this page aloud" title="Read aloud">♪</button>
+    </header>
+
+    <main class="book" aria-live="polite">
+      <article class="page active" data-title="Cover" data-narration="Léo and the Garden Cats. A little hide-and-seek story.">
+        <div class="illustration scene-cover with-art" role="img" aria-label="Léo, a curly blond boy with blue eyes, stands in his grandparents’ garden with a black cat and a white cat">
+          <img class="story-art" src="assets/storybook/cover-handdrawn.webp" alt="" decoding="async">
+          <div class="sun"></div><div class="cloud"></div><div class="hill one"></div><div class="hill two"></div><div class="ground"></div><div class="path"></div>
+          <div class="house"><i class="chimney"></i><i class="window w1"></i><i class="window w2"></i><i class="door"></i></div>
+          <div class="person"><div class="head"></div><div class="hair"><i></i><i></i><i></i><i></i><i></i></div><i class="eye e1"></i><i class="eye e2"></i><i class="smile"></i><div class="body"><i class="overalls"></i></div><i class="arm a1"></i><i class="arm a2"></i><i class="leg l1"></i><i class="leg l2"></i><i class="shoe s1"></i><i class="shoe s2"></i></div>
+          <div class="cat black-cat"><i class="tail"></i><i class="body"></i><div class="head"><i class="eye e1"></i><i class="eye e2"></i><i class="nose"></i></div></div>
+          <div class="cat white white-cat"><i class="tail"></i><i class="body"></i><div class="head"><i class="eye e1"></i><i class="eye e2"></i><i class="nose"></i></div></div>
+        </div>
+        <div class="copy">
+          <div class="eyebrow">A little hide-and-seek story</div>
+          <h1>Léo and the<br>Garden Cats</h1>
+          <p class="tiny-note">Made for little readers and big imaginations</p>
+          <button class="start-button" type="button">Begin the story&nbsp; →</button>
+        </div>
+      </article>
+
+      <article class="page" data-title="A sunny arrival" data-narration="On a sunny morning, two-year-old Léo went to visit Mamie and Papi in their big house in the French countryside.">
+        <div class="illustration scene-arrival with-art" role="img" aria-label="Léo arrives at a large stone country house where his grandparents welcome him">
+          <img class="story-art" src="assets/storybook/arrival-handdrawn.webp" alt="" decoding="async">
+          <div class="sun"></div><div class="cloud"></div><div class="hill one"></div><div class="hill two"></div><div class="ground"></div><div class="path"></div>
+          <div class="house"><i class="chimney"></i><i class="window w1"></i><i class="window w2"></i><i class="door"></i></div>
+          <div class="person"><div class="head"></div><div class="hair"><i></i><i></i><i></i><i></i><i></i></div><i class="eye e1"></i><i class="eye e2"></i><i class="smile"></i><div class="body"><i class="overalls"></i></div><i class="arm a1"></i><i class="arm a2"></i><i class="leg l1"></i><i class="leg l2"></i><i class="shoe s1"></i><i class="shoe s2"></i></div>
+          <div class="grandparent grandma"><i class="hair"></i><i class="head"></i><i class="smile"></i><i class="body"></i><i class="leg"></i><i class="leg"></i></div>
+          <div class="grandparent grandpa"><i class="hair"></i><i class="head"></i><i class="smile"></i><i class="body"></i><i class="leg"></i><i class="leg"></i></div>
+          <div class="cat black-cat"></div><div class="cat white white-cat"></div>
+        </div>
+        <div class="copy"><div class="eyebrow">Page one</div><h2>A sunny arrival</h2><p>On a sunny morning, two-year-old Léo went to visit <strong>Mamie and Papi</strong> in their big house in the French countryside.</p></div>
+      </article>
+
+      <article class="page" data-title="Hello, Minuit!" data-narration="Miaou! There was Minuit, the black cat, sitting by the red roses. Léo found him right away.">
+        <div class="illustration scene-blackcat with-art" role="img" aria-label="Léo points happily to Minuit, the black cat, beside the roses">
+          <img class="story-art" src="assets/storybook/black-cat-handdrawn.webp" alt="" decoding="async">
+          <div class="sun"></div><div class="cloud"></div><div class="hill one"></div><div class="hill two"></div><div class="ground"></div>
+          <div class="house"><i class="chimney"></i><i class="window w1"></i><i class="door"></i></div>
+          <div class="flower-bed"><i class="flower"></i><i class="flower"></i><i class="flower"></i><i class="flower"></i><i class="flower"></i><i class="flower"></i><i class="flower"></i></div>
+          <div class="person"><div class="head"></div><div class="hair"><i></i><i></i><i></i><i></i><i></i></div><i class="eye e1"></i><i class="eye e2"></i><i class="smile"></i><div class="body"><i class="overalls"></i></div><i class="arm a1"></i><i class="arm a2"></i><i class="leg l1"></i><i class="leg l2"></i><i class="shoe s1"></i><i class="shoe s2"></i></div>
+          <div class="cat black-cat"><i class="tail"></i><i class="body"></i><div class="head"><i class="eye e1"></i><i class="eye e2"></i><i class="nose"></i></div></div><div class="cat white white-cat"></div>
+        </div>
+        <div class="copy"><div class="eyebrow">Page two</div><h2>Hello, Minuit!</h2><p>“Miaou!” There was <strong>Minuit, the black cat</strong>, sitting by the red roses.</p><p>Léo found him right away.</p></div>
+      </article>
+
+      <article class="page" data-title="Where is Nuage?" data-narration="But where was Nuage, the white cat? Léo peeped between the tall purple lavender. Not here!"><div class="illustration scene-lavender with-art" role="img" aria-label="Léo searches tall purple lavender while a little of the white cat peeks from the far side">
+          <img class="story-art" src="assets/storybook/lavender-handdrawn.webp" alt="" decoding="async">
+          <div class="sun"></div><div class="cloud"></div><div class="hill one"></div><div class="hill two"></div><div class="ground"></div>
+          <div class="lavender"><i style="--h:100px;--r:-7deg"></i><i style="--h:126px;--r:4deg"></i><i style="--h:88px;--r:-2deg"></i><i style="--h:138px;--r:6deg"></i><i style="--h:105px;--r:-4deg"></i><i style="--h:131px;--r:3deg"></i><i style="--h:94px;--r:7deg"></i><i style="--h:118px;--r:-6deg"></i></div>
+          <div class="person"><div class="head"></div><div class="hair"><i></i><i></i><i></i><i></i><i></i></div><i class="eye e1"></i><i class="eye e2"></i><i class="smile"></i><div class="body"><i class="overalls"></i></div><i class="arm a1"></i><i class="arm a2"></i><i class="leg l1"></i><i class="leg l2"></i><i class="shoe s1"></i><i class="shoe s2"></i></div>
+          <div class="cat white white-cat"><i class="tail"></i><i class="body"></i><div class="head"><i class="eye e1"></i><i class="eye e2"></i><i class="nose"></i></div></div><div class="cat black-cat"></div>
+        </div><div class="copy"><div class="eyebrow">Page three</div><h2>Where is Nuage?</h2><p>But where was <strong>Nuage, the white cat</strong>?</p><p>Léo peeped between the tall purple lavender. “Not here!”</p></div></article>
+
+      <article class="page" data-title="Not under the bench" data-narration="Léo looked in the orchard. He looked behind the apple trees and under the old wooden bench. No Nuage."><div class="illustration scene-orchard with-art" role="img" aria-label="Léo searches an orchard and looks beneath a wooden bench while the white cat is partly hidden behind it">
+          <img class="story-art" src="assets/storybook/orchard-handdrawn.webp" alt="" decoding="async">
+          <div class="sun"></div><div class="cloud"></div><div class="hill one"></div><div class="hill two"></div><div class="ground"></div>
+          <div class="tree t1"><i class="trunk"></i><i class="crown"><i class="apple" style="left:20%;top:45%"></i><i class="apple" style="left:65%;top:30%"></i></i></div><div class="tree t2"><i class="trunk"></i><i class="crown"><i class="apple" style="left:35%;top:20%"></i></i></div><div class="tree t3"><i class="trunk"></i><i class="crown"><i class="apple" style="left:58%;top:48%"></i></i></div>
+          <div class="bench"><i></i><i></i></div><div class="person"><div class="head"></div><div class="hair"><i></i><i></i><i></i><i></i><i></i></div><i class="eye e1"></i><i class="eye e2"></i><i class="smile"></i><div class="body"><i class="overalls"></i></div><i class="arm a1"></i><i class="arm a2"></i><i class="leg l1"></i><i class="leg l2"></i><i class="shoe s1"></i><i class="shoe s2"></i></div>
+          <div class="cat white white-cat"><i class="tail"></i><i class="body"></i><div class="head"><i class="eye e1"></i><i class="eye e2"></i><i class="nose"></i></div></div><div class="cat black-cat"></div>
+        </div><div class="copy"><div class="eyebrow">Page four</div><h2>Not under the bench</h2><p>Léo looked behind the apple trees and under the old wooden bench.</p><p>“No Nuage.”</p></div></article>
+
+      <article class="page" data-title="A tiny clue" data-narration="Léo searched the vegetable patch. Then he saw something white slip past the blue watering can. Was it a little tail?"><div class="illustration scene-patch with-art" role="img" aria-label="Léo searches the vegetable garden as the white cat hides beside a blue watering can">
+          <img class="story-art" src="assets/storybook/garden-clue-handdrawn.webp" alt="" decoding="async">
+          <div class="sun"></div><div class="cloud"></div><div class="hill one"></div><div class="hill two"></div><div class="ground"></div>
+          <div class="garden-row r1"></div><div class="garden-row r2"></div><div class="garden-row r3"></div><div class="watering-can"></div>
+          <div class="person"><div class="head"></div><div class="hair"><i></i><i></i><i></i><i></i><i></i></div><i class="eye e1"></i><i class="eye e2"></i><i class="smile"></i><div class="body"><i class="overalls"></i></div><i class="arm a1"></i><i class="arm a2"></i><i class="leg l1"></i><i class="leg l2"></i><i class="shoe s1"></i><i class="shoe s2"></i></div>
+          <div class="cat white white-cat"><i class="tail"></i><i class="body"></i><div class="head"><i class="eye e1"></i><i class="eye e2"></i><i class="nose"></i></div></div><div class="cat black-cat"></div>
+        </div><div class="copy"><div class="eyebrow">Page five</div><h2>A tiny clue</h2><p>Something white slipped past the blue watering can.</p><p>“Was that a little tail?”</p></div></article>
+
+      <article class="page" data-title="Found you!" data-narration="Two white ears popped up from Mamie’s washing basket. It was Nuage! Léo clapped his hands. Found you!"><div class="illustration scene-found with-art" role="img" aria-label="The white cat pops out of a wicker laundry basket and Léo is delighted">
+          <img class="story-art" src="assets/storybook/found-handdrawn.webp" alt="" decoding="async">
+          <div class="sun"></div><div class="cloud"></div><div class="hill one"></div><div class="hill two"></div><div class="ground"></div>
+          <div class="clothesline"><i class="sheet s1"><i class="peg" style="left:10%"></i><i class="peg" style="right:10%"></i></i><i class="sheet s2"><i class="peg" style="left:10%"></i><i class="peg" style="right:10%"></i></i><i class="sheet s3"><i class="peg" style="left:10%"></i><i class="peg" style="right:10%"></i></i></div><div class="basket"></div><div class="spark"></div>
+          <div class="person"><div class="head"></div><div class="hair"><i></i><i></i><i></i><i></i><i></i></div><i class="eye e1"></i><i class="eye e2"></i><i class="smile"></i><div class="body"><i class="overalls"></i></div><i class="arm a1"></i><i class="arm a2"></i><i class="leg l1"></i><i class="leg l2"></i><i class="shoe s1"></i><i class="shoe s2"></i></div>
+          <div class="cat white white-cat"><i class="tail"></i><i class="body"></i><div class="head"><i class="eye e1"></i><i class="eye e2"></i><i class="nose"></i></div></div><div class="cat black-cat"></div>
+        </div><div class="copy"><div class="eyebrow">Page six</div><h2>Found you!</h2><p>Two white ears popped up from Mamie’s washing basket.</p><p>It was Nuage! Léo clapped his hands. “Found you!”</p></div></article>
+
+      <article class="page" data-title="Together at last" data-narration="At sunset, Léo had a little picnic with Mamie, Papi, Minuit, and Nuage. Two cats found. One very happy day. The end."><div class="illustration scene-ending with-art" role="img" aria-label="At sunset Léo and his grandparents picnic in the garden with the black cat and the white cat">
+          <img class="story-art" src="assets/storybook/ending-handdrawn.webp" alt="" decoding="async">
+          <div class="sun"></div><div class="cloud"></div><div class="hill one"></div><div class="hill two"></div><div class="ground"></div>
+          <div class="house"><i class="chimney"></i><i class="window w1"></i><i class="door"></i></div><div class="blanket"></div><div class="snack"></div>
+          <div class="person"><div class="head"></div><div class="hair"><i></i><i></i><i></i><i></i><i></i></div><i class="eye e1"></i><i class="eye e2"></i><i class="smile"></i><div class="body"><i class="overalls"></i></div><i class="arm a1"></i><i class="arm a2"></i><i class="leg l1"></i><i class="leg l2"></i><i class="shoe s1"></i><i class="shoe s2"></i></div>
+          <div class="grandparent grandma"><i class="hair"></i><i class="head"></i><i class="smile"></i><i class="body"></i><i class="leg"></i><i class="leg"></i></div><div class="grandparent grandpa"><i class="hair"></i><i class="head"></i><i class="smile"></i><i class="body"></i><i class="leg"></i><i class="leg"></i></div>
+          <div class="cat black-cat"><i class="tail"></i><i class="body"></i><div class="head"><i class="eye e1"></i><i class="eye e2"></i><i class="nose"></i></div></div><div class="cat white white-cat"><i class="tail"></i><i class="body"></i><div class="head"><i class="eye e1"></i><i class="eye e2"></i><i class="nose"></i></div></div>
+        </div><div class="copy"><div class="eyebrow">The end</div><h2>Together at last</h2><p>Two cats found.<br>One very happy day.</p><div class="end-mark">• • •</div><button class="start-button replay" type="button">Read it again&nbsp; ↻</button></div></article>
+    </main>
+
+    <nav class="controls" aria-label="Story pages">
+      <button class="nav-button previous" type="button" disabled><span aria-hidden="true">←</span> Previous</button>
+      <div class="dots" aria-label="Choose a page"></div>
+      <button class="nav-button next" type="button">Next <span aria-hidden="true">→</span></button>
+    </nav>
+  </div>
+
+  <script>
+    const pages = [...document.querySelectorAll('.page')];
+    const previous = document.querySelector('.previous');
+    const next = document.querySelector('.next');
+    const dots = document.querySelector('.dots');
+    const sound = document.querySelector('.sound');
+    let current = 0;
+
+    pages.forEach((page, index) => {
+      const dot = document.createElement('button');
+      dot.className = 'dot' + (index === 0 ? ' active' : '');
+      dot.type = 'button';
+      dot.setAttribute('aria-label', `Go to ${page.dataset.title}`);
+      dot.addEventListener('click', () => showPage(index));
+      dots.appendChild(dot);
+    });
+
+    function stopReading() {
+      if ('speechSynthesis' in window) window.speechSynthesis.cancel();
+      sound.dataset.speaking = 'false';
+      sound.setAttribute('aria-label', 'Read this page aloud');
+    }
+
+    function showPage(index) {
+      const target = Math.max(0, Math.min(pages.length - 1, index));
+      if (target === current) return;
+      stopReading();
+      pages[current].classList.toggle('leaving-left', target > current);
+      pages[current].classList.remove('active');
+      pages[target].classList.remove('leaving-left');
+      pages[target].classList.add('active');
+      current = target;
+      [...dots.children].forEach((dot, i) => dot.classList.toggle('active', i === current));
+      previous.disabled = current === 0;
+      next.innerHTML = current === pages.length - 1 ? 'Again <span aria-hidden="true">↻</span>' : 'Next <span aria-hidden="true">→</span>';
+      document.title = `${pages[current].dataset.title} — Léo and the Garden Cats`;
+    }
+
+    previous.addEventListener('click', () => showPage(current - 1));
+    next.addEventListener('click', () => showPage(current === pages.length - 1 ? 0 : current + 1));
+    document.querySelector('.start-button').addEventListener('click', () => showPage(1));
+    document.querySelector('.replay').addEventListener('click', () => showPage(0));
+
+    sound.addEventListener('click', () => {
+      if (!('speechSynthesis' in window)) return;
+      if (sound.dataset.speaking === 'true') { stopReading(); return; }
+      stopReading();
+      const utterance = new SpeechSynthesisUtterance(pages[current].dataset.narration);
+      utterance.rate = 0.86;
+      utterance.pitch = 1.08;
+      utterance.onend = stopReading;
+      window.speechSynthesis.speak(utterance);
+      sound.dataset.speaking = 'true';
+      sound.setAttribute('aria-label', 'Stop reading aloud');
+    });
+
+    window.addEventListener('keydown', event => {
+      if (event.key === 'ArrowRight' || event.key === ' ') { event.preventDefault(); showPage(current + 1); }
+      if (event.key === 'ArrowLeft') { event.preventDefault(); showPage(current - 1); }
+      if (event.key === 'Escape') stopReading();
+    });
+
+    let touchStart = null;
+    document.querySelector('.book').addEventListener('touchstart', event => { touchStart = event.changedTouches[0].clientX; }, { passive: true });
+    document.querySelector('.book').addEventListener('touchend', event => {
+      if (touchStart === null) return;
+      const distance = event.changedTouches[0].clientX - touchStart;
+      if (Math.abs(distance) > 55) showPage(current + (distance < 0 ? 1 : -1));
+      touchStart = null;
+    }, { passive: true });
+  </script>
+</body>
+</html>
