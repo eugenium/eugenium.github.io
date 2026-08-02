@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#f4d7a2">
+  <meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noimageindex">
+  <meta name="googlebot" content="noindex, nofollow, noarchive, nosnippet, noimageindex">
+  <meta name="referrer" content="no-referrer">
+  <title>Léo’s Paris Days</title>
+  <style>
+    :root {
+      --ink: #343c4b;
+      --paper: #fffdf7;
+      --cream: #fff8e8;
+      --coral: #c9634f;
+      --coral-dark: #934435;
+      --blue: #557d99;
+      --gold: #e6b84f;
+    }
+
+    * { box-sizing: border-box; }
+    html, body { height: 100%; }
+    body {
+      margin: 0;
+      overflow: hidden;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at 14% 8%, rgba(255,255,255,.92), transparent 28%),
+        radial-gradient(circle at 90% 92%, rgba(207,91,75,.16), transparent 31%),
+        linear-gradient(145deg, #f7e7bd, #ecc792);
+      font-family: ui-rounded, "SF Pro Rounded", "Arial Rounded MT Bold", system-ui, sans-serif;
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    button, a { font: inherit; }
+    button { color: inherit; }
+    .app {
+      min-height: 100%;
+      display: grid;
+      grid-template-rows: auto minmax(0, 1fr) auto;
+      gap: 12px;
+      padding: max(12px, env(safe-area-inset-top)) 14px max(12px, env(safe-area-inset-bottom));
+    }
+
+    .topbar, .controls {
+      width: min(1160px, 100%);
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+    }
+    .topbar { justify-content: space-between; min-height: 42px; }
+    .home, .sound {
+      width: 44px;
+      min-width: 44px;
+      height: 44px;
+      border: 0;
+      border-radius: 50%;
+      display: grid;
+      place-items: center;
+      color: #514c45;
+      background: rgba(255,255,255,.8);
+      text-decoration: none;
+      cursor: pointer;
+      box-shadow: 0 3px 12px rgba(80,55,28,.12);
+    }
+    .home-icon {
+      width: 12px;
+      height: 12px;
+      border-left: 3px solid;
+      border-bottom: 3px solid;
+      transform: rotate(45deg);
+      margin-left: 5px;
+    }
+    .sound { font-size: 20px; }
+    .sound[data-speaking="true"] { background: #fff; color: #226d9c; }
+    .book-name { font-size: clamp(14px, 2.5vw, 18px); font-weight: 900; letter-spacing: .01em; }
+
+    .book {
+      position: relative;
+      width: min(1160px, 100%);
+      height: 100%;
+      min-height: 0;
+      margin: 0 auto;
+      overflow: hidden;
+      border: 1px solid rgba(93,65,30,.13);
+      border-radius: clamp(22px, 4vw, 38px);
+      background: var(--paper);
+      box-shadow: 0 20px 62px rgba(93,61,24,.2), inset 0 0 0 5px rgba(255,255,255,.5);
+    }
+
+    .page {
+      position: absolute;
+      inset: 0;
+      display: grid;
+      grid-template-columns: minmax(0, 1.65fr) minmax(300px, .9fr);
+      opacity: 0;
+      visibility: hidden;
+      transform: translateX(24px) scale(.99);
+      transition: opacity .32s ease, transform .38s cubic-bezier(.22,.75,.25,1), visibility 0s .38s;
+      background: var(--paper);
+    }
+    .page.active { z-index: 2; opacity: 1; visibility: visible; transform: none; transition-delay: 0s; }
+    .page.leaving-left { transform: translateX(-24px) scale(.99); }
+
+    .illustration { position: relative; min-height: 0; overflow: hidden; background: #ead9b7; }
+    .story-art { display: block; width: 100%; height: 100%; object-fit: cover; object-position: center; }
+    .illustration::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      pointer-events: none;
+      background: linear-gradient(90deg, transparent 88%, rgba(70,47,25,.08));
+      mix-blend-mode: multiply;
+    }
+
+    .copy {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: clamp(28px, 5vw, 72px);
+      background:
+        radial-gradient(circle at 18% 10%, rgba(235,190,80,.17), transparent 25%),
+        radial-gradient(circle at 90% 90%, rgba(92,131,155,.1), transparent 26%),
+        var(--cream);
+    }
+    .copy::before {
+      content: "";
+      position: absolute;
+      top: 8%;
+      bottom: 8%;
+      left: 0;
+      border-left: 1px dashed rgba(89,75,55,.14);
+    }
+    .eyebrow {
+      margin-bottom: 14px;
+      color: var(--blue);
+      font-size: 12px;
+      font-weight: 900;
+      letter-spacing: .16em;
+      text-transform: uppercase;
+    }
+    .copy h1 {
+      margin: 0;
+      color: var(--coral);
+      font-size: clamp(39px, 5.6vw, 72px);
+      line-height: .96;
+      letter-spacing: -.05em;
+    }
+    .copy h2 {
+      margin: 0 0 16px;
+      color: var(--coral);
+      font-size: clamp(26px, 3.2vw, 44px);
+      line-height: 1.04;
+      letter-spacing: -.025em;
+    }
+    .copy p {
+      margin: 0;
+      font: clamp(20px, 2.4vw, 31px)/1.42 Georgia, "Times New Roman", serif;
+    }
+    .copy p + p { margin-top: .8em; }
+    .tiny-note { margin-top: 22px; color: #776d60; font: 800 14px/1.45 ui-rounded, system-ui, sans-serif; }
+    .start-button {
+      align-self: flex-start;
+      margin-top: 28px;
+      padding: 15px 23px;
+      border: 0;
+      border-radius: 999px;
+      color: #fff;
+      background: var(--coral);
+      box-shadow: 0 7px 0 var(--coral-dark);
+      font-weight: 900;
+      cursor: pointer;
+      transition: transform .14s, box-shadow .14s;
+    }
+    .start-button:active { transform: translateY(4px); box-shadow: 0 3px 0 var(--coral-dark); }
+    .end-mark { margin-top: 22px; color: var(--gold); font-size: 42px; letter-spacing: .13em; }
+
+    .controls { justify-content: space-between; gap: 12px; min-height: 50px; }
+    .nav-button {
+      min-width: 108px;
+      height: 48px;
+      padding: 0 19px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      border: 0;
+      border-radius: 999px;
+      background: rgba(255,255,255,.84);
+      box-shadow: 0 4px 14px rgba(88,59,28,.12);
+      font-weight: 900;
+      cursor: pointer;
+    }
+    .nav-button.next { color: #fff; background: var(--coral); }
+    .nav-button:disabled { opacity: .36; cursor: default; }
+    .dots { flex: 1; display: flex; align-items: center; justify-content: center; gap: clamp(5px, 1.2vw, 10px); }
+    .dot { width: 9px; height: 9px; padding: 0; border: 0; border-radius: 50%; background: rgba(71,65,55,.25); cursor: pointer; transition: width .2s, background .2s; }
+    .dot.active { width: 26px; border-radius: 10px; background: var(--coral); }
+    .home:focus-visible, .sound:focus-visible, .nav-button:focus-visible, .start-button:focus-visible, .dot:focus-visible {
+      outline: 4px solid rgba(45,112,157,.42);
+      outline-offset: 3px;
+    }
+
+    @media (max-width: 760px) {
+      .app { gap: 8px; padding-left: 9px; padding-right: 9px; }
+      .page { grid-template-columns: 1fr; grid-template-rows: minmax(0, 57%) minmax(0, 43%); }
+      .illustration { grid-row: 1; }
+      .copy { grid-row: 2; padding: 19px 23px 22px; }
+      .copy::before { display: none; }
+      .copy h1 { font-size: clamp(35px, 10vw, 52px); }
+      .copy h2 { margin-bottom: 8px; font-size: clamp(24px, 6.4vw, 34px); }
+      .copy p { font-size: clamp(18px, 4.8vw, 24px); line-height: 1.29; }
+      .eyebrow { margin-bottom: 7px; font-size: 10px; }
+      .tiny-note { display: none; }
+      .start-button { margin-top: 14px; padding: 12px 18px; }
+      .nav-button { width: 49px; min-width: 49px; padding: 0; font-size: 0; }
+      .nav-button span { font-size: 21px; }
+      .book { border-radius: 24px; }
+      .home, .sound { width: 40px; min-width: 40px; height: 40px; }
+    }
+
+    @media (max-height: 680px) and (max-width: 760px) {
+      .page { grid-template-rows: 54% 46%; }
+      .copy { padding-top: 13px; padding-bottom: 13px; }
+      .copy p { font-size: clamp(17px, 4.1vw, 21px); }
+      .copy h2 { font-size: 23px; }
+      .eyebrow { display: none; }
+      .app { gap: 5px; }
+      .controls { min-height: 44px; }
+      .nav-button { height: 42px; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after { animation-duration: .01ms !important; transition-duration: .01ms !important; }
+    }
+  </style>
+</head>
+<body>
+  <div class="app">
+    <header class="topbar">
+      <a class="home" href="/" aria-label="Back to the main website"><span class="home-icon" aria-hidden="true"></span></a>
+      <div class="book-name">Léo’s Paris Days</div>
+      <button class="sound" type="button" aria-label="Read this page aloud" title="Read aloud">♪</button>
+    </header>
+
+    <main class="book" aria-live="polite">
+      <article class="page active" data-title="Cover" data-narration="Léo’s Paris Days. A week of little adventures with Maman.">
+        <div class="illustration" role="img" aria-label="Léo and his mother in their bright Paris apartment with the Panthéon outside">
+          <img class="story-art" src="assets/paris-story/cover-handdrawn.webp" alt="" decoding="async">
+        </div>
+        <div class="copy">
+          <div class="eyebrow">A week of little adventures</div>
+          <h1>Léo’s<br>Paris Days</h1>
+          <p class="tiny-note">Every day, Paris has a new surprise for Léo and Maman.</p>
+          <button class="start-button begin" type="button">Begin the story&nbsp; →</button>
+        </div>
+      </article>
+
+      <article class="page" data-title="Bonjour, Paris!" data-narration="Every morning, sunlight filled Léo’s apartment beside the Panthéon. He and Maman opened the map. Where shall we go today?">
+        <div class="illustration" role="img" aria-label="Léo and Maman have breakfast and look at a Paris map in their sunny apartment beside the Panthéon">
+          <img class="story-art" src="assets/paris-story/apartment-morning.webp" alt="" decoding="async">
+        </div>
+        <div class="copy"><div class="eyebrow">Monday morning</div><h2>Bonjour, Paris!</h2><p>Every morning, sunlight filled Léo’s apartment beside the <strong>Panthéon</strong>.</p><p>He and Maman opened the map. “Where shall we go today?”</p></div>
+      </article>
+
+      <article class="page" data-title="A glass mountain" data-narration="At the Louvre, Léo saw a glass mountain sparkling in the sun. Inside were paintings, statues, and so many faces looking back.">
+        <div class="illustration" role="img" aria-label="Léo and Maman discover the Louvre glass pyramid and its museum galleries">
+          <img class="story-art" src="assets/paris-story/louvre.webp" alt="" decoding="async">
+        </div>
+        <div class="copy"><div class="eyebrow">Tuesday at the Louvre</div><h2>A glass mountain</h2><p>At the <strong>Louvre</strong>, Léo saw a glass mountain sparkling in the sun.</p><p>Inside were paintings, statues—and so many faces looking back.</p></div>
+      </article>
+
+      <article class="page" data-title="Little boat, away!" data-narration="In the Luxembourg Gardens, Léo pushed a little sailboat across the pond. The wind caught its sail. Bon voyage!">
+        <div class="illustration" role="img" aria-label="Léo and Maman sail a toy boat on the pond in the Luxembourg Gardens">
+          <img class="story-art" src="assets/paris-story/luxembourg-boats.webp" alt="" decoding="async">
+        </div>
+        <div class="copy"><div class="eyebrow">Wednesday in the gardens</div><h2>Little boat, away!</h2><p>In the <strong>Luxembourg Gardens</strong>, Léo pushed a little sailboat across the pond.</p><p>The wind caught its sail. “Bon voyage!”</p></div>
+      </article>
+
+      <article class="page" data-title="New little friends" data-narration="At the park, Léo shared a red bucket with three smaller children. Together they built the tallest, wobbliest sandcastle.">
+        <div class="illustration" role="img" aria-label="Léo shares a red bucket and builds a sandcastle with three younger children while Maman watches nearby">
+          <img class="story-art" src="assets/paris-story/playground.webp" alt="" decoding="async">
+        </div>
+        <div class="copy"><div class="eyebrow">Thursday at the playground</div><h2>New little friends</h2><p>Léo shared a red bucket with three smaller children.</p><p>Together they built the tallest, wobbliest sandcastle.</p></div>
+      </article>
+
+      <article class="page" data-title="Up, up, up!" data-narration="The Eiffel Tower stretched high above Léo and Maman. From the grass below, Léo tipped his head all the way back.">
+        <div class="illustration" role="img" aria-label="Léo points upward at the Eiffel Tower while Maman kneels beside him on the Champ de Mars">
+          <img class="story-art" src="assets/paris-story/eiffel.webp" alt="" decoding="async">
+        </div>
+        <div class="copy"><div class="eyebrow">Friday by the tower</div><h2>Up, up, up!</h2><p>The <strong>Eiffel Tower</strong> stretched high above Léo and Maman.</p><p>From the grass below, Léo tipped his head all the way back.</p></div>
+      </article>
+
+      <article class="page" data-title="Along the river" data-narration="By the Seine, they watched boats glide under the bridges and colorful books flutter at the green stalls. Paris moved slowly past.">
+        <div class="illustration" role="img" aria-label="Léo and Maman walk by the Seine, waving to a riverboat near green bookseller stalls and Notre-Dame">
+          <img class="story-art" src="assets/paris-story/seine.webp" alt="" decoding="async">
+        </div>
+        <div class="copy"><div class="eyebrow">Saturday by the Seine</div><h2>Along the river</h2><p>They watched boats glide under the bridges and colorful books flutter at the green stalls.</p><p>Paris moved slowly past.</p></div>
+      </article>
+
+      <article class="page" data-title="Feathers, paws and bones" data-narration="At the Jardin des Plantes, Léo found flamingos, a sleepy red panda, and enormous dinosaur bones. Bonjour, everyone!">
+        <div class="illustration" role="img" aria-label="Léo and Maman discover a dinosaur skeleton, flamingos, and a red panda at the Jardin des Plantes">
+          <img class="story-art" src="assets/paris-story/jardin-plantes.webp" alt="" decoding="async">
+        </div>
+        <div class="copy"><div class="eyebrow">Sunday at the Jardin des Plantes</div><h2>Feathers, paws<br>and bones</h2><p>Léo found flamingos, a sleepy red panda, and enormous dinosaur bones.</p><p>“Bonjour, everyone!”</p></div>
+      </article>
+
+      <article class="page" data-title="Home by the Panthéon" data-narration="At sunset, Léo and Maman came home with tired feet and happy hearts. Tomorrow, Paris would have another surprise. The end.">
+        <div class="illustration" role="img" aria-label="A sleepy Léo rests with Maman by their apartment window as the Panthéon glows at sunset">
+          <img class="story-art" src="assets/paris-story/home-sunset.webp" alt="" decoding="async">
+        </div>
+        <div class="copy"><div class="eyebrow">Home again</div><h2>Home by the Panthéon</h2><p>At sunset, Léo and Maman came home with tired feet and happy hearts.</p><p>Tomorrow, Paris would have another surprise.</p><div class="end-mark">• • •</div><button class="start-button replay" type="button">Read it again&nbsp; ↻</button></div>
+      </article>
+    </main>
+
+    <nav class="controls" aria-label="Story pages">
+      <button class="nav-button previous" type="button" disabled><span aria-hidden="true">←</span> Previous</button>
+      <div class="dots" aria-label="Choose a page"></div>
+      <button class="nav-button next" type="button">Next <span aria-hidden="true">→</span></button>
+    </nav>
+  </div>
+
+  <script>
+    const pages = [...document.querySelectorAll('.page')];
+    const previous = document.querySelector('.previous');
+    const next = document.querySelector('.next');
+    const dots = document.querySelector('.dots');
+    const sound = document.querySelector('.sound');
+    let current = 0;
+
+    pages.forEach((page, index) => {
+      const dot = document.createElement('button');
+      dot.className = 'dot' + (index === 0 ? ' active' : '');
+      dot.type = 'button';
+      dot.setAttribute('aria-label', `Go to ${page.dataset.title}`);
+      dot.addEventListener('click', () => showPage(index));
+      dots.appendChild(dot);
+    });
+
+    function stopReading() {
+      if ('speechSynthesis' in window) window.speechSynthesis.cancel();
+      sound.dataset.speaking = 'false';
+      sound.setAttribute('aria-label', 'Read this page aloud');
+    }
+
+    function showPage(index) {
+      const target = Math.max(0, Math.min(pages.length - 1, index));
+      if (target === current) return;
+      stopReading();
+      pages[current].classList.toggle('leaving-left', target > current);
+      pages[current].classList.remove('active');
+      pages[target].classList.remove('leaving-left');
+      pages[target].classList.add('active');
+      current = target;
+      [...dots.children].forEach((dot, i) => dot.classList.toggle('active', i === current));
+      previous.disabled = current === 0;
+      next.innerHTML = current === pages.length - 1 ? 'Again <span aria-hidden="true">↻</span>' : 'Next <span aria-hidden="true">→</span>';
+      document.title = `${pages[current].dataset.title} — Léo’s Paris Days`;
+    }
+
+    previous.addEventListener('click', () => showPage(current - 1));
+    next.addEventListener('click', () => showPage(current === pages.length - 1 ? 0 : current + 1));
+    document.querySelector('.begin').addEventListener('click', () => showPage(1));
+    document.querySelector('.replay').addEventListener('click', () => showPage(0));
+
+    sound.addEventListener('click', () => {
+      if (!('speechSynthesis' in window)) return;
+      if (sound.dataset.speaking === 'true') { stopReading(); return; }
+      stopReading();
+      const utterance = new SpeechSynthesisUtterance(pages[current].dataset.narration);
+      utterance.rate = 0.86;
+      utterance.pitch = 1.08;
+      utterance.onend = stopReading;
+      window.speechSynthesis.speak(utterance);
+      sound.dataset.speaking = 'true';
+      sound.setAttribute('aria-label', 'Stop reading aloud');
+    });
+
+    window.addEventListener('keydown', event => {
+      if (event.key === 'ArrowRight' || event.key === ' ') { event.preventDefault(); showPage(current + 1); }
+      if (event.key === 'ArrowLeft') { event.preventDefault(); showPage(current - 1); }
+      if (event.key === 'Escape') stopReading();
+    });
+
+    let touchStart = null;
+    document.querySelector('.book').addEventListener('touchstart', event => { touchStart = event.changedTouches[0].clientX; }, { passive: true });
+    document.querySelector('.book').addEventListener('touchend', event => {
+      if (touchStart === null) return;
+      const distance = event.changedTouches[0].clientX - touchStart;
+      if (Math.abs(distance) > 55) showPage(current + (distance < 0 ? 1 : -1));
+      touchStart = null;
+    }, { passive: true });
+  </script>
+</body>
+</html>
